@@ -1,5 +1,6 @@
 ---
 description: Scrapes RSS feeds supplied as an argument to discover sources for news articles.
+allowed-tools: WebFetch
 ---
 
 You will be given a comma-delimited list of RSS feed URLs. For each RSS feed:
