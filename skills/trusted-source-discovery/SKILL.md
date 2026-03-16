@@ -15,6 +15,6 @@ Output your results as a JSON array limited to the 20 best sources. Each entry s
 - `source_access_type`: string (examples: `rss_feed`, `api_request`, `praw`, etc.)
 - `source_client_key`: object containing an `api_key` field if needed, along with a `how_to_access` field with information about how to access the source programmatically.
 
-Store your results in `skill-output/`.
+Store your results in `skill-output/trusted-source-discovery/<YYYY-MM-DD_HH-MM-SS>/` within the journalism-skills plugin directory.
 
-RSS feeds to process: <user-prompt>
+RSS feeds to process: $ARGUMENTS
