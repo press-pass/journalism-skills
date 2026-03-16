@@ -1,0 +1,13 @@
+{
+  "extraKnownMarketplaces": {
+    "journalism-skills": {
+      "source": {
+        "source": "github",
+        "repo": "spmartin823/journalism-skills"
+      }
+    }
+  },
+  "enabledPlugins": {
+    "journalism-skills@journalism-skills": true
+  }
+}

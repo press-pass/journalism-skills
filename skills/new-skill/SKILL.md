@@ -19,4 +19,6 @@ description: <the description from question 2>
 <the instructions from question 3, incorporating $ARGUMENTS if applicable>
 ```
 
+If the skill produces output files, instruct it to write them to `skill-output/<skill-name>/<YYYY-MM-DD_HH-MM-SS>/` within the journalism-skills plugin directory.
+
 After creating the file, confirm the skill name and how to invoke it (e.g., `/journalism-skills:skill-name`).
