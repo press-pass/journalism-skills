@@ -7,7 +7,7 @@
     {
       "name": "journalism-skills",
       "description": "Agentic skills for journalism",
-      "version": "1.0.3",
+      "version": "1.0.4",
       "source": {
         "source": "url",
         "url": "https://github.com/spmartin823/journalism-skills.git"
