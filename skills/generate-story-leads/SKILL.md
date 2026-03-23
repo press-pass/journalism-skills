@@ -8,7 +8,7 @@ You will be given a comma-separated list of zip codes. Use these zip codes to sc
 
 Good stories are timely — they report on things that have happened recently. They also typically discuss outliers — a building that has received a ton of complaints, a cop that is paid extremely high, or a business that is opening in a space that hasn't been occupied in a long time for example.
 
-Take a look at the available sources and try to find story leads relevant to the provided zip codes. For each lead, create a directory inside `skill-output/stories/` with the title of the story kebab-cased, containing a file `pitch.md`.
+Take a look at the available sources and try to find story leads relevant to the provided zip codes. For each lead, create a directory inside `skill-output/stories/` at the root of the journalism-skills directory with the title of the story kebab-cased, containing a file `pitch.md`.
 
 Each `pitch.md` should include:
 

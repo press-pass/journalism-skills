@@ -20,6 +20,16 @@ Skills are namespaced under `journalism-skills`:
 
 All skill output is written to `skills/<skill-name>/skill-output/<skill-name>/<YYYY-MM-DD_HH-MM-SS>/` within the journalism-skills directory. This directory is gitignored.
 
+## Development
+
+Skills are cached when installed. Editing skill files won't take effect until you reinstall the plugin. From within a Claude session:
+
+```
+/plugin install journalism-skills@jskills
+```
+
+Note: `/reload-plugins` only reloads already-cached plugins — it won't pick up source file changes. You need to reinstall.
+
 ## Available skills
 
 - **enrich-stories** — Enrich all story leads by running discovery skills against each story in parallel.
