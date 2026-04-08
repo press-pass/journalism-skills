@@ -1,8 +1,10 @@
 ---
-description: Find photos with permissive licensing related to a given story.
+description: Find photos with permissive licensing for story leads that need them.
 ---
 
-You will be given a story title as an argument. Use it to understand the topic and search for relevant photos.
+Use the MCP tool get_story_leads_without_photos to identify story leads that need photos.
+
+For each story, read the title and whyItMatters to understand the context and what kind of photos would be relevant. Then, use the following guidelines to find suitable photo evidence:
 
 Search the open internet and social media to find photos that are licensed in a way that allows use in this news story. Focus on:
 
@@ -11,13 +13,4 @@ Search the open internet and social media to find photos that are licensed in a 
 3. Government-produced images (which are typically public domain)
 4. Wire service or stock photos with open licenses
 
-Store your results as a JSON array in a file called `photo-evidence.json` inside `skill-output/photos/` at the root of the journalism-skills directory, using the story title kebab-cased as the filename. Each entry should have the following fields:
-
-- `url`: direct link to the image or its hosting page
-- `description`: what the photo depicts
-- `license`: the specific license (e.g., CC-BY-4.0, Public Domain, US Government Work)
-- `attribution`: the required attribution text if any
-- `source`: where the photo was found (e.g., Wikimedia Commons, Flickr, government website)
-- `relevance`: why this photo is relevant to the story
-
-Story title: $ARGUMENTS
+Store the results using the mcp tool save_photo_evidence.
