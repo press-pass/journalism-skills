@@ -10,4 +10,6 @@ For each story lead, run the following skills as parallel background subagents, 
 2. `/journalism-skills:find-photo-evidence <title>`
 3. `/journalism-skills:identify-new-questions-from-article <leadId> <title>`
 
+After all file-based enrichment completes, run `/journalism-skills:answer-questions` to research and answer all pending pipeline questions.
+
 Wait for all subagents to complete. Then summarize which stories were enriched and any that failed.

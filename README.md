@@ -32,6 +32,7 @@ Note: `/reload-plugins` only reloads already-cached plugins — it won't pick up
 
 ## Available skills
 
+- **answer-questions** — Research and answer pipeline questions using web sources, and identify human sources for questions requiring interviews.
 - **enrich-stories** — Enrich all story leads by running discovery skills against each story in parallel.
 - **find-photo-evidence** — Find photos with permissive licensing related to a given story.
 - **generate-story-leads** — Find story leads by analyzing available sources for timely, outlier-driven local news.
