@@ -12,7 +12,7 @@ Take a look at the available sources and try to find story leads relevant to the
 
 - `title`: the headline of the story
 - `zipCode`: the zip code this story is relevant to
-- `sourcesJson`: array of source description strings
+- `sourceIds`: array of source ids which were used in the story lead
 - `questionsJson`: array of questions the story asks
 - `whyItMatters`: why this story matters to locals
 - `importanceScore`: a subjective score of how important you think the story is for locals, out of 9
