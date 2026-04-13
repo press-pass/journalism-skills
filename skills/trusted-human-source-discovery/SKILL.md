@@ -2,7 +2,7 @@
 description: Find human sources that can comment on a story.
 ---
 
-You will be given a story lead ID and title as arguments (formatted as `<leadId> <title>`). First, call `mcp__presspass__get_story_leads` to retrieve the full lead details.
+You will be given a story lead ID. First, call the `get_story_leads` MCP tool and find the lead matching the provided ID. Read its title, why it matters, and its questions to understand the story.
 
 Using the story, identify 5 people who would be strong human sources to comment on the story. For each person, find their contact information:
 
@@ -20,14 +20,18 @@ Prioritize people who are:
 4. Advocates or community leaders connected to the topic
 5. Academics or researchers who study the topic
 
-For each source where you find an email address, call `mcp__presspass__create_outreach` with:
-- `leadId`: the story lead ID from the arguments
-- `recipientName`: the source's full name
-- `recipientEmail`: the source's email address
-- `organization`: the source's organization
-- `subject`: a professional subject line requesting comment on the story
-- `bodyText`: a professional email body introducing the reporter, explaining the story, and requesting an interview
+For each source, call the `add_source_for_question` MCP tool with:
 
-These outreach drafts will require human approval before being sent.
+- `leadId`: the story lead ID
+- `questionId`: the ID of the question this source is best suited to address
+- `name`: the person's full name
+- `relevance`: why this person is a good source for this story
+- `title`: their title or role
+- `organization`: their organization
+- `email`: their email address
+- `phone`: their phone number
+- `socialHandles`: object with their social media handles (e.g. `{"twitter": "@handle", "linkedin": "url"}`)
 
-Story lead: $ARGUMENTS
+After creating all sources, summarize who was found and which questions they were linked to.
+
+Story lead ID: $ARGUMENTS

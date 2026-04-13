@@ -6,18 +6,18 @@ You will be given a comma-delimited list of RSS feed URLs. For each RSS feed:
 
 1. Fetch the feed and extract all links contained within it that do not share a domain with the feed itself.
 2. Collate these external links into groupings by their purpose (what news article category they are associated with).
-3. Identify the best sources — those that show up frequently, are provided by the government or other trusted bodies 
+3. Identify the best sources — those that show up frequently, are provided by the government or other trusted bodies
    that appear across many articles. If the source is a social media site (i.e. Reddit, Instagram etc.) follow the link
    to the source page and search for a more reliable source there.
 4. For each source, attempt to find an official API that contains the same information as the referenced link. Do not use 3rd-party copies of the data.
 
-Output your results as a JSON array limited to the 20 best sources. Each entry should have the following fields:
+For each of the 20 best sources, call the `add_source_from_source_discovery` MCP tool with:
 
-- `source_type`: string (examples: `government_website`, `business_website`, `wordpress_post`, `nyc_open_data`, etc.)
-- `source_access_type`: string (examples: `rss_feed`, `api_request`, `praw`, `website_page_scrape` etc.)
-- `source_client_key`: object containing an `api_key` field if needed, along with a `how_to_access` field with information about how to access the source programmatically.
+- `name`: descriptive name of the source
+- `aiAccessInstructions`: how to access the source programmatically (API endpoint, scraping instructions, etc.)
+- `whenItsImportant`: when this source is newsworthy
+- `sourceClientKey`: object with `api_key` if needed and any other access metadata
 
-Store your results in `./skill-output/trusted-source-discovery/<YYYY-MM-DD_HH-MM-SS>/` within the journalism-skills 
-plugin directory.
+After creating all sources, summarize what was created including the returned source IDs.
 
 RSS feeds to process: $ARGUMENTS
