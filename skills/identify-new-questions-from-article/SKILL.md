@@ -2,19 +2,23 @@
 description: Read a story pitch and identify questions it does not yet address.
 ---
 
-You will be given a story lead ID and title as arguments (formatted as `<leadId> <title>`). First, call `mcp__presspass__get_story_leads` to retrieve the full lead details including its existing questions.
+You will be given a story lead ID. First, call the `get_story_leads` MCP tool and find the lead matching the provided ID. Read its title, why it matters, sources, and existing questions to understand the story.
 
-In a good article, who, what, where, why, and how are all answered. Oftentimes when writing an article, some of these questions will be left unanswered. Read the lead and identify if any of these questions are unanswered.
+In a good article, who, what, where, why, and how are all answered. Oftentimes when writing an article, some of these questions will be left unanswered. Analyze the story lead and identify if any of these questions are unanswered.
 
 For each unanswered question:
 
 1. Identify which of the five W's (who, what, where, why, how) it falls under
 2. State the specific question that remains unanswered
-3. Research the answer using available tools
+3. Call the `add_question` MCP tool with:
+   - `leadId`: the story lead ID
+   - `questionText`: the question text
+   - `questionType`: which of the five W's it falls under
+4. Research the answer using available tools
+5. Call the `answer_question` MCP tool with:
+   - `questionId`: the ID returned from the add_question call
+   - `answerText`: the researched answer
 
-After identifying and researching all unanswered questions, call `mcp__presspass__add_question` for each new question with:
-- `leadId`: the story lead ID from the arguments
-- `questionText`: the question
-- `questionType`: one of "who", "what", "where", "why", "how"
+After processing all questions, summarize what new questions were added and which were answered.
 
-Story lead: $ARGUMENTS
+Story lead ID: $ARGUMENTS

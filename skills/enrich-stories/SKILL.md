@@ -2,14 +2,17 @@
 description: Enrich all story leads by running discovery skills against each story in parallel.
 ---
 
-Call `mcp__presspass__get_story_leads` to retrieve all story leads from the database.
+First, call the `get_story_leads` MCP tool to get all story leads.
 
-For each story lead, run the following skills as parallel background subagents, passing the lead ID and title as arguments (formatted as `<leadId> <title>`):
+For each story lead, run the following skills as parallel background subagents:
 
-1. `/journalism-skills:trusted-human-source-discovery <leadId> <title>`
-2. `/journalism-skills:find-photo-evidence <title>`
-3. `/journalism-skills:identify-new-questions-from-article <leadId> <title>`
+1. `/journalism-skills:trusted-human-source-discovery <lead-id>`
+2. `/journalism-skills:identify-new-questions-from-article <lead-id>`
 
-After all file-based enrichment completes, run `/journalism-skills:answer-questions` to research and answer all pending pipeline questions.
+Then, call the `get_story_leads_without_photos` MCP tool to get leads missing photo evidence.
+
+For each of those leads, run as a parallel background subagent:
+
+3. `/journalism-skills:find-photo-evidence <lead-id>`
 
 Wait for all subagents to complete. Then summarize which stories were enriched and any that failed.
