@@ -22,7 +22,8 @@ For each question that can be answered with public information:
 3. Save the answer using the `answer_question` MCP tool with:
    - `questionId`: the question's ID
    - `answerText`: the researched answer
-   - `answerSourcesJson`: array of `{"url": "...", "title": "..."}` for each source used
+   - `sourceId`: ID of an existing source to attribute the answer to (optional)
+   - `newSource`: create a new source for the answer with `name`, `sourceType`, `sourceAccessType`, `aiAccessInstructions`, `whenItsImportant` (optional)
 
 Prioritize authoritative sources: government databases, official reports, established news outlets.
 
@@ -36,10 +37,10 @@ For each question that requires a human source:
    - Public officials or spokespeople with relevant authority
    - Advocates or community leaders connected to the topic
 2. Research their contact information (email, phone, social media).
-3. Save the human source using the `add_identified_source` MCP tool with:
+3. Save the human source using the `add_source_for_question` MCP tool with:
    - `leadId`: the story lead's ID
    - `questionId`: the question's ID (so the editor knows which question this source addresses)
-   - `name`, `title`, `organization`, `email`, `phone`, `socialHandlesJson`, `relevance`
+   - `name`, `title`, `organization`, `email`, `phone`, `socialHandles`, `relevance`
 4. Also save a partial answer using `answer_question` explaining what is known so far and that a human source has been identified for the full answer.
 
 ### 4. Summarize

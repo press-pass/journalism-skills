@@ -17,6 +17,6 @@ Take a look at the available sources and try to find story leads relevant to the
 - `whyItMatters`: why this story matters to locals
 - `importanceScore`: a subjective score of how important you think the story is for locals, out of 9
 
-Generate 10-20 leads per invocation. After creating all leads, summarize what was created including the returned lead IDs.
+Generate 10-20 leads per invocation. The tool returns the full story lead object (id, title, status, questions, etc.). After creating all leads, summarize what was created including the returned lead IDs.
 
 Zip codes to search: $ARGUMENTS
