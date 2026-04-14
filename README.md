@@ -35,6 +35,7 @@ Note: `/reload-plugins` only reloads already-cached plugins — it won't pick up
 - **answer-questions** — Research and answer pipeline questions using web sources, and identify human sources for questions requiring interviews.
 - **enrich-stories** — Enrich all story leads by running discovery skills against each story in parallel.
 - **find-photo-evidence** — Find photos with permissive licensing related to a given story.
+- **geographic-source-discovery** — Discover trusted sources by mapping the civic and community landscape of the tenant's zip codes. No arguments needed.
 - **generate-story-leads** — Find story leads by analyzing available sources for timely, outlier-driven local news.
 - **identify-new-questions-from-article** — Read a story pitch and identify questions it does not yet address.
 - **new-skill** — Create a new skill by asking the user questions and generating a SKILL.md template.
