@@ -149,4 +149,24 @@ Verdicts:
 After the table, briefly explain any indeterminate results and suggest next steps (e.g., "send a confirmation email
 to verify" for indeterminate addresses).
 
+## Limitations — tell the user about these
+
+Before presenting results, inform the user of the following:
+
+- **This is not 100% reliable.** Even commercial email verification services (ZeroBounce, NeverBounce, etc.) only
+  achieve ~95-99% accuracy, and they use rotating IP pools, ML models trained on billions of bounce logs, and
+  proprietary ESP data partnerships that we don't have.
+- **iCloud addresses (icloud.com, me.com, mac.com) cannot be verified.** Apple blocks all enumeration techniques.
+  The only way to confirm an iCloud address is to send an actual email.
+- **Catch-all domains are fundamentally unverifiable.** ~20-30% of business domains accept mail for any address.
+  No technique — free or paid — can definitively verify a specific mailbox on a catch-all domain without sending.
+- **SMTP checks may fail from this machine.** Port 25 is blocked by many ISPs and cloud providers. If the SMTP
+  step times out or is refused, it may be a network issue rather than an invalid address.
+- **Headless browser checks depend on provider UI.** Microsoft and Yahoo can change their password recovery pages
+  at any time, which would break the headless verification. If the page structure looks unexpected, note this.
+- **CAPTCHAs may block headless checks.** Repeated use from the same IP will trigger CAPTCHAs on Microsoft and
+  Yahoo, degrading results to Indeterminate.
+- **A "Reachable" result means the account exists, not that someone reads it.** The mailbox could be abandoned,
+  full, or filtered. The only true confirmation is a reply from the recipient.
+
 Email addresses to verify: $ARGUMENTS
