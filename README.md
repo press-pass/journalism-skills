@@ -41,3 +41,7 @@ Note: `/reload-plugins` only reloads already-cached plugins — it won't pick up
 - **new-skill** — Create a new skill by asking the user questions and generating a SKILL.md template.
 - **trusted-human-source-discovery** — Find human sources that can comment on a story.
 - **trusted-source-discovery** — Scrapes RSS feeds supplied as an argument to discover sources for news articles.
+
+## License
+
+MIT — see [LICENSE](LICENSE).
