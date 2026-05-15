@@ -1,0 +1,128 @@
+source_office_type,source_office,prior_role,n,total
+HOUSE_COMMITTEE,House Appropriations Committee,CHIEF_OF_STAFF,6,44
+HOUSE_COMMITTEE,House Appropriations Committee,COUNSEL,1,44
+HOUSE_COMMITTEE,House Appropriations Committee,LEG_ASSISTANT,1,44
+HOUSE_COMMITTEE,House Appropriations Committee,LEG_CORRESPOND,2,44
+HOUSE_COMMITTEE,House Appropriations Committee,LEG_DIRECTOR,4,44
+HOUSE_COMMITTEE,House Appropriations Committee,MEMBER,1,44
+HOUSE_COMMITTEE,House Appropriations Committee,OTHER,8,44
+HOUSE_COMMITTEE,House Appropriations Committee,PRESS_SEC,1,44
+HOUSE_COMMITTEE,House Appropriations Committee,PROF_STAFF,14,44
+HOUSE_COMMITTEE,House Appropriations Committee,STAFF_DIRECTOR,6,44
+HOUSE_COMMITTEE,House Armed Services Committee,CHIEF_OF_STAFF,1,41
+HOUSE_COMMITTEE,House Armed Services Committee,CONSULTANT,2,41
+HOUSE_COMMITTEE,House Armed Services Committee,COUNSEL,8,41
+HOUSE_COMMITTEE,House Armed Services Committee,LEG_ASSISTANT,6,41
+HOUSE_COMMITTEE,House Armed Services Committee,LEG_DIRECTOR,3,41
+HOUSE_COMMITTEE,House Armed Services Committee,MEMBER,1,41
+HOUSE_COMMITTEE,House Armed Services Committee,OTHER,7,41
+HOUSE_COMMITTEE,House Armed Services Committee,OTHER_AIDE,3,41
+HOUSE_COMMITTEE,House Armed Services Committee,PRESS_SEC,1,41
+HOUSE_COMMITTEE,House Armed Services Committee,PROF_STAFF,8,41
+HOUSE_COMMITTEE,House Armed Services Committee,STAFF_ASSISTANT,1,41
+HOUSE_COMMITTEE,House Energy & Commerce Committee,CHIEF_OF_STAFF,10,80
+HOUSE_COMMITTEE,House Energy & Commerce Committee,CONSULTANT,1,80
+HOUSE_COMMITTEE,House Energy & Commerce Committee,COUNSEL,25,80
+HOUSE_COMMITTEE,House Energy & Commerce Committee,LEG_ASSISTANT,4,80
+HOUSE_COMMITTEE,House Energy & Commerce Committee,LEG_DIRECTOR,8,80
+HOUSE_COMMITTEE,House Energy & Commerce Committee,OTHER,26,80
+HOUSE_COMMITTEE,House Energy & Commerce Committee,PROF_STAFF,3,80
+HOUSE_COMMITTEE,House Energy & Commerce Committee,STAFF_ASSISTANT,1,80
+HOUSE_COMMITTEE,House Energy & Commerce Committee,STAFF_DIRECTOR,2,80
+HOUSE_COMMITTEE,House Financial Services Committee,CHIEF_OF_STAFF,6,41
+HOUSE_COMMITTEE,House Financial Services Committee,CONSULTANT,2,41
+HOUSE_COMMITTEE,House Financial Services Committee,COUNSEL,17,41
+HOUSE_COMMITTEE,House Financial Services Committee,LEG_ASSISTANT,4,41
+HOUSE_COMMITTEE,House Financial Services Committee,LEG_DIRECTOR,4,41
+HOUSE_COMMITTEE,House Financial Services Committee,OTHER,1,41
+HOUSE_COMMITTEE,House Financial Services Committee,OTHER_AIDE,1,41
+HOUSE_COMMITTEE,House Financial Services Committee,PRESS_SEC,1,41
+HOUSE_COMMITTEE,House Financial Services Committee,PROF_STAFF,4,41
+HOUSE_COMMITTEE,House Financial Services Committee,STAFF_ASSISTANT,1,41
+HOUSE_COMMITTEE,House Judiciary Committee,CHIEF_OF_STAFF,4,36
+HOUSE_COMMITTEE,House Judiciary Committee,COUNSEL,23,36
+HOUSE_COMMITTEE,House Judiciary Committee,LEG_ASSISTANT,2,36
+HOUSE_COMMITTEE,House Judiciary Committee,LEG_CORRESPOND,1,36
+HOUSE_COMMITTEE,House Judiciary Committee,LEG_DIRECTOR,1,36
+HOUSE_COMMITTEE,House Judiciary Committee,OTHER,2,36
+HOUSE_COMMITTEE,House Judiciary Committee,PROF_STAFF,3,36
+HOUSE_COMMITTEE,House Ways and Means Committee,CHIEF_OF_STAFF,3,23
+HOUSE_COMMITTEE,House Ways and Means Committee,CONSULTANT,3,23
+HOUSE_COMMITTEE,House Ways and Means Committee,COUNSEL,9,23
+HOUSE_COMMITTEE,House Ways and Means Committee,MEMBER,2,23
+HOUSE_COMMITTEE,House Ways and Means Committee,OTHER,4,23
+HOUSE_COMMITTEE,House Ways and Means Committee,STAFF_DIRECTOR,2,23
+SENATE_COMMITTEE,Senate Appropriations Committee,CHIEF_OF_STAFF,10,46
+SENATE_COMMITTEE,Senate Appropriations Committee,COUNSEL,3,46
+SENATE_COMMITTEE,Senate Appropriations Committee,LEG_ASSISTANT,3,46
+SENATE_COMMITTEE,Senate Appropriations Committee,LEG_DIRECTOR,1,46
+SENATE_COMMITTEE,Senate Appropriations Committee,OTHER,10,46
+SENATE_COMMITTEE,Senate Appropriations Committee,PRESS_SEC,1,46
+SENATE_COMMITTEE,Senate Appropriations Committee,PROF_STAFF,13,46
+SENATE_COMMITTEE,Senate Appropriations Committee,STAFF_ASSISTANT,1,46
+SENATE_COMMITTEE,Senate Appropriations Committee,STAFF_DIRECTOR,4,46
+SENATE_COMMITTEE,Senate Banking Committee,CHIEF_OF_STAFF,1,27
+SENATE_COMMITTEE,Senate Banking Committee,CONSULTANT,2,27
+SENATE_COMMITTEE,Senate Banking Committee,COUNSEL,8,27
+SENATE_COMMITTEE,Senate Banking Committee,LEG_ASSISTANT,1,27
+SENATE_COMMITTEE,Senate Banking Committee,LEG_DIRECTOR,2,27
+SENATE_COMMITTEE,Senate Banking Committee,OTHER,5,27
+SENATE_COMMITTEE,Senate Banking Committee,PROF_STAFF,4,27
+SENATE_COMMITTEE,Senate Banking Committee,STAFF_DIRECTOR,4,27
+SENATE_COMMITTEE,Senate Budget Committee,CHIEF_OF_STAFF,8,23
+SENATE_COMMITTEE,Senate Budget Committee,CONSULTANT,3,23
+SENATE_COMMITTEE,Senate Budget Committee,LEG_CORRESPOND,1,23
+SENATE_COMMITTEE,Senate Budget Committee,LEG_DIRECTOR,1,23
+SENATE_COMMITTEE,Senate Budget Committee,MEMBER,3,23
+SENATE_COMMITTEE,Senate Budget Committee,OTHER,5,23
+SENATE_COMMITTEE,Senate Budget Committee,STAFF_DIRECTOR,2,23
+SENATE_COMMITTEE,Senate Commerce Committee,CHIEF_OF_STAFF,4,31
+SENATE_COMMITTEE,Senate Commerce Committee,CONSULTANT,1,31
+SENATE_COMMITTEE,Senate Commerce Committee,COUNSEL,10,31
+SENATE_COMMITTEE,Senate Commerce Committee,LEG_ASSISTANT,1,31
+SENATE_COMMITTEE,Senate Commerce Committee,LEG_DIRECTOR,1,31
+SENATE_COMMITTEE,Senate Commerce Committee,OTHER,3,31
+SENATE_COMMITTEE,Senate Commerce Committee,OTHER_AIDE,3,31
+SENATE_COMMITTEE,Senate Commerce Committee,PRESS_SEC,3,31
+SENATE_COMMITTEE,Senate Commerce Committee,PROF_STAFF,1,31
+SENATE_COMMITTEE,Senate Commerce Committee,STAFF_DIRECTOR,4,31
+SENATE_COMMITTEE,Senate Environment and Public Works Committee,CONSULTANT,1,22
+SENATE_COMMITTEE,Senate Environment and Public Works Committee,COUNSEL,6,22
+SENATE_COMMITTEE,Senate Environment and Public Works Committee,LEG_ASSISTANT,1,22
+SENATE_COMMITTEE,Senate Environment and Public Works Committee,LEG_DIRECTOR,2,22
+SENATE_COMMITTEE,Senate Environment and Public Works Committee,MEMBER,1,22
+SENATE_COMMITTEE,Senate Environment and Public Works Committee,OTHER,4,22
+SENATE_COMMITTEE,Senate Environment and Public Works Committee,OTHER_AIDE,1,22
+SENATE_COMMITTEE,Senate Environment and Public Works Committee,PROF_STAFF,5,22
+SENATE_COMMITTEE,Senate Environment and Public Works Committee,STAFF_DIRECTOR,1,22
+SENATE_COMMITTEE,Senate Finance Committee,CHIEF_OF_STAFF,6,83
+SENATE_COMMITTEE,Senate Finance Committee,CONSULTANT,9,83
+SENATE_COMMITTEE,Senate Finance Committee,COUNSEL,30,83
+SENATE_COMMITTEE,Senate Finance Committee,LEG_ASSISTANT,11,83
+SENATE_COMMITTEE,Senate Finance Committee,LEG_DIRECTOR,8,83
+SENATE_COMMITTEE,Senate Finance Committee,MEMBER,1,83
+SENATE_COMMITTEE,Senate Finance Committee,OTHER,6,83
+SENATE_COMMITTEE,Senate Finance Committee,OTHER_AIDE,1,83
+SENATE_COMMITTEE,Senate Finance Committee,PROF_STAFF,7,83
+SENATE_COMMITTEE,Senate Finance Committee,STAFF_ASSISTANT,1,83
+SENATE_COMMITTEE,Senate Finance Committee,STAFF_DIRECTOR,3,83
+SENATE_COMMITTEE,Senate HELP Committee,CHIEF_OF_STAFF,4,46
+SENATE_COMMITTEE,Senate HELP Committee,CONSULTANT,6,46
+SENATE_COMMITTEE,Senate HELP Committee,COUNSEL,8,46
+SENATE_COMMITTEE,Senate HELP Committee,LEG_ASSISTANT,6,46
+SENATE_COMMITTEE,Senate HELP Committee,LEG_DIRECTOR,4,46
+SENATE_COMMITTEE,Senate HELP Committee,MEMBER,1,46
+SENATE_COMMITTEE,Senate HELP Committee,OTHER,12,46
+SENATE_COMMITTEE,Senate HELP Committee,PROF_STAFF,1,46
+SENATE_COMMITTEE,Senate HELP Committee,STAFF_ASSISTANT,1,46
+SENATE_COMMITTEE,Senate HELP Committee,STAFF_DIRECTOR,3,46
+SENATE_COMMITTEE,Senate Judiciary Committee,CHIEF_OF_STAFF,12,75
+SENATE_COMMITTEE,Senate Judiciary Committee,COUNSEL,32,75
+SENATE_COMMITTEE,Senate Judiciary Committee,LEG_ASSISTANT,2,75
+SENATE_COMMITTEE,Senate Judiciary Committee,LEG_CORRESPOND,1,75
+SENATE_COMMITTEE,Senate Judiciary Committee,LEG_DIRECTOR,5,75
+SENATE_COMMITTEE,Senate Judiciary Committee,MEMBER,2,75
+SENATE_COMMITTEE,Senate Judiciary Committee,OTHER,10,75
+SENATE_COMMITTEE,Senate Judiciary Committee,PROF_STAFF,2,75
+SENATE_COMMITTEE,Senate Judiciary Committee,STAFF_ASSISTANT,2,75
+SENATE_COMMITTEE,Senate Judiciary Committee,STAFF_DIRECTOR,7,75

@@ -1,0 +1,1344 @@
+filing_year,filing_period,issue_code,total_spend,quarter,issue_display
+2025,second_quarter,ENV,35365430.0986578,2,Environment/Superfund
+2025,second_quarter,BUD,124683925.95692725,2,Budget/Appropriations
+2023,second_quarter,TAX,107043180.76955855,2,Taxation/Internal Revenue Code
+2023,first_quarter,BUD,97764479.4593739,1,Budget/Appropriations
+2024,fourth_quarter,BUD,101103718.232147,4,Budget/Appropriations
+2022,fourth_quarter,MMM,60317487.06277016,4,Medicare/Medicaid
+2024,fourth_quarter,CIV,7667091.848026045,4,Civil Rights/Civil Liberties
+2023,third_quarter,FIN,47558136.5247508,3,Financial Institutions/Investments/Securities
+2022,first_quarter,MMM,64041938.79628418,1,Medicare/Medicaid
+2025,second_quarter,DIS,6303544.308260393,2,Disaster Planning/Emergencies
+2022,second_quarter,HOM,21445120.13929226,2,Homeland Security
+2024,fourth_quarter,ENV,33853613.15272125,4,Environment/Superfund
+2026,first_quarter,ENV,35698295.90250619,1,Environment/Superfund
+2023,second_quarter,FIN,46120132.031426385,2,Financial Institutions/Investments/Securities
+2022,third_quarter,TEC,32750346.982762847,3,Telecommunications
+2022,third_quarter,TAX,110478591.02585083,3,Taxation/Internal Revenue Code
+2022,fourth_quarter,CON,723130.1001279423,4,Constitution
+2023,first_quarter,CIV,7003396.926276394,1,Civil Rights/Civil Liberties
+2023,first_quarter,ADV,2050656.1624649859,1,Advertising
+2022,third_quarter,GOV,20152106.132863015,3,Government Issues
+2024,first_quarter,TRD,59603236.57643974,1,Trade (domestic/foreign)
+2024,first_quarter,MAN,12626890.393697469,1,Manufacturing
+2024,first_quarter,FUE,6580846.359074259,1,Fuel/Gas/Oil
+2025,first_quarter,HCR,126285265.94607428,1,Health Issues
+2026,first_quarter,BUD,120620540.71012136,1,Budget/Appropriations
+2025,fourth_quarter,TAX,130402449.68150353,4,Taxation/Internal Revenue Code
+2023,second_quarter,GOV,17542749.00209614,2,Government Issues
+2023,third_quarter,TAX,104657057.56411356,3,Taxation/Internal Revenue Code
+2022,first_quarter,URB,2689985.1464646463,1,Urban Development/Municipalities
+2022,third_quarter,FIN,46426109.40099638,3,Financial Institutions/Investments/Securities
+2022,third_quarter,AUT,7807736.476725664,3,Automotive Industry
+2026,first_quarter,MED,6682728.112640137,1,Medical/Disease Research/Clinical Labs
+2024,fourth_quarter,DIS,3997276.524788328,4,Disaster Planning/Emergencies
+2025,third_quarter,EDU,27569500.717595443,3,Education
+2023,fourth_quarter,HCR,111375191.64247307,4,Health Issues
+2024,second_quarter,POS,2549870.181509312,2,Postal
+2024,second_quarter,HOM,22118950.064666994,2,Homeland Security
+2023,first_quarter,FIR,4725226.515277271,1,Firearms/Guns/Ammunition
+2025,fourth_quarter,GOV,29221244.683241267,4,Government Issues
+2025,fourth_quarter,FIN,62726909.58082065,4,Financial Institutions/Investments/Securities
+2022,third_quarter,AGR,21061300.904156905,3,Agriculture
+2023,first_quarter,DIS,5686812.841251336,1,Disaster Planning/Emergencies
+2023,second_quarter,AGR,27715446.791549586,2,Agriculture
+2024,third_quarter,SCI,21882624.19210775,3,Science/Technology
+2025,first_quarter,RET,11010776.545521656,1,Retirement
+2025,fourth_quarter,TEC,35091686.81572495,4,Telecommunications
+2023,third_quarter,AVI,18102067.930994503,3,Aviation/Airlines/Airports
+2023,first_quarter,ENV,31142090.313561853,1,Environment/Superfund
+2024,third_quarter,MAN,12239964.563513799,3,Manufacturing
+2024,third_quarter,VET,12171820.9342868,3,Veterans
+2022,fourth_quarter,CSP,17967749.733711388,4,Consumer Issues/Safety/Products
+2025,third_quarter,INS,14745554.2637496,3,Insurance
+2025,first_quarter,FOR,14732653.328329246,1,Foreign Relations
+2025,first_quarter,CPT,29498890.201482322,1,Copyright/Patent/Trademark
+2023,third_quarter,AGR,28167937.603813298,3,Agriculture
+2024,third_quarter,ANI,2954239.0992716607,3,Animals
+2024,third_quarter,TRD,55951097.329217345,3,Trade (domestic/foreign)
+2025,third_quarter,CHM,5655054.069419401,3,Chemicals/Chemical Industry
+2025,fourth_quarter,AUT,10720652.41751046,4,Automotive Industry
+2025,fourth_quarter,AGR,30806747.515250746,4,Agriculture
+2023,fourth_quarter,CPT,24088195.617988504,4,Copyright/Patent/Trademark
+2022,fourth_quarter,ROD,1823447.8214479235,4,Roads/Highway
+2024,first_quarter,BNK,2023966.3748832867,1,Bankruptcy
+2023,fourth_quarter,CPI,13763380.763084248,4,Computer Industry
+2025,fourth_quarter,AVI,16995675.086731434,4,Aviation/Airlines/Airports
+2025,fourth_quarter,TAR,13184606.963908311,4,Tariff (miscellaneous tariff bills)
+2026,first_quarter,DIS,6695901.689306325,1,Disaster Planning/Emergencies
+2023,second_quarter,TEC,33195630.07866088,2,Telecommunications
+2024,fourth_quarter,WEL,681477.5267714742,4,Welfare
+2024,second_quarter,PHA,15604654.65743317,2,Pharmacy
+2022,first_quarter,ROD,1746265.4396617273,1,Roads/Highway
+2024,third_quarter,CDT,1297388.0924630924,3,Commodities (big ticket)
+2024,fourth_quarter,MED,4988118.5425269175,4,Medical/Disease Research/Clinical Labs
+2023,second_quarter,IND,6417474.709266289,2,Indian/Native American Affairs
+2024,third_quarter,FUE,7015722.656851893,3,Fuel/Gas/Oil
+2026,first_quarter,UTI,4012809.8652652125,1,Utilities
+2025,fourth_quarter,IND,8829077.330529666,4,Indian/Native American Affairs
+2023,third_quarter,TEC,31334155.668027706,3,Telecommunications
+2023,second_quarter,AVI,18054994.205326393,2,Aviation/Airlines/Airports
+2025,second_quarter,MED,6573511.4496003995,2,Medical/Disease Research/Clinical Labs
+2023,fourth_quarter,MAR,7649898.246534185,4,Marine/Maritime/Boating/Fisheries
+2023,third_quarter,FAM,1280109.1782104005,3,Family issues/Abortion/Adoption
+2025,third_quarter,NAT,21377799.277215328,3,Natural Resources
+2022,first_quarter,HOU,8940372.488144334,1,Housing
+2025,first_quarter,MAR,8389671.068002036,1,Marine/Maritime/Boating/Fisheries
+2025,first_quarter,TRU,2835598.822331558,1,Trucking/Shipping
+2023,third_quarter,TAR,2024611.0717841338,3,Tariff (miscellaneous tariff bills)
+2025,fourth_quarter,FOO,9489457.069576176,4,"Food Industry (safety, labeling, etc.)"
+2024,fourth_quarter,UTI,3943672.1702059377,4,Utilities
+2025,third_quarter,BAN,28559398.218009878,3,Banking
+2023,second_quarter,TAR,2530343.0831336537,2,Tariff (miscellaneous tariff bills)
+2022,third_quarter,FOO,6603338.296836032,3,"Food Industry (safety, labeling, etc.)"
+2023,first_quarter,UTI,4434130.352425353,1,Utilities
+2023,fourth_quarter,RET,9922949.4656371,4,Retirement
+2024,first_quarter,SCI,22901849.858387664,1,Science/Technology
+2022,third_quarter,IND,6095487.575287403,3,Indian/Native American Affairs
+2023,first_quarter,ART,1495786.1667691097,1,Arts/Entertainment
+2023,third_quarter,FOO,6583336.777962759,3,"Food Industry (safety, labeling, etc.)"
+2025,first_quarter,TOB,5728638.504473304,1,Tobacco
+2022,fourth_quarter,HOU,10580372.62852495,4,Housing
+2025,second_quarter,ALC,1301192.8373015872,2,Alcohol and Drug Abuse
+2024,first_quarter,SPO,2193181.8485517753,1,Sports/Athletics
+2023,third_quarter,GOV,16370189.293700565,3,Government Issues
+2024,fourth_quarter,ALC,1388060.9612332114,4,Alcohol and Drug Abuse
+2024,third_quarter,BNK,1215196.4285714286,3,Bankruptcy
+2023,third_quarter,IND,6220405.791683872,3,Indian/Native American Affairs
+2024,second_quarter,AER,6765374.020982372,2,Aerospace
+2022,third_quarter,FAM,1380068.490451585,3,Family issues/Abortion/Adoption
+2025,first_quarter,CPI,15170224.057165056,1,Computer Industry
+2024,second_quarter,TOU,3410308.375935065,2,Travel/Tourism
+2022,first_quarter,CON,963614.4540853668,1,Constitution
+2022,third_quarter,AVI,14460166.702489164,3,Aviation/Airlines/Airports
+2022,fourth_quarter,URB,2732356.1886724387,4,Urban Development/Municipalities
+2025,third_quarter,ECN,13065091.041758243,3,Economics/Economic Development
+2025,second_quarter,UNM,466420.12698412704,2,Unemployment
+2025,first_quarter,APP,1093183.8093073594,1,Apparel/Clothing Industry/Textiles
+2024,first_quarter,VET,11541375.64714761,1,Veterans
+2023,fourth_quarter,FOR,14390795.768350318,4,Foreign Relations
+2026,first_quarter,ALC,1505786.138095238,1,Alcohol and Drug Abuse
+2022,second_quarter,PHA,12186038.290102705,2,Pharmacy
+2025,second_quarter,FIR,4132095.2430735934,2,Firearms/Guns/Ammunition
+2023,third_quarter,AUT,7935410.017741735,3,Automotive Industry
+2025,second_quarter,GAM,2861154.7619047626,2,Gaming/Gambling/Casino
+2023,second_quarter,FOO,6781153.095002831,2,"Food Industry (safety, labeling, etc.)"
+2023,first_quarter,MED,5446140.55078784,1,Medical/Disease Research/Clinical Labs
+2023,fourth_quarter,TOB,5535450.693362194,4,Tobacco
+2023,third_quarter,MIA,1913732.1428571425,3,Media (information/publishing)
+2024,fourth_quarter,ADV,2460640.274929749,4,Advertising
+2022,second_quarter,AER,5612316.913032046,2,Aerospace
+2022,first_quarter,CSP,16086417.62886913,1,Consumer Issues/Safety/Products
+2022,second_quarter,INT,4951406.646411687,2,Intelligence
+2025,second_quarter,CIV,28460461.414323207,2,Civil Rights/Civil Liberties
+2024,second_quarter,INT,3522901.236030986,2,Intelligence
+2022,second_quarter,POS,3911594.800323327,2,Postal
+2024,fourth_quarter,ART,1266975.2782158446,4,Arts/Entertainment
+2024,first_quarter,ANI,3019985.0834415583,1,Animals
+2026,first_quarter,CIV,6180880.989200668,1,Civil Rights/Civil Liberties
+2023,first_quarter,ALC,1826738.5701415252,1,Alcohol and Drug Abuse
+2023,first_quarter,WEL,702374.8688255553,1,Welfare
+2022,third_quarter,TAR,2312987.8295407915,3,Tariff (miscellaneous tariff bills)
+2025,second_quarter,WEL,913395.5627705627,2,Welfare
+2024,third_quarter,SPO,2277813.8511197953,3,Sports/Athletics
+2025,second_quarter,UTI,4196113.885223989,2,Utilities
+2022,third_quarter,BEV,1885601.4615384615,3,Beverage Industry
+2023,fourth_quarter,APP,803758.026984127,4,Apparel/Clothing Industry/Textiles
+2025,fourth_quarter,FAM,1280506.300170581,4,Family issues/Abortion/Adoption
+2023,second_quarter,AUT,8507883.885858586,2,Automotive Industry
+2024,fourth_quarter,GAM,2188658.4285714286,4,Gaming/Gambling/Casino
+2022,third_quarter,MIA,1418436.304029304,3,Media (information/publishing)
+2024,first_quarter,CDT,1605185.6060606062,1,Commodities (big ticket)
+2026,first_quarter,ART,1421571.5575646576,1,Arts/Entertainment
+2026,first_quarter,GAM,3084309.5238095243,1,Gaming/Gambling/Casino
+2025,first_quarter,ACC,2350598.538961039,1,Accounting
+2022,second_quarter,TOU,3703766.709457209,2,Travel/Tourism
+2023,fourth_quarter,TRU,3907924.9694832945,4,Trucking/Shipping
+2023,second_quarter,MIA,2310640.0793650793,2,Media (information/publishing)
+2025,second_quarter,ART,1306852.7574647577,2,Arts/Entertainment
+2023,second_quarter,FAM,1603345.5666971384,2,Family issues/Abortion/Adoption
+2025,fourth_quarter,MIA,3286445.8874458876,4,Media (information/publishing)
+2023,second_quarter,BEV,1258506.8717948715,2,Beverage Industry
+2022,fourth_quarter,TOR,2974528.199253035,4,Torts
+2022,first_quarter,TOR,2970043.433179902,1,Torts
+2023,first_quarter,GAM,2124455.285714286,1,Gaming/Gambling/Casino
+2025,fourth_quarter,BEV,1911991.642857143,4,Beverage Industry
+2026,first_quarter,WEL,796506.3497082627,1,Welfare
+2025,second_quarter,ADV,2798767.9624819625,2,Advertising
+2025,third_quarter,DOC,271569.731990232,3,District of Columbia
+2026,first_quarter,FIR,4086595.3948412696,1,Firearms/Guns/Ammunition
+2023,fourth_quarter,ACC,2332342.6633986933,4,Accounting
+2026,first_quarter,REL,96916.66666666666,1,Religion
+2024,fourth_quarter,FIR,3712995.856060607,4,Firearms/Guns/Ammunition
+2023,third_quarter,BEV,1334588.9194139193,3,Beverage Industry
+2024,fourth_quarter,REL,218000.0,4,Religion
+2023,first_quarter,UNM,434642.1138700481,1,Unemployment
+2026,first_quarter,ADV,2388988.4370015953,1,Advertising
+2024,fourth_quarter,UNM,223360.7655122655,4,Unemployment
+2023,first_quarter,REL,110500.0,1,Religion
+2023,fourth_quarter,MON,98333.33333333333,4,Minting/Money/Gold Standard
+2026,first_quarter,UNM,109990.3424908425,1,Unemployment
+2025,first_quarter,MON,207181.81818181818,1,Minting/Money/Gold Standard
+2025,second_quarter,REL,179500.0,2,Religion
+2026,first_quarter,MMM,71110753.6669207,1,Medicare/Medicaid
+2025,third_quarter,TAR,11735122.229304614,3,Tariff (miscellaneous tariff bills)
+2022,fourth_quarter,BUD,91255075.27358697,4,Budget/Appropriations
+2025,first_quarter,TRD,80194101.9488923,1,Trade (domestic/foreign)
+2024,second_quarter,DEF,65835157.1944433,2,Defense
+2024,second_quarter,ENG,47315234.115414806,2,Energy/Nuclear
+2022,first_quarter,ART,1514625.35009435,1,Arts/Entertainment
+2023,fourth_quarter,TRD,53179468.187062144,4,Trade (domestic/foreign)
+2022,second_quarter,DEF,71363053.9013847,2,Defense
+2022,second_quarter,ENG,41841108.69641368,2,Energy/Nuclear
+2025,fourth_quarter,EDU,27391418.007513177,4,Education
+2023,second_quarter,NAT,14400731.270245505,2,Natural Resources
+2024,fourth_quarter,CSP,19764619.71157254,4,Consumer Issues/Safety/Products
+2024,fourth_quarter,MMM,62995089.30007255,4,Medicare/Medicaid
+2022,second_quarter,LBR,29588764.81682377,2,Labor Issues/Antitrust/Workplace
+2022,second_quarter,SMB,10818237.475307556,2,Small Business
+2024,second_quarter,LBR,29412693.63012126,2,Labor Issues/Antitrust/Workplace
+2022,first_quarter,BUD,88354158.74433908,1,Budget/Appropriations
+2022,fourth_quarter,REL,174095.2380952381,4,Religion
+2022,fourth_quarter,CIV,9866677.85259673,4,Civil Rights/Civil Liberties
+2023,first_quarter,CSP,19887097.614463676,1,Consumer Issues/Safety/Products
+2025,third_quarter,TEC,34867294.67172953,3,Telecommunications
+2026,first_quarter,CSP,21925804.70252344,1,Consumer Issues/Safety/Products
+2024,second_quarter,IMM,14945178.030256033,2,Immigration
+2024,first_quarter,HCR,117108608.00803432,1,Health Issues
+2025,fourth_quarter,CHM,6254810.745426416,4,Chemicals/Chemical Industry
+2025,second_quarter,CSP,20961052.857405607,2,Consumer Issues/Safety/Products
+2025,fourth_quarter,NAT,23314115.901822582,4,Natural Resources
+2025,first_quarter,ANI,3204176.5129145365,1,Animals
+2022,second_quarter,TRA,40141568.18397989,2,Transportation
+2024,first_quarter,MAR,8009290.330519765,1,Marine/Maritime/Boating/Fisheries
+2025,third_quarter,AVI,17024186.331042092,3,Aviation/Airlines/Airports
+2023,third_quarter,EDU,21146360.107123125,3,Education
+2024,second_quarter,LAW,10338826.092135496,2,Law Enforcement/Crime/Criminal Justice
+2024,third_quarter,HCR,107269715.5376852,3,Health Issues
+2025,fourth_quarter,BAN,32431169.12253014,4,Banking
+2023,fourth_quarter,SCI,20298376.34439552,4,Science/Technology
+2022,second_quarter,COM,13411899.027566943,2,Communications/Broadcasting/Radio/TV
+2024,second_quarter,TRA,39292541.872340225,2,Transportation
+2025,third_quarter,TAX,137499413.38734207,3,Taxation/Internal Revenue Code
+2022,first_quarter,ENV,28710071.876622964,1,Environment/Superfund
+2022,fourth_quarter,MED,6376460.701400227,4,Medical/Disease Research/Clinical Labs
+2024,second_quarter,CAW,8723697.681601193,2,Clean Air and Water (quality)
+2022,second_quarter,CAW,9156264.206115639,2,Clean Air and Water (quality)
+2023,first_quarter,HOU,11328518.83235397,1,Housing
+2024,second_quarter,COM,14810473.551949687,2,Communications/Broadcasting/Radio/TV
+2022,second_quarter,RRR,3012503.969503862,2,Railroads
+2023,second_quarter,INS,14690570.986511033,2,Insurance
+2025,third_quarter,AGR,29528527.080441535,3,Agriculture
+2023,third_quarter,BAN,24675976.885846455,3,Banking
+2024,third_quarter,ACC,2032081.7272727273,3,Accounting
+2022,fourth_quarter,UTI,3763091.420801421,4,Utilities
+2023,first_quarter,MMM,70978598.68172073,1,Medicare/Medicaid
+2024,third_quarter,CPI,14100932.0863193,3,Computer Industry
+2024,third_quarter,FOR,12592984.74265062,3,Foreign Relations
+2025,third_quarter,FIN,59310255.14298799,3,Financial Institutions/Investments/Securities
+2025,first_quarter,VET,14073991.448013052,1,Veterans
+2023,second_quarter,BAN,24271193.369864,2,Banking
+2024,first_quarter,FOR,15744798.326825712,1,Foreign Relations
+2023,fourth_quarter,MAN,11623005.487963669,4,Manufacturing
+2025,fourth_quarter,ECN,7482860.663867258,4,Economics/Economic Development
+2023,third_quarter,CHM,4595299.507018671,3,Chemicals/Chemical Industry
+2025,second_quarter,MMM,70656515.76309986,2,Medicare/Medicaid
+2024,first_quarter,RET,10947356.150457148,1,Retirement
+2023,third_quarter,ECN,6026570.832861541,3,Economics/Economic Development
+2022,fourth_quarter,FIR,3994409.0045762244,4,Firearms/Guns/Ammunition
+2025,third_quarter,GOV,26693880.411278468,3,Government Issues
+2025,third_quarter,AUT,10643537.912809998,3,Automotive Industry
+2025,third_quarter,IND,8964696.134241574,3,Indian/Native American Affairs
+2025,first_quarter,SCI,25713260.901895747,1,Science/Technology
+2024,third_quarter,APP,928406.2847041846,3,Apparel/Clothing Industry/Textiles
+2024,third_quarter,CPT,24791111.90784253,3,Copyright/Patent/Trademark
+2025,third_quarter,FAM,1231873.2737998604,3,Family issues/Abortion/Adoption
+2025,first_quarter,MAN,15942983.62354396,1,Manufacturing
+2022,fourth_quarter,ENV,30583067.089224268,4,Environment/Superfund
+2024,second_quarter,RES,2568896.3393155867,2,Real Estate/Land Use/Conservation
+2023,second_quarter,EDU,21655498.46526808,2,Education
+2025,fourth_quarter,INS,15407722.316673882,4,Insurance
+2023,second_quarter,DOC,145552.24089635856,2,District of Columbia
+2026,first_quarter,HOU,16773330.919348044,1,Housing
+2024,fourth_quarter,HOU,12654727.84190053,4,Housing
+2025,second_quarter,CON,891736.7620583065,2,Constitution
+2023,third_quarter,NAT,15036205.248476245,3,Natural Resources
+2023,third_quarter,INS,14877701.020357206,3,Insurance
+2022,fourth_quarter,ALC,1422881.2649552897,4,Alcohol and Drug Abuse
+2024,second_quarter,SMB,9560487.058534918,2,Small Business
+2025,first_quarter,SPO,3087175.409999662,1,Sports/Athletics
+2024,third_quarter,TRU,2574035.8556429683,3,Trucking/Shipping
+2025,second_quarter,HOU,13432645.780777413,2,Housing
+2022,second_quarter,IMM,15622186.739359848,2,Immigration
+2026,first_quarter,URB,2626662.3051948054,1,Urban Development/Municipalities
+2024,first_quarter,CPT,27063433.119924236,1,Copyright/Patent/Trademark
+2022,first_quarter,GAM,2074508.3772893774,1,Gaming/Gambling/Casino
+2025,third_quarter,FOO,8391646.052118486,3,"Food Industry (safety, labeling, etc.)"
+2022,third_quarter,NAT,13245906.35476348,3,Natural Resources
+2023,second_quarter,ECN,7095092.262077367,2,Economics/Economic Development
+2024,second_quarter,RRR,3973359.7870538817,2,Railroads
+2022,second_quarter,LAW,8118608.99421881,2,Law Enforcement/Crime/Criminal Justice
+2022,third_quarter,EDU,20256717.645419702,3,Education
+2023,first_quarter,URB,2765507.0923520923,1,Urban Development/Municipalities
+2022,fourth_quarter,ART,1196953.6265664161,4,Arts/Entertainment
+2022,first_quarter,MED,6485862.194787231,1,Medical/Disease Research/Clinical Labs
+2022,third_quarter,BAN,24209680.3673407,3,Banking
+2024,third_quarter,TOB,5762763.005411256,3,Tobacco
+2024,first_quarter,ACC,2548934.91781258,1,Accounting
+2024,third_quarter,RET,9799501.71264878,3,Retirement
+2023,fourth_quarter,VET,9700997.15791988,4,Veterans
+2022,third_quarter,DOC,202328.45396825398,3,District of Columbia
+2022,third_quarter,INS,16444202.69532601,3,Insurance
+2022,third_quarter,ECN,7562532.745636009,3,Economics/Economic Development
+2023,first_quarter,TOR,2622701.2269499507,1,Torts
+2024,third_quarter,MAR,7411561.703751013,3,Marine/Maritime/Boating/Fisheries
+2025,second_quarter,ROD,2047245.3604839607,2,Roads/Highway
+2024,fourth_quarter,TOR,2327354.987163459,4,Torts
+2022,first_quarter,ALC,2107709.592119482,1,Alcohol and Drug Abuse
+2023,fourth_quarter,ANI,2750600.236652237,4,Animals
+2024,fourth_quarter,URB,3227630.8916582214,4,Urban Development/Municipalities
+2023,fourth_quarter,SPO,2232918.233960484,4,Sports/Athletics
+2022,first_quarter,UTI,3643086.81798353,1,Utilities
+2022,first_quarter,FIR,3418026.5619219616,1,Firearms/Guns/Ammunition
+2022,fourth_quarter,GAM,2019088.1190476194,4,Gaming/Gambling/Casino
+2022,third_quarter,CHM,4874465.788249658,3,Chemicals/Chemical Industry
+2025,third_quarter,MIA,3318218.905844156,3,Media (information/publishing)
+2024,first_quarter,CPI,15524417.894834198,1,Computer Industry
+2024,fourth_quarter,CON,827176.3193277312,4,Constitution
+2024,first_quarter,APP,1122696.629148629,1,Apparel/Clothing Industry/Textiles
+2025,second_quarter,URB,3429170.8152958155,2,Urban Development/Municipalities
+2025,first_quarter,FUE,6989247.823043537,1,Fuel/Gas/Oil
+2022,first_quarter,DIS,8047995.02172677,1,Disaster Planning/Emergencies
+2024,first_quarter,TOB,5424804.580808082,1,Tobacco
+2022,fourth_quarter,DIS,7022235.594498822,4,Disaster Planning/Emergencies
+2023,first_quarter,ROD,1956717.478743479,1,Roads/Highway
+2023,second_quarter,CHM,4727088.982721484,2,Chemicals/Chemical Industry
+2022,first_quarter,CIV,9705317.610420449,1,Civil Rights/Civil Liberties
+2022,first_quarter,UNM,1361075.5539758487,1,Unemployment
+2023,fourth_quarter,FUE,6882156.680770211,4,Fuel/Gas/Oil
+2023,fourth_quarter,CDT,1752614.7186147186,4,Commodities (big ticket)
+2024,fourth_quarter,ROD,1720514.1192904317,4,Roads/Highway
+2023,fourth_quarter,BNK,1705166.5542974842,4,Bankruptcy
+2022,first_quarter,ADV,1878206.2936083525,1,Advertising
+2022,second_quarter,WAS,1245264.0999999999,2,Waste (hazardous/solid/interstate/nuclear)
+2025,fourth_quarter,DOC,263724.87258493144,4,District of Columbia
+2025,second_quarter,TOR,2376462.346759598,2,Torts
+2025,third_quarter,BEV,1646851.1428571427,3,Beverage Industry
+2022,second_quarter,RES,2586033.9883338884,2,Real Estate/Land Use/Conservation
+2024,first_quarter,TRU,2820290.1673937174,1,Trucking/Shipping
+2026,first_quarter,TOR,3573871.663136184,1,Torts
+2025,first_quarter,CDT,1585379.0376290379,1,Commodities (big ticket)
+2024,second_quarter,WAS,1116722.6787738577,2,Waste (hazardous/solid/interstate/nuclear)
+2026,first_quarter,CON,946104.3527937491,1,Constitution
+2026,first_quarter,ROD,1710363.0391275394,1,Roads/Highway
+2022,fourth_quarter,ADV,2052472.602622867,4,Advertising
+2022,first_quarter,WEL,607651.0694223619,1,Welfare
+2025,first_quarter,BNK,1236311.4439324117,1,Bankruptcy
+2023,first_quarter,CON,856008.1555041448,1,Constitution
+2022,fourth_quarter,WEL,729033.2606945559,4,Welfare
+2022,fourth_quarter,UNM,2075323.1974025974,4,Unemployment
+2024,first_quarter,MON,101666.66666666666,1,Minting/Money/Gold Standard
+2024,third_quarter,MON,221245.75757575757,3,Minting/Money/Gold Standard
+2023,third_quarter,DOC,445175.5456932773,3,District of Columbia
+2022,first_quarter,REL,92776.78571428572,1,Religion
+2025,fourth_quarter,CSP,20229579.7310859,4,Consumer Issues/Safety/Products
+2024,fourth_quarter,EDU,22116689.544999223,4,Education
+2023,fourth_quarter,DEF,62620114.677752875,4,Defense
+2024,second_quarter,TRD,58029950.8027925,2,Trade (domestic/foreign)
+2022,first_quarter,AGR,19256415.025576208,1,Agriculture
+2022,first_quarter,TAX,116578102.22489089,1,Taxation/Internal Revenue Code
+2025,first_quarter,DEF,72784887.4496074,1,Defense
+2022,fourth_quarter,FIN,45055437.11917924,4,Financial Institutions/Investments/Securities
+2024,third_quarter,TOU,3418703.13734637,3,Travel/Tourism
+2025,fourth_quarter,MMM,67795393.88102815,4,Medicare/Medicaid
+2025,first_quarter,LBR,29861415.23780567,1,Labor Issues/Antitrust/Workplace
+2025,first_quarter,TRA,39997277.16024999,1,Transportation
+2022,second_quarter,ANI,2705830.5009601507,2,Animals
+2022,third_quarter,CSP,17820681.922273207,3,Consumer Issues/Safety/Products
+2022,second_quarter,TRD,73933186.93638141,2,Trade (domestic/foreign)
+2025,second_quarter,INS,15654471.739453234,2,Insurance
+2022,fourth_quarter,GOV,18401762.997134823,4,Government Issues
+2022,fourth_quarter,FAM,1410072.1672964701,4,Family issues/Abortion/Adoption
+2022,fourth_quarter,TAX,111063805.66855486,4,Taxation/Internal Revenue Code
+2023,second_quarter,MMM,60560479.13348432,2,Medicare/Medicaid
+2022,first_quarter,FIN,46158472.45226826,1,Financial Institutions/Investments/Securities
+2023,first_quarter,EDU,21245951.981374204,1,Education
+2025,third_quarter,ENV,32926308.664031878,3,Environment/Superfund
+2023,fourth_quarter,RRR,4445814.58401303,4,Railroads
+2022,third_quarter,HOU,11239515.769101366,3,Housing
+2023,first_quarter,INS,18326432.839517936,1,Insurance
+2025,third_quarter,BUD,116656410.83777493,3,Budget/Appropriations
+2023,first_quarter,ECN,7128266.441713959,1,Economics/Economic Development
+2024,fourth_quarter,INS,16221013.96807283,4,Insurance
+2022,third_quarter,MMM,60378934.93336554,3,Medicare/Medicaid
+2025,second_quarter,ECN,7866749.279677895,2,Economics/Economic Development
+2023,third_quarter,MMM,62686381.718939915,3,Medicare/Medicaid
+2025,fourth_quarter,HOU,15109752.689102037,4,Housing
+2026,first_quarter,NAT,22249130.764961127,1,Natural Resources
+2023,second_quarter,TOR,2160302.8439327483,2,Torts
+2022,first_quarter,FOO,5733619.130461352,1,"Food Industry (safety, labeling, etc.)"
+2025,first_quarter,LAW,11986727.447633043,1,Law Enforcement/Crime/Criminal Justice
+2023,fourth_quarter,LBR,32432518.02136603,4,Labor Issues/Antitrust/Workplace
+2022,second_quarter,FUE,6598927.509813552,2,Fuel/Gas/Oil
+2022,second_quarter,VET,8708836.48822036,2,Veterans
+2024,fourth_quarter,NAT,16862800.748466287,4,Natural Resources
+2025,second_quarter,BAN,27514452.02857974,2,Banking
+2024,second_quarter,SCI,21395677.883770056,2,Science/Technology
+2026,first_quarter,EDU,25351900.58794457,1,Education
+2024,first_quarter,HOM,23100235.693889417,1,Homeland Security
+2024,second_quarter,VET,12309064.960358184,2,Veterans
+2024,third_quarter,HOM,22351803.66767829,3,Homeland Security
+2025,first_quarter,IMM,16789119.444945656,1,Immigration
+2025,first_quarter,COM,14449165.77572313,1,Communications/Broadcasting/Radio/TV
+2023,third_quarter,CSP,18207422.70267511,3,Consumer Issues/Safety/Products
+2024,first_quarter,AER,7264328.192646362,1,Aerospace
+2022,fourth_quarter,TEC,32411834.03587822,4,Telecommunications
+2022,fourth_quarter,AUT,7664613.212208135,4,Automotive Industry
+2025,first_quarter,RES,2994016.257372693,1,Real Estate/Land Use/Conservation
+2022,fourth_quarter,AGR,21416000.48243022,4,Agriculture
+2023,fourth_quarter,ENG,48898837.072502226,4,Energy/Nuclear
+2023,fourth_quarter,TRA,42740315.510689534,4,Transportation
+2023,third_quarter,ROD,1628617.8156607281,3,Roads/Highway
+2025,third_quarter,UTI,4331609.565819015,3,Utilities
+2023,first_quarter,BAN,26884598.782403063,1,Banking
+2025,third_quarter,MED,7132278.5993784,3,Medical/Disease Research/Clinical Labs
+2022,fourth_quarter,IND,5849066.565402843,4,Indian/Native American Affairs
+2025,third_quarter,DIS,5931852.678017631,3,Disaster Planning/Emergencies
+2025,third_quarter,GAM,3027571.4285714286,3,Gaming/Gambling/Casino
+2025,first_quarter,SMB,8650720.908707913,1,Small Business
+2022,first_quarter,TEC,35129204.84686715,1,Telecommunications
+2023,fourth_quarter,RES,2705630.583982684,4,Real Estate/Land Use/Conservation
+2025,third_quarter,WEL,1049105.9855699856,3,Welfare
+2024,second_quarter,ANI,3049132.457764389,2,Animals
+2025,first_quarter,ENG,60977611.025690064,1,Energy/Nuclear
+2022,first_quarter,AVI,14562345.747413302,1,Aviation/Airlines/Airports
+2023,fourth_quarter,IMM,15135341.77806685,4,Immigration
+2022,fourth_quarter,FOO,6373851.256324695,4,"Food Industry (safety, labeling, etc.)"
+2026,first_quarter,ECN,7022372.425278746,1,Economics/Economic Development
+2022,fourth_quarter,AVI,14330039.935686663,4,Aviation/Airlines/Airports
+2023,fourth_quarter,SMB,9419168.73076546,4,Small Business
+2025,fourth_quarter,TOR,2774414.6378308306,4,Torts
+2022,second_quarter,SCI,40547234.30017886,2,Science/Technology
+2023,second_quarter,URB,2907341.522233322,2,Urban Development/Municipalities
+2023,first_quarter,NAT,14530988.962391086,1,Natural Resources
+2023,first_quarter,CHM,5221633.9473067075,1,Chemicals/Chemical Industry
+2025,second_quarter,EDU,27912777.87765434,2,Education
+2024,fourth_quarter,BAN,28815885.421720814,4,Banking
+2024,first_quarter,PHA,17761939.609609466,1,Pharmacy
+2022,first_quarter,IND,5656698.00296195,1,Indian/Native American Affairs
+2025,third_quarter,FIR,4021280.041856183,3,Firearms/Guns/Ammunition
+2023,third_quarter,URB,2934764.152958153,3,Urban Development/Municipalities
+2025,third_quarter,CIV,8275916.431233799,3,Civil Rights/Civil Liberties
+2024,second_quarter,SPO,2278559.560506103,2,Sports/Athletics
+2023,third_quarter,TOR,2093116.0952529798,3,Torts
+2023,fourth_quarter,LAW,10417619.972308356,4,Law Enforcement/Crime/Criminal Justice
+2023,third_quarter,HOU,11046906.495200207,3,Housing
+2026,first_quarter,BAN,30985199.660389584,1,Banking
+2026,first_quarter,INS,16684978.46826243,1,Insurance
+2025,first_quarter,RRR,4798140.300739172,1,Railroads
+2024,third_quarter,POS,2471862.714510127,3,Postal
+2024,second_quarter,FUE,7519353.6375209745,2,Fuel/Gas/Oil
+2023,second_quarter,HOU,11094259.451814502,2,Housing
+2025,second_quarter,NAT,18533577.59741024,2,Natural Resources
+2022,first_quarter,GOV,23223224.37381731,1,Government Issues
+2024,fourth_quarter,CHM,5634849.938467332,4,Chemicals/Chemical Industry
+2024,fourth_quarter,ECN,6552516.312485478,4,Economics/Economic Development
+2025,first_quarter,CAW,8813659.805487007,1,Clean Air and Water (quality)
+2024,second_quarter,MAN,11963605.061981896,2,Manufacturing
+2022,first_quarter,AUT,7874703.731903327,1,Automotive Industry
+2022,fourth_quarter,MIA,2088364.4688644686,4,Media (information/publishing)
+2023,fourth_quarter,CAW,8803927.464826478,4,Clean Air and Water (quality)
+2024,third_quarter,AER,6781648.480809632,3,Aerospace
+2025,fourth_quarter,URB,3345951.2582972585,4,Urban Development/Municipalities
+2022,second_quarter,BNK,1822907.7964519141,2,Bankruptcy
+2025,second_quarter,CHM,5976164.559472412,2,Chemicals/Chemical Industry
+2025,third_quarter,ADV,2573123.0021645026,3,Advertising
+2025,second_quarter,DOC,262369.1919191919,2,District of Columbia
+2025,first_quarter,WAS,1512198.184737485,1,Waste (hazardous/solid/interstate/nuclear)
+2024,first_quarter,TOU,4026712.1576479077,1,Travel/Tourism
+2024,third_quarter,PHA,15454041.702745948,3,Pharmacy
+2022,third_quarter,TOR,2987482.4475534465,3,Torts
+2022,fourth_quarter,TAR,2162891.849119252,4,Tariff (miscellaneous tariff bills)
+2022,first_quarter,BEV,1785375.2654600302,1,Beverage Industry
+2022,third_quarter,ROD,1854157.5844724723,3,Roads/Highway
+2022,third_quarter,URB,2861301.01010101,3,Urban Development/Municipalities
+2022,second_quarter,MAN,11215300.872359667,2,Manufacturing
+2022,second_quarter,CDT,1806314.291101056,2,Commodities (big ticket)
+2025,third_quarter,ART,1353368.0432900432,3,Arts/Entertainment
+2023,second_quarter,CSP,17495791.20694226,2,Consumer Issues/Safety/Products
+2024,third_quarter,INT,3428463.5871289093,3,Intelligence
+2023,first_quarter,DOC,134730.55020469724,1,District of Columbia
+2023,fourth_quarter,COM,15422795.53435474,4,Communications/Broadcasting/Radio/TV
+2023,second_quarter,CON,808884.8307420135,2,Constitution
+2022,first_quarter,TAR,2683290.383293994,1,Tariff (miscellaneous tariff bills)
+2023,second_quarter,ROD,1788228.672296344,2,Roads/Highway
+2024,first_quarter,INT,3646062.6201033075,1,Intelligence
+2026,first_quarter,CHM,6379875.797298705,1,Chemicals/Chemical Industry
+2025,fourth_quarter,CON,5851430.20681331,4,Constitution
+2024,first_quarter,POS,2592854.030027943,1,Postal
+2023,fourth_quarter,WAS,1445915.5714285716,4,Waste (hazardous/solid/interstate/nuclear)
+2022,first_quarter,MIA,1749330.5714285716,1,Media (information/publishing)
+2024,second_quarter,BNK,1516886.6883116884,2,Bankruptcy
+2026,first_quarter,DOC,323504.5703965797,1,District of Columbia
+2022,fourth_quarter,BEV,2605992.2617970267,4,Beverage Industry
+2024,second_quarter,CDT,1306092.8654678653,2,Commodities (big ticket)
+2022,first_quarter,FAM,1470584.7199684645,1,Family issues/Abortion/Adoption
+2023,third_quarter,CON,730984.3725217637,3,Constitution
+2025,fourth_quarter,ROD,1769491.0802386503,4,Roads/Highway
+2024,fourth_quarter,DOC,208265.77485994398,4,District of Columbia
+2025,third_quarter,ALC,1436347.713064713,3,Alcohol and Drug Abuse
+2022,second_quarter,SPO,1555064.3133621933,2,Sports/Athletics
+2022,third_quarter,CON,844891.7658767101,3,Constitution
+2025,third_quarter,UNM,372723.1904761905,3,Unemployment
+2025,third_quarter,REL,96583.33333333334,3,Religion
+2023,second_quarter,SCI,19852601.17756667,2,Science/Technology
+2024,first_quarter,GOV,18438145.003872942,1,Government Issues
+2023,third_quarter,SCI,19401560.064644314,3,Science/Technology
+2024,fourth_quarter,DEF,65574685.17112391,4,Defense
+2024,fourth_quarter,TRA,37504132.23525136,4,Transportation
+2024,fourth_quarter,COM,13325649.126139728,4,Communications/Broadcasting/Radio/TV
+2024,fourth_quarter,IMM,14598261.761188352,4,Immigration
+2024,fourth_quarter,LBR,29951892.006145522,4,Labor Issues/Antitrust/Workplace
+2025,second_quarter,TRA,41499176.44085434,2,Transportation
+2024,second_quarter,MMM,65354565.018381506,2,Medicare/Medicaid
+2025,second_quarter,DEF,78354067.29531166,2,Defense
+2023,first_quarter,LBR,31997677.427710168,1,Labor Issues/Antitrust/Workplace
+2024,third_quarter,TAX,114485932.75004075,3,Taxation/Internal Revenue Code
+2025,second_quarter,RES,3547291.8905067155,2,Real Estate/Land Use/Conservation
+2024,third_quarter,TEC,32368514.591776304,3,Telecommunications
+2026,first_quarter,TRA,42842702.629268125,1,Transportation
+2023,first_quarter,COM,15609308.3977813,1,Communications/Broadcasting/Radio/TV
+2023,first_quarter,TRA,43527629.79932584,1,Transportation
+2022,first_quarter,HOM,22486856.15486289,1,Homeland Security
+2023,first_quarter,DEF,56220329.27630259,1,Defense
+2023,first_quarter,LAW,9744591.462264344,1,Law Enforcement/Crime/Criminal Justice
+2024,third_quarter,IND,7096830.8314390285,3,Indian/Native American Affairs
+2024,first_quarter,TAR,2549805.3078522356,1,Tariff (miscellaneous tariff bills)
+2023,third_quarter,TRD,52585261.19307552,3,Trade (domestic/foreign)
+2026,first_quarter,DEF,89200328.26125082,1,Defense
+2026,first_quarter,ENG,65717780.915950045,1,Energy/Nuclear
+2025,fourth_quarter,TRD,95749388.11175892,4,Trade (domestic/foreign)
+2025,second_quarter,RRR,5001324.4820628045,2,Railroads
+2022,third_quarter,TRD,49653248.22609048,3,Trade (domestic/foreign)
+2025,second_quarter,ENG,62603786.77661261,2,Energy/Nuclear
+2024,third_quarter,BEV,1313645.73992674,3,Beverage Industry
+2022,first_quarter,AER,6019273.014273308,1,Aerospace
+2025,third_quarter,CPI,18011504.96574509,3,Computer Industry
+2025,second_quarter,LBR,29317101.15327326,2,Labor Issues/Antitrust/Workplace
+2023,fourth_quarter,ECN,6865173.220351806,4,Economics/Economic Development
+2024,third_quarter,FIN,52851734.19945547,3,Financial Institutions/Investments/Securities
+2025,second_quarter,CAW,8741566.478109524,2,Clean Air and Water (quality)
+2023,second_quarter,TRD,53983186.753671296,2,Trade (domestic/foreign)
+2024,fourth_quarter,CAW,8457442.762266662,4,Clean Air and Water (quality)
+2023,first_quarter,IMM,15345673.903275793,1,Immigration
+2024,first_quarter,AGR,28586788.487192348,1,Agriculture
+2023,fourth_quarter,NAT,15991732.508585,4,Natural Resources
+2022,first_quarter,PHA,13833203.17534612,1,Pharmacy
+2026,first_quarter,IMM,18857185.447688244,1,Immigration
+2025,fourth_quarter,SCI,30328489.605706174,4,Science/Technology
+2024,third_quarter,AVI,16761891.97221476,3,Aviation/Airlines/Airports
+2025,fourth_quarter,MAN,18515757.62742878,4,Manufacturing
+2024,second_quarter,URB,3244717.4588744584,2,Urban Development/Municipalities
+2022,third_quarter,SCI,19717585.472557127,3,Science/Technology
+2023,first_quarter,ENG,48796415.93277619,1,Energy/Nuclear
+2023,third_quarter,VET,9881278.844383974,3,Veterans
+2023,third_quarter,MAN,11005635.316541826,3,Manufacturing
+2024,first_quarter,FIN,53532178.18912347,1,Financial Institutions/Investments/Securities
+2025,first_quarter,INS,17251572.8849903,1,Insurance
+2022,second_quarter,MMM,56178493.56070343,2,Medicare/Medicaid
+2025,third_quarter,HCR,123586082.32110919,3,Health Issues
+2024,fourth_quarter,RES,2486356.7142210733,4,Real Estate/Land Use/Conservation
+2024,first_quarter,TAX,120833838.47766921,1,Taxation/Internal Revenue Code
+2022,second_quarter,CON,985768.9703715617,2,Constitution
+2025,fourth_quarter,FUE,6868559.966757099,4,Fuel/Gas/Oil
+2024,first_quarter,TEC,34608478.10094026,1,Telecommunications
+2026,first_quarter,SMB,9724079.453674238,1,Small Business
+2023,fourth_quarter,EDU,22092568.12939864,4,Education
+2024,second_quarter,CSP,20671900.022836354,2,Consumer Issues/Safety/Products
+2025,second_quarter,LAW,10999419.387370946,2,Law Enforcement/Crime/Criminal Justice
+2025,third_quarter,CPT,26109438.878038757,3,Copyright/Patent/Trademark
+2025,fourth_quarter,VET,14326582.401954092,4,Veterans
+2025,third_quarter,TRU,2754568.071345322,3,Trucking/Shipping
+2025,first_quarter,NAT,18551847.860341504,1,Natural Resources
+2025,first_quarter,DOC,162779.50588235294,1,District of Columbia
+2024,third_quarter,TAR,2029346.502634646,3,Tariff (miscellaneous tariff bills)
+2025,first_quarter,BAN,27671510.744850434,1,Banking
+2025,first_quarter,EDU,24551600.646956775,1,Education
+2026,first_quarter,LBR,30332198.77779293,1,Labor Issues/Antitrust/Workplace
+2022,third_quarter,VET,9159954.125460092,3,Veterans
+2023,second_quarter,VET,10890401.336852625,2,Veterans
+2023,second_quarter,MAN,10644728.908567697,2,Manufacturing
+2023,fourth_quarter,BAN,28379142.715332367,4,Banking
+2024,fourth_quarter,ENG,51665307.325668685,4,Energy/Nuclear
+2026,first_quarter,LAW,11971377.832211386,1,Law Enforcement/Crime/Criminal Justice
+2026,first_quarter,COM,16419888.282013135,1,Communications/Broadcasting/Radio/TV
+2024,fourth_quarter,LAW,10876988.747469248,4,Law Enforcement/Crime/Criminal Justice
+2024,first_quarter,IND,6713454.744412279,1,Indian/Native American Affairs
+2022,third_quarter,SPO,1579009.176077256,3,Sports/Athletics
+2024,fourth_quarter,SMB,8746215.671324255,4,Small Business
+2024,third_quarter,AGR,28113939.12010066,3,Agriculture
+2024,first_quarter,FOO,6919008.686534786,1,"Food Industry (safety, labeling, etc.)"
+2024,third_quarter,FOO,6669197.463860324,3,"Food Industry (safety, labeling, etc.)"
+2025,third_quarter,FOR,15412895.580797747,3,Foreign Relations
+2025,third_quarter,RET,9057284.445971297,3,Retirement
+2025,first_quarter,ECN,6513215.191879135,1,Economics/Economic Development
+2023,fourth_quarter,INS,15488318.839202244,4,Insurance
+2022,fourth_quarter,POS,2707935.8827333357,4,Postal
+2024,first_quarter,AVI,18447659.83074002,1,Aviation/Airlines/Airports
+2022,second_quarter,CSP,16504665.56404424,2,Consumer Issues/Safety/Products
+2022,second_quarter,HOU,9856956.874754269,2,Housing
+2025,second_quarter,COM,12686139.705856642,2,Communications/Broadcasting/Radio/TV
+2026,first_quarter,CAW,8444668.25028487,1,Clean Air and Water (quality)
+2023,third_quarter,ANI,2895418.9315537405,3,Animals
+2025,second_quarter,WAS,1354308.6819379448,2,Waste (hazardous/solid/interstate/nuclear)
+2023,first_quarter,SMB,9469067.383659404,1,Small Business
+2022,second_quarter,URB,2718527.200577201,2,Urban Development/Municipalities
+2023,first_quarter,CAW,8921596.947337793,1,Clean Air and Water (quality)
+2025,third_quarter,TOB,6405632.502941502,3,Tobacco
+2022,first_quarter,TOU,4322883.097923582,1,Travel/Tourism
+2025,third_quarter,MAR,8370015.828696887,3,Marine/Maritime/Boating/Fisheries
+2024,third_quarter,GOV,15644019.749099474,3,Government Issues
+2023,second_quarter,FUE,7897912.87795403,2,Fuel/Gas/Oil
+2022,fourth_quarter,HOM,19775302.585928876,4,Homeland Security
+2024,first_quarter,BEV,1499543.2820512822,1,Beverage Industry
+2025,first_quarter,CHM,6393641.2776559405,1,Chemicals/Chemical Industry
+2025,second_quarter,SMB,8815022.042827157,2,Small Business
+2025,fourth_quarter,SPO,4255753.182284382,4,Sports/Athletics
+2023,third_quarter,FUE,6617303.961135665,3,Fuel/Gas/Oil
+2022,fourth_quarter,PHA,11994995.726659788,4,Pharmacy
+2023,fourth_quarter,CHM,5777012.720567014,4,Chemicals/Chemical Industry
+2022,third_quarter,ANI,2641265.0364246867,3,Animals
+2022,first_quarter,POS,6744917.069362115,1,Postal
+2026,first_quarter,RRR,4350747.820904242,1,Railroads
+2025,second_quarter,IMM,17978487.234102216,2,Immigration
+2022,third_quarter,MAN,10320187.414224664,3,Manufacturing
+2023,first_quarter,RES,2607628.2812827695,1,Real Estate/Land Use/Conservation
+2022,third_quarter,FUE,6040567.918947032,3,Fuel/Gas/Oil
+2022,second_quarter,TOR,2763109.344301205,2,Torts
+2024,fourth_quarter,WAS,1286357.0188034188,4,Waste (hazardous/solid/interstate/nuclear)
+2024,second_quarter,HOU,12155090.401362631,2,Housing
+2023,third_quarter,BNK,1667849.99640882,3,Bankruptcy
+2023,first_quarter,RRR,5068047.80806885,1,Railroads
+2025,fourth_quarter,ANI,3217396.156920041,4,Animals
+2022,second_quarter,ROD,1866033.486113886,2,Roads/Highway
+2022,first_quarter,INT,4836779.624727801,1,Intelligence
+2024,first_quarter,FAM,1283577.6503892427,1,Family issues/Abortion/Adoption
+2024,first_quarter,AUT,10066854.773539327,1,Automotive Industry
+2023,second_quarter,ANI,2719396.9622451076,2,Animals
+2024,fourth_quarter,RRR,4243673.131301679,4,Railroads
+2026,first_quarter,RES,3368688.2641721023,1,Real Estate/Land Use/Conservation
+2022,fourth_quarter,AER,6602017.569135179,4,Aerospace
+2024,second_quarter,TOR,2749420.310713517,2,Torts
+2024,third_quarter,AUT,8178768.910146961,3,Automotive Industry
+2024,second_quarter,CON,1024655.6282533256,2,Constitution
+2023,second_quarter,CDT,1656801.0878010876,2,Commodities (big ticket)
+2024,second_quarter,ROD,1716442.6969322346,2,Roads/Highway
+2023,third_quarter,SPO,2161554.634983089,3,Sports/Athletics
+2023,second_quarter,SPO,2131854.200122655,2,Sports/Athletics
+2022,fourth_quarter,INT,3746912.2584541067,4,Intelligence
+2022,third_quarter,CDT,1627006.327006327,3,Commodities (big ticket)
+2024,first_quarter,MIA,2126528.67965368,1,Media (information/publishing)
+2024,third_quarter,MIA,2197359.432234432,3,Media (information/publishing)
+2026,first_quarter,WAS,1418097.9532163744,1,Waste (hazardous/solid/interstate/nuclear)
+2022,fourth_quarter,TOU,3524813.046897547,4,Travel/Tourism
+2025,fourth_quarter,CDT,1984546.3702963705,4,Commodities (big ticket)
+2025,third_quarter,MON,456972.81639928697,3,Minting/Money/Gold Standard
+2025,third_quarter,ACC,7595262.859689331,3,Accounting
+2022,third_quarter,BNK,2284760.079423619,3,Bankruptcy
+2025,fourth_quarter,BNK,669314.1711229947,4,Bankruptcy
+2024,third_quarter,FAM,1356529.2051984067,3,Family issues/Abortion/Adoption
+2023,first_quarter,WAS,1360306.1984126985,1,Waste (hazardous/solid/interstate/nuclear)
+2023,third_quarter,CDT,1520809.4572094574,3,Commodities (big ticket)
+2023,fourth_quarter,DOC,410733.02246732026,4,District of Columbia
+2025,third_quarter,APP,285686.40692640695,3,Apparel/Clothing Industry/Textiles
+2023,second_quarter,BNK,1873787.509875745,2,Bankruptcy
+2023,third_quarter,BUD,92732902.38600938,3,Budget/Appropriations
+2024,fourth_quarter,TEC,32239117.230004508,4,Telecommunications
+2022,third_quarter,BUD,88433064.38062361,3,Budget/Appropriations
+2024,fourth_quarter,FAM,1316828.7306797882,4,Family issues/Abortion/Adoption
+2024,fourth_quarter,TAX,121575077.38304728,4,Taxation/Internal Revenue Code
+2026,first_quarter,GOV,23953046.499312483,1,Government Issues
+2025,second_quarter,TAX,160959417.06030527,2,Taxation/Internal Revenue Code
+2024,second_quarter,HCR,111862626.94923753,2,Health Issues
+2023,third_quarter,CIV,5884713.130913882,3,Civil Rights/Civil Liberties
+2023,third_quarter,FIR,3930363.636666667,3,Firearms/Guns/Ammunition
+2023,first_quarter,TAX,116135310.66938211,1,Taxation/Internal Revenue Code
+2022,first_quarter,EDU,21797270.522524517,1,Education
+2024,first_quarter,DEF,65574433.09974302,1,Defense
+2026,first_quarter,AGR,29566813.594675407,1,Agriculture
+2023,second_quarter,BUD,96510250.53154856,2,Budget/Appropriations
+2022,second_quarter,HCR,113861078.1820715,2,Health Issues
+2026,first_quarter,TAX,126567601.95955819,1,Taxation/Internal Revenue Code
+2023,second_quarter,CIV,6215982.304705094,2,Civil Rights/Civil Liberties
+2022,fourth_quarter,EDU,20082899.204788804,4,Education
+2023,first_quarter,TEC,34863306.7452787,1,Telecommunications
+2024,first_quarter,SMB,10049717.120007746,1,Small Business
+2024,first_quarter,CAW,8816270.205411457,1,Clean Air and Water (quality)
+2024,third_quarter,DEF,64020369.749016635,3,Defense
+2022,first_quarter,INS,17138835.91484307,1,Insurance
+2024,fourth_quarter,FIN,53872674.54308271,4,Financial Institutions/Investments/Securities
+2023,first_quarter,AVI,16915205.907931287,1,Aviation/Airlines/Airports
+2024,third_quarter,TRA,37209930.74218278,3,Transportation
+2024,third_quarter,CAW,8258895.855666696,3,Clean Air and Water (quality)
+2026,first_quarter,FIN,66584468.74324693,1,Financial Institutions/Investments/Securities
+2024,fourth_quarter,FOO,7215453.661451734,4,"Food Industry (safety, labeling, etc.)"
+2024,fourth_quarter,AGR,27599900.895992517,4,Agriculture
+2022,first_quarter,NAT,14976610.002492746,1,Natural Resources
+2024,first_quarter,TRA,41890949.937927075,1,Transportation
+2023,third_quarter,MED,5125747.547271911,3,Medical/Disease Research/Clinical Labs
+2025,fourth_quarter,BUD,112995078.49210769,4,Budget/Appropriations
+2023,third_quarter,ENV,29853361.88024768,3,Environment/Superfund
+2026,first_quarter,AVI,17425906.557326235,1,Aviation/Airlines/Airports
+2025,second_quarter,FIN,61852876.74460266,2,Financial Institutions/Investments/Securities
+2022,fourth_quarter,BAN,24859228.565794084,4,Banking
+2023,first_quarter,GOV,16738429.043851051,1,Government Issues
+2024,second_quarter,CPT,23224217.115419626,2,Copyright/Patent/Trademark
+2024,second_quarter,RET,9579756.819117175,2,Retirement
+2025,second_quarter,AGR,31121281.857534204,2,Agriculture
+2024,fourth_quarter,IND,7374591.42313622,4,Indian/Native American Affairs
+2025,second_quarter,GOV,21333195.98301264,2,Government Issues
+2022,first_quarter,BAN,24509196.841828004,1,Banking
+2024,third_quarter,ENG,46876916.5976257,3,Energy/Nuclear
+2025,first_quarter,INT,3575088.1324675325,1,Intelligence
+2025,fourth_quarter,MED,6781158.84777918,4,Medical/Disease Research/Clinical Labs
+2025,first_quarter,PHA,17536368.04083694,1,Pharmacy
+2022,second_quarter,CPT,25982989.133001186,2,Copyright/Patent/Trademark
+2025,third_quarter,CSP,18169680.909527805,3,Consumer Issues/Safety/Products
+2024,first_quarter,COM,16242079.44838299,1,Communications/Broadcasting/Radio/TV
+2023,fourth_quarter,AER,7767698.243660408,4,Aerospace
+2025,third_quarter,MMM,66243304.801502965,3,Medicare/Medicaid
+2024,first_quarter,LBR,32090682.30226032,1,Labor Issues/Antitrust/Workplace
+2024,first_quarter,IMM,16268197.150947278,1,Immigration
+2023,first_quarter,FIN,49955665.54592338,1,Financial Institutions/Investments/Securities
+2025,fourth_quarter,ENV,35548874.44734803,4,Environment/Superfund
+2026,first_quarter,TEC,35049927.80799748,1,Telecommunications
+2023,first_quarter,AUT,8803509.942093201,1,Automotive Industry
+2023,first_quarter,IND,5882142.944318373,1,Indian/Native American Affairs
+2025,second_quarter,TAR,12423530.20572209,2,Tariff (miscellaneous tariff bills)
+2022,second_quarter,MAR,7344706.227259995,2,Marine/Maritime/Boating/Fisheries
+2022,fourth_quarter,ECN,7032775.196504713,4,Economics/Economic Development
+2025,second_quarter,TEC,33277668.41617146,2,Telecommunications
+2023,third_quarter,DIS,3874354.0923107974,3,Disaster Planning/Emergencies
+2023,first_quarter,AGR,26733934.33982955,1,Agriculture
+2025,third_quarter,TOR,2265349.103849367,3,Torts
+2025,first_quarter,HOM,22327234.300476085,1,Homeland Security
+2024,third_quarter,LBR,30591812.6960632,3,Labor Issues/Antitrust/Workplace
+2024,third_quarter,SMB,8099037.947333184,3,Small Business
+2025,first_quarter,AER,8042026.056447569,1,Aerospace
+2022,fourth_quarter,NAT,13752623.294177467,4,Natural Resources
+2026,first_quarter,IND,8387213.738588313,1,Indian/Native American Affairs
+2023,fourth_quarter,HOM,21108428.879555687,4,Homeland Security
+2023,second_quarter,ENV,30548220.065439064,2,Environment/Superfund
+2024,second_quarter,MAR,7826378.148552187,2,Marine/Maritime/Boating/Fisheries
+2024,fourth_quarter,GOV,16023663.620561538,4,Government Issues
+2023,first_quarter,BEV,1227654.2307692308,1,Beverage Industry
+2022,third_quarter,GAM,2016647.7106227106,3,Gaming/Gambling/Casino
+2025,third_quarter,HOU,13198220.706013476,3,Housing
+2023,third_quarter,WEL,746749.8368780977,3,Welfare
+2026,first_quarter,MIA,2578216.5700000003,1,Media (information/publishing)
+2024,third_quarter,IMM,13485739.103248585,3,Immigration
+2025,second_quarter,AUT,10770317.238991547,2,Automotive Industry
+2022,second_quarter,FOR,11481786.259079503,2,Foreign Relations
+2024,first_quarter,ENG,51171587.72061971,1,Energy/Nuclear
+2022,first_quarter,ECN,7656423.655892792,1,Economics/Economic Development
+2023,first_quarter,FOO,6538315.633972002,1,"Food Industry (safety, labeling, etc.)"
+2024,third_quarter,LAW,9594320.675429167,3,Law Enforcement/Crime/Criminal Justice
+2025,third_quarter,CON,5831509.285650574,3,Constitution
+2024,second_quarter,TOB,5526366.064935064,2,Tobacco
+2025,second_quarter,IND,9664396.709668111,2,Indian/Native American Affairs
+2025,second_quarter,AVI,18108559.963960048,2,Aviation/Airlines/Airports
+2022,second_quarter,RET,10568786.372370278,2,Retirement
+2022,second_quarter,CPI,34930483.70777445,2,Computer Industry
+2024,first_quarter,RES,2688115.0161616164,1,Real Estate/Land Use/Conservation
+2024,fourth_quarter,AVI,15978916.620192837,4,Aviation/Airlines/Airports
+2023,second_quarter,MED,5528603.271656122,2,Medical/Disease Research/Clinical Labs
+2022,third_quarter,ENV,30763418.03357511,3,Environment/Superfund
+2022,third_quarter,WEL,632609.5539316328,3,Welfare
+2026,first_quarter,TAR,12693040.671869583,1,Tariff (miscellaneous tariff bills)
+2024,second_quarter,CPI,15139570.008996729,2,Computer Industry
+2025,third_quarter,URB,3330533.13997114,3,Urban Development/Municipalities
+2022,fourth_quarter,CHM,5579524.271315907,4,Chemicals/Chemical Industry
+2025,fourth_quarter,GAM,3082238.0952380956,4,Gaming/Gambling/Casino
+2023,third_quarter,ALC,1305319.2281085583,3,Alcohol and Drug Abuse
+2023,fourth_quarter,PHA,16284790.766813742,4,Pharmacy
+2025,fourth_quarter,DIS,6066629.241085261,4,Disaster Planning/Emergencies
+2023,third_quarter,UTI,3530197.2790268557,3,Utilities
+2022,third_quarter,MED,6321657.235651282,3,Medical/Disease Research/Clinical Labs
+2026,first_quarter,AUT,12533371.982739482,1,Automotive Industry
+2024,fourth_quarter,AUT,9040122.782316187,4,Automotive Industry
+2024,third_quarter,RRR,4026008.329916081,3,Railroads
+2024,first_quarter,LAW,11107151.83307548,1,Law Enforcement/Crime/Criminal Justice
+2025,second_quarter,FOO,8899811.038015867,2,"Food Industry (safety, labeling, etc.)"
+2022,first_quarter,CHM,5000609.11208739,1,Chemicals/Chemical Industry
+2023,second_quarter,DIS,4733433.950230128,2,Disaster Planning/Emergencies
+2025,first_quarter,POS,3068438.8892496387,1,Postal
+2022,second_quarter,ACC,2261702.3479225026,2,Accounting
+2025,first_quarter,TOU,3414823.9554764233,1,Travel/Tourism
+2025,third_quarter,ROD,2034789.466672217,3,Roads/Highway
+2023,second_quarter,GAM,2126084.0952380956,2,Gaming/Gambling/Casino
+2023,third_quarter,ART,1402804.9165409754,3,Arts/Entertainment
+2026,first_quarter,FOO,9627967.242273746,1,"Food Industry (safety, labeling, etc.)"
+2025,fourth_quarter,UTI,4545366.895642627,4,Utilities
+2024,third_quarter,RES,2514400.5827910653,3,Real Estate/Land Use/Conservation
+2024,fourth_quarter,MIA,2121386.904761905,4,Media (information/publishing)
+2024,second_quarter,FOR,13063363.87782396,2,Foreign Relations
+2024,third_quarter,COM,14277801.883482123,3,Communications/Broadcasting/Radio/TV
+2025,fourth_quarter,ART,1336788.8293024753,4,Arts/Entertainment
+2022,third_quarter,ADV,1024177.6955691368,3,Advertising
+2022,third_quarter,UTI,3652808.9737974443,3,Utilities
+2023,first_quarter,FAM,1175191.9540011073,1,Family issues/Abortion/Adoption
+2023,second_quarter,WEL,656510.697747663,2,Welfare
+2024,first_quarter,RRR,4422167.465894193,1,Railroads
+2025,fourth_quarter,ALC,1722891.423076923,4,Alcohol and Drug Abuse
+2023,second_quarter,UTI,4973754.51093971,2,Utilities
+2022,third_quarter,CIV,10172127.816306083,3,Civil Rights/Civil Liberties
+2022,third_quarter,FIR,4148391.0814540363,3,Firearms/Guns/Ammunition
+2023,fourth_quarter,INT,3360390.4633799107,4,Intelligence
+2022,third_quarter,DIS,7674306.840071142,3,Disaster Planning/Emergencies
+2023,first_quarter,TAR,2213450.2563372618,1,Tariff (miscellaneous tariff bills)
+2025,second_quarter,BEV,1752571.6190476192,2,Beverage Industry
+2023,second_quarter,FIR,4429947.2743791295,2,Firearms/Guns/Ammunition
+2022,second_quarter,TOB,5201586.82170444,2,Tobacco
+2023,third_quarter,UNM,241795.38372738374,3,Unemployment
+2024,fourth_quarter,BEV,1795736.1794871797,4,Beverage Industry
+2024,fourth_quarter,TAR,2715925.833224981,4,Tariff (miscellaneous tariff bills)
+2023,second_quarter,ALC,1522730.9703663005,2,Alcohol and Drug Abuse
+2026,first_quarter,BEV,1984690.476190476,1,Beverage Industry
+2026,first_quarter,FAM,986514.2382896515,1,Family issues/Abortion/Adoption
+2022,fourth_quarter,INS,15739241.409206608,4,Insurance
+2025,fourth_quarter,WEL,727127.4155844157,4,Welfare
+2025,fourth_quarter,CIV,10769382.361465786,4,Civil Rights/Civil Liberties
+2025,fourth_quarter,FIR,4007893.6590533652,4,Firearms/Guns/Ammunition
+2023,second_quarter,ART,1938133.7175872372,2,Arts/Entertainment
+2022,second_quarter,MON,192039.59999999998,2,Minting/Money/Gold Standard
+2023,fourth_quarter,POS,2422207.4851477025,4,Postal
+2022,second_quarter,TRU,2125495.358699601,2,Trucking/Shipping
+2022,third_quarter,ART,1326672.8754578754,3,Arts/Entertainment
+2023,second_quarter,ADV,2169044.1930618403,2,Advertising
+2024,second_quarter,TRU,2466941.076862027,2,Trucking/Shipping
+2023,third_quarter,GAM,2235598.095238095,3,Gaming/Gambling/Casino
+2023,second_quarter,UNM,413385.4517120306,2,Unemployment
+2025,fourth_quarter,ADV,2417329.85513025,4,Advertising
+2025,second_quarter,MIA,2640680.186147186,2,Media (information/publishing)
+2022,third_quarter,ALC,1513615.317118834,3,Alcohol and Drug Abuse
+2025,second_quarter,FAM,1408153.6978815629,2,Family issues/Abortion/Adoption
+2023,third_quarter,ADV,2233612.127578304,3,Advertising
+2024,second_quarter,ACC,2282028.4238816737,2,Accounting
+2022,second_quarter,APP,581804.3952380952,2,Apparel/Clothing Industry/Textiles
+2023,first_quarter,MIA,2496476.1904761903,1,Media (information/publishing)
+2022,first_quarter,DOC,151889.1900946276,1,District of Columbia
+2024,third_quarter,WAS,1053593.3713257501,3,Waste (hazardous/solid/interstate/nuclear)
+2023,fourth_quarter,TOU,3758234.1956430664,4,Travel/Tourism
+2024,first_quarter,WAS,1413714.678778468,1,Waste (hazardous/solid/interstate/nuclear)
+2022,third_quarter,UNM,2330463.6095238095,3,Unemployment
+2024,second_quarter,APP,989890.006926407,2,Apparel/Clothing Industry/Textiles
+2022,fourth_quarter,DOC,160554.74358974356,4,District of Columbia
+2023,third_quarter,REL,126439.39393939395,3,Religion
+2025,fourth_quarter,UNM,117888.7619047619,4,Unemployment
+2024,second_quarter,MON,200000.0,2,Minting/Money/Gold Standard
+2023,second_quarter,REL,120123.5294117647,2,Religion
+2022,third_quarter,REL,133595.2380952381,3,Religion
+2025,fourth_quarter,REL,267083.3333333333,4,Religion
+2023,first_quarter,HCR,116131917.40208004,1,Health Issues
+2023,second_quarter,AER,6461536.369996081,2,Aerospace
+2024,fourth_quarter,HCR,109544886.57034442,4,Health Issues
+2023,fourth_quarter,BUD,96084188.07219954,4,Budget/Appropriations
+2024,second_quarter,TAX,111082461.25614783,2,Taxation/Internal Revenue Code
+2022,first_quarter,SCI,19069441.122597385,1,Science/Technology
+2025,third_quarter,TRA,39194573.881890096,3,Transportation
+2024,second_quarter,FAM,1550044.9998499053,2,Family issues/Abortion/Adoption
+2026,first_quarter,TRU,2549309.9556277054,1,Trucking/Shipping
+2022,first_quarter,TRD,56074094.75398333,1,Trade (domestic/foreign)
+2022,second_quarter,TEC,33750029.03055637,2,Telecommunications
+2026,first_quarter,HCR,129162245.12505518,1,Health Issues
+2024,second_quarter,AGR,28438655.980102073,2,Agriculture
+2025,second_quarter,HCR,128097875.59864582,2,Health Issues
+2022,fourth_quarter,VET,9630637.827852068,4,Veterans
+2022,fourth_quarter,SCI,18617839.286419675,4,Science/Technology
+2026,first_quarter,MAR,8677615.217687868,1,Marine/Maritime/Boating/Fisheries
+2025,first_quarter,BUD,122323602.63886753,1,Budget/Appropriations
+2022,fourth_quarter,TRD,49829683.952099144,4,Trade (domestic/foreign)
+2025,third_quarter,CAW,8234740.609008208,3,Clean Air and Water (quality)
+2023,first_quarter,RET,9843569.579366712,1,Retirement
+2023,first_quarter,FOR,12818936.229704605,1,Foreign Relations
+2025,third_quarter,DEF,81158850.688141,3,Defense
+2025,second_quarter,MAR,8265600.101069623,2,Marine/Maritime/Boating/Fisheries
+2024,third_quarter,HOU,13542471.251100406,3,Housing
+2024,first_quarter,MMM,70295838.96210031,1,Medicare/Medicaid
+2025,second_quarter,FOR,15245737.020450493,2,Foreign Relations
+2023,fourth_quarter,ENV,33265083.295324154,4,Environment/Superfund
+2025,fourth_quarter,AER,8278777.367432758,4,Aerospace
+2022,third_quarter,AER,5797469.494332204,3,Aerospace
+2024,second_quarter,FIN,50064243.75132725,2,Financial Institutions/Investments/Securities
+2025,third_quarter,ENG,60765947.18956883,3,Energy/Nuclear
+2022,first_quarter,MAN,10627525.866203241,1,Manufacturing
+2025,first_quarter,GAM,2688821.428571429,1,Gaming/Gambling/Casino
+2023,fourth_quarter,CIV,6717788.548349006,4,Civil Rights/Civil Liberties
+2022,fourth_quarter,ANI,2663822.120895771,4,Animals
+2024,second_quarter,GOV,17035511.801779047,2,Government Issues
+2022,second_quarter,TAX,134024881.88422152,2,Taxation/Internal Revenue Code
+2022,fourth_quarter,FUE,5863947.456183436,4,Fuel/Gas/Oil
+2024,fourth_quarter,CPI,14395662.399159012,4,Computer Industry
+2024,third_quarter,CSP,21448973.813119013,3,Consumer Issues/Safety/Products
+2025,first_quarter,DIS,5923994.6508615,1,Disaster Planning/Emergencies
+2026,first_quarter,TOB,6760750.138750139,1,Tobacco
+2025,third_quarter,IMM,17557820.876842793,3,Immigration
+2024,second_quarter,FOO,6532403.043897116,2,"Food Industry (safety, labeling, etc.)"
+2024,second_quarter,TEC,33680884.46044629,2,Telecommunications
+2026,first_quarter,CPI,18969536.848902635,1,Computer Industry
+2025,fourth_quarter,INT,5369734.040472685,4,Intelligence
+2024,third_quarter,MMM,60921845.83103735,3,Medicare/Medicaid
+2023,third_quarter,HOM,19417467.8012534,3,Homeland Security
+2024,first_quarter,CSP,20058085.599712215,1,Consumer Issues/Safety/Products
+2023,first_quarter,CPT,25099120.169394907,1,Copyright/Patent/Trademark
+2025,first_quarter,MED,5130270.519623371,1,Medical/Disease Research/Clinical Labs
+2022,second_quarter,GOV,20797136.07713896,2,Government Issues
+2025,second_quarter,CPI,16595953.044456802,2,Computer Industry
+2025,third_quarter,COM,12761681.384504383,3,Communications/Broadcasting/Radio/TV
+2025,third_quarter,LBR,28084325.281745747,3,Labor Issues/Antitrust/Workplace
+2023,first_quarter,TOB,5871912.713675214,1,Tobacco
+2023,fourth_quarter,MED,5368439.429307827,4,Medical/Disease Research/Clinical Labs
+2025,first_quarter,CIV,6929032.33982198,1,Civil Rights/Civil Liberties
+2024,second_quarter,AVI,17675728.256979827,2,Aviation/Airlines/Airports
+2024,fourth_quarter,CPT,24377202.42350519,4,Copyright/Patent/Trademark
+2025,fourth_quarter,PHA,17093464.531448945,4,Pharmacy
+2025,fourth_quarter,HOM,23497439.663971636,4,Homeland Security
+2023,third_quarter,PHA,15787691.94997225,3,Pharmacy
+2022,second_quarter,AGR,20615025.980648335,2,Agriculture
+2024,first_quarter,HOU,12703977.373971498,1,Housing
+2025,first_quarter,WEL,768650.8008658008,1,Welfare
+2025,first_quarter,FIR,3856583.8737445893,1,Firearms/Guns/Ammunition
+2026,first_quarter,CPT,30898168.158938132,1,Copyright/Patent/Trademark
+2025,fourth_quarter,TOU,3334140.2877142853,4,Travel/Tourism
+2023,fourth_quarter,DIS,3978912.4100176087,4,Disaster Planning/Emergencies
+2023,first_quarter,APP,526506.9507936508,1,Apparel/Clothing Industry/Textiles
+2024,fourth_quarter,FOR,12410216.886006884,4,Foreign Relations
+2022,first_quarter,VET,7938177.092673709,1,Veterans
+2023,fourth_quarter,REL,173109.52380952382,4,Religion
+2022,second_quarter,AVI,13298554.641585482,2,Aviation/Airlines/Airports
+2025,second_quarter,RET,11468901.103567807,2,Retirement
+2022,second_quarter,FIN,43687064.57521989,2,Financial Institutions/Investments/Securities
+2022,fourth_quarter,SPO,1635504.7651606873,4,Sports/Athletics
+2024,third_quarter,URB,3243634.6220944514,3,Urban Development/Municipalities
+2025,third_quarter,LAW,11600557.517656134,3,Law Enforcement/Crime/Criminal Justice
+2025,first_quarter,ENV,34992973.690410815,1,Environment/Superfund
+2025,second_quarter,APP,487386.1099567099,2,Apparel/Clothing Industry/Textiles
+2022,third_quarter,HOM,20056274.55436424,3,Homeland Security
+2022,first_quarter,ANI,2299371.61192046,1,Animals
+2024,fourth_quarter,MAR,7492585.729617853,4,Marine/Maritime/Boating/Fisheries
+2023,first_quarter,MAR,7898223.802234992,1,Marine/Maritime/Boating/Fisheries
+2024,first_quarter,URB,3110610.6738816737,1,Urban Development/Municipalities
+2025,first_quarter,ADV,2774495.26040626,1,Advertising
+2025,second_quarter,CPT,25418201.874690615,2,Copyright/Patent/Trademark
+2024,first_quarter,TOR,2273641.558636174,1,Torts
+2025,second_quarter,TOB,6969055.7161022555,2,Tobacco
+2022,third_quarter,INT,3758034.8015987314,3,Intelligence
+2022,fourth_quarter,MAN,10358770.36233701,4,Manufacturing
+2025,third_quarter,RRR,4516450.328287736,3,Railroads
+2024,second_quarter,TAR,2253198.605971076,2,Tariff (miscellaneous tariff bills)
+2026,first_quarter,FOR,18463765.862433173,1,Foreign Relations
+2022,second_quarter,IND,5591786.405013232,2,Indian/Native American Affairs
+2024,second_quarter,IND,6835398.595376845,2,Indian/Native American Affairs
+2025,third_quarter,SMB,8805645.903439907,3,Small Business
+2025,second_quarter,ACC,2905353.4953102455,2,Accounting
+2025,first_quarter,ART,1358367.0772560772,1,Arts/Entertainment
+2022,fourth_quarter,BNK,2024572.4206349205,4,Bankruptcy
+2023,fourth_quarter,UTI,3771893.7643421935,4,Utilities
+2024,third_quarter,ROD,1722869.3949814076,3,Roads/Highway
+2025,second_quarter,MON,259348.48484848486,2,Minting/Money/Gold Standard
+2023,second_quarter,HOM,20319549.9938085,2,Homeland Security
+2022,fourth_quarter,CDT,1632558.1722199367,4,Commodities (big ticket)
+2025,third_quarter,RES,3826412.0406090645,3,Real Estate/Land Use/Conservation
+2025,second_quarter,TRU,2637920.391247641,2,Trucking/Shipping
+2026,first_quarter,ACC,2266277.31092437,1,Accounting
+2023,first_quarter,CPI,15297056.15737516,1,Computer Industry
+2023,third_quarter,AER,6567529.042294373,3,Aerospace
+2023,third_quarter,TOU,3377449.647504456,3,Travel/Tourism
+2022,second_quarter,FAM,1569455.4062079526,2,Family issues/Abortion/Adoption
+2023,third_quarter,INT,3663469.6771505703,3,Intelligence
+2024,second_quarter,AUT,9664960.217434611,2,Automotive Industry
+2023,fourth_quarter,ART,1360969.9389499389,4,Arts/Entertainment
+2025,fourth_quarter,POS,2756617.3150679735,4,Postal
+2023,fourth_quarter,GAM,2185546.6666666665,4,Gaming/Gambling/Casino
+2024,fourth_quarter,TOB,5629387.366522366,4,Tobacco
+2024,second_quarter,MIA,2145851.1904761903,2,Media (information/publishing)
+2023,third_quarter,POS,2515038.7764940374,3,Postal
+2025,first_quarter,UNM,493424.7303174604,1,Unemployment
+2022,second_quarter,FOO,6180843.580029938,2,"Food Industry (safety, labeling, etc.)"
+2023,second_quarter,PHA,14069372.026177416,2,Pharmacy
+2022,third_quarter,PHA,12785404.08753077,3,Pharmacy
+2022,third_quarter,TOU,3786686.5063365754,3,Travel/Tourism
+2024,fourth_quarter,MON,135666.66666666666,4,Minting/Money/Gold Standard
+2022,second_quarter,TAR,2365582.57118529,2,Tariff (miscellaneous tariff bills)
+2025,first_quarter,ALC,1593033.344720497,1,Alcohol and Drug Abuse
+2024,third_quarter,TOR,1938056.2822022454,3,Torts
+2024,first_quarter,ROD,1686551.2521076147,1,Roads/Highway
+2022,first_quarter,FUE,6832430.880653152,1,Fuel/Gas/Oil
+2025,first_quarter,UTI,4055698.3445165944,1,Utilities
+2024,fourth_quarter,RET,10789099.679800548,4,Retirement
+2023,second_quarter,POS,3014575.437075002,2,Postal
+2026,first_quarter,RET,11038816.376696145,1,Retirement
+2024,fourth_quarter,APP,941971.0815295816,4,Apparel/Clothing Industry/Textiles
+2022,second_quarter,BEV,1784093.3167420817,2,Beverage Industry
+2023,fourth_quarter,ALC,1525048.1263736263,4,Alcohol and Drug Abuse
+2022,second_quarter,AUT,7488930.797905933,2,Automotive Industry
+2022,first_quarter,SPO,1749996.6527459468,1,Sports/Athletics
+2023,second_quarter,TOU,3410127.1993700746,2,Travel/Tourism
+2024,second_quarter,BEV,1495911.8534798534,2,Beverage Industry
+2024,fourth_quarter,ACC,2063320.0191197693,4,Accounting
+2023,first_quarter,TRU,2591889.6264502164,1,Trucking/Shipping
+2024,fourth_quarter,TRU,2907536.3419635925,4,Trucking/Shipping
+2022,third_quarter,POS,3514476.552222377,3,Postal
+2023,second_quarter,INT,2990690.721257194,2,Intelligence
+2023,fourth_quarter,UNM,277610.7950937951,4,Unemployment
+2026,first_quarter,APP,399261.9148629149,1,Apparel/Clothing Industry/Textiles
+2022,second_quarter,MIA,1350880.9345238097,2,Media (information/publishing)
+2024,first_quarter,CON,930929.9963004196,1,Constitution
+2025,third_quarter,WAS,1366859.6960349593,3,Waste (hazardous/solid/interstate/nuclear)
+2023,fourth_quarter,FIR,3506256.9642857146,4,Firearms/Guns/Ammunition
+2023,fourth_quarter,WEL,1165124.2538678714,4,Welfare
+2023,first_quarter,ACC,3051726.8174603176,1,Accounting
+2023,fourth_quarter,ADV,2028068.7799043062,4,Advertising
+2022,first_quarter,BNK,2252430.635777884,1,Bankruptcy
+2022,first_quarter,CDT,1506045.0520068167,1,Commodities (big ticket)
+2024,third_quarter,CON,832023.3719678154,3,Constitution
+2023,first_quarter,MON,99333.33333333334,1,Minting/Money/Gold Standard
+2026,first_quarter,MON,657067.3542144131,1,Minting/Money/Gold Standard
+2025,first_quarter,REL,241166.66666666666,1,Religion
+2023,second_quarter,LBR,30426100.35382141,2,Labor Issues/Antitrust/Workplace
+2024,first_quarter,BUD,104968171.64756572,1,Budget/Appropriations
+2023,second_quarter,DEF,62686068.60884642,2,Defense
+2022,fourth_quarter,HCR,109889766.27397595,4,Health Issues
+2024,fourth_quarter,VET,12278450.328566646,4,Veterans
+2025,second_quarter,TRD,87791934.43174088,2,Trade (domestic/foreign)
+2023,third_quarter,LAW,9733726.120891854,3,Law Enforcement/Crime/Criminal Justice
+2023,third_quarter,IMM,14588865.187064938,3,Immigration
+2022,first_quarter,HCR,117087955.19496556,1,Health Issues
+2022,second_quarter,EDU,20634493.77576827,2,Education
+2022,second_quarter,CHM,4521923.487938206,2,Chemicals/Chemical Industry
+2022,second_quarter,ECN,7623840.722700671,2,Economics/Economic Development
+2023,first_quarter,SCI,18642399.920113716,1,Science/Technology
+2026,first_quarter,MAN,20307409.01742652,1,Manufacturing
+2022,first_quarter,CPT,27814699.303547706,1,Copyright/Patent/Trademark
+2026,first_quarter,TRD,99911233.35120557,1,Trade (domestic/foreign)
+2024,third_quarter,BUD,98746955.48013422,3,Budget/Appropriations
+2024,third_quarter,GAM,2159593.873015873,3,Gaming/Gambling/Casino
+2022,third_quarter,DEF,52492004.24054603,3,Defense
+2022,fourth_quarter,TOB,5489080.980326373,4,Tobacco
+2024,first_quarter,ENV,35143897.219455816,1,Environment/Superfund
+2026,first_quarter,SCI,30853069.716456726,1,Science/Technology
+2025,fourth_quarter,CAW,9140300.061903615,4,Clean Air and Water (quality)
+2025,fourth_quarter,TRA,43495757.818932965,4,Transportation
+2025,fourth_quarter,ENG,64279367.766720556,4,Energy/Nuclear
+2023,third_quarter,SMB,9184320.050163494,3,Small Business
+2023,third_quarter,LBR,29230431.26456638,3,Labor Issues/Antitrust/Workplace
+2022,third_quarter,LBR,30953439.252616495,3,Labor Issues/Antitrust/Workplace
+2022,third_quarter,SMB,11952183.877404623,3,Small Business
+2025,fourth_quarter,DEF,81827248.84584141,4,Defense
+2025,third_quarter,HOM,22834263.883166548,3,Homeland Security
+2025,first_quarter,CSP,20749981.671027604,1,Consumer Issues/Safety/Products
+2025,first_quarter,HOU,12359190.347898453,1,Housing
+2023,third_quarter,DEF,57850410.34320188,3,Defense
+2022,second_quarter,NAT,13150683.07325975,2,Natural Resources
+2024,fourth_quarter,TRD,58381785.212845474,4,Trade (domestic/foreign)
+2022,first_quarter,MAR,7628877.461067104,1,Marine/Maritime/Boating/Fisheries
+2022,third_quarter,TRA,42233671.079816386,3,Transportation
+2024,fourth_quarter,MAN,12307790.857228918,4,Manufacturing
+2023,third_quarter,CAW,7775625.324196303,3,Clean Air and Water (quality)
+2023,first_quarter,TRD,54359227.45487425,1,Trade (domestic/foreign)
+2022,fourth_quarter,CPT,25972973.235121198,4,Copyright/Patent/Trademark
+2022,fourth_quarter,FOR,11437247.10641939,4,Foreign Relations
+2024,second_quarter,EDU,22904241.91055942,2,Education
+2024,third_quarter,ENV,32312433.664679985,3,Environment/Superfund
+2023,first_quarter,SPO,1984684.353232617,1,Sports/Athletics
+2022,third_quarter,CAW,8590053.750587696,3,Clean Air and Water (quality)
+2025,first_quarter,MMM,72933120.89822909,1,Medicare/Medicaid
+2024,second_quarter,BAN,25529467.2948174,2,Banking
+2024,first_quarter,MED,5864364.8127861265,1,Medical/Disease Research/Clinical Labs
+2024,first_quarter,DIS,3783759.645433015,1,Disaster Planning/Emergencies
+2024,first_quarter,ALC,1586247.9305433456,1,Alcohol and Drug Abuse
+2023,fourth_quarter,MMM,64414820.07767138,4,Medicare/Medicaid
+2023,third_quarter,TRA,39936949.19953439,3,Transportation
+2022,third_quarter,ENG,42590841.740431845,3,Energy/Nuclear
+2022,fourth_quarter,MAR,7213648.062483079,4,Marine/Maritime/Boating/Fisheries
+2024,third_quarter,DIS,3898387.565448943,3,Disaster Planning/Emergencies
+2025,fourth_quarter,LBR,28250308.874307368,4,Labor Issues/Antitrust/Workplace
+2023,third_quarter,ENG,46228299.454257905,3,Energy/Nuclear
+2025,second_quarter,MAN,16800162.030977946,2,Manufacturing
+2026,first_quarter,FUE,6638622.015500288,1,Fuel/Gas/Oil
+2022,second_quarter,INS,13923585.820469318,2,Insurance
+2022,first_quarter,RET,10382702.118926637,1,Retirement
+2025,second_quarter,SCI,25828040.935692295,2,Science/Technology
+2023,fourth_quarter,CSP,19738119.570806928,4,Consumer Issues/Safety/Products
+2022,third_quarter,IMM,15657643.261881065,3,Immigration
+2023,second_quarter,ENG,48919905.51048125,2,Energy/Nuclear
+2023,second_quarter,TRA,41293462.10114851,2,Transportation
+2023,second_quarter,IMM,15934551.679554485,2,Immigration
+2023,first_quarter,VET,11864297.435529776,1,Veterans
+2023,first_quarter,ANI,2536850.017031455,1,Animals
+2023,second_quarter,CAW,8368776.596097663,2,Clean Air and Water (quality)
+2025,second_quarter,ANI,4235702.605527805,2,Animals
+2026,first_quarter,VET,14551835.843761306,1,Veterans
+2023,second_quarter,COM,14183028.118358102,2,Communications/Broadcasting/Radio/TV
+2023,second_quarter,LAW,10379325.827454537,2,Law Enforcement/Crime/Criminal Justice
+2022,first_quarter,FOR,12519998.120015452,1,Foreign Relations
+2025,fourth_quarter,COM,14434266.473615274,4,Communications/Broadcasting/Radio/TV
+2025,fourth_quarter,IMM,18781186.9190649,4,Immigration
+2025,fourth_quarter,RES,3966506.5326276664,4,Real Estate/Land Use/Conservation
+2023,fourth_quarter,HOU,12308378.108991988,4,Housing
+2024,third_quarter,UTI,3716646.2527720816,3,Utilities
+2024,third_quarter,ART,1392818.9464840714,3,Arts/Entertainment
+2026,first_quarter,SPO,4324863.705278056,1,Sports/Athletics
+2023,fourth_quarter,ROD,1570574.209870685,4,Roads/Highway
+2023,first_quarter,MAN,11981428.898579169,1,Manufacturing
+2024,second_quarter,NAT,15784614.701112675,2,Natural Resources
+2024,second_quarter,ECN,6987776.150952186,2,Economics/Economic Development
+2025,second_quarter,FUE,6742878.743513895,2,Fuel/Gas/Oil
+2022,second_quarter,BAN,23135996.00480375,2,Banking
+2025,first_quarter,URB,3289016.0533910533,1,Urban Development/Municipalities
+2022,third_quarter,RES,2498754.2422466422,3,Real Estate/Land Use/Conservation
+2025,second_quarter,VET,13768267.684723478,2,Veterans
+2025,fourth_quarter,SMB,9861528.439988974,4,Small Business
+2025,third_quarter,PHA,17155000.558928326,3,Pharmacy
+2022,first_quarter,TOB,5398341.32987013,1,Tobacco
+2022,third_quarter,LAW,8012941.306013216,3,Law Enforcement/Crime/Criminal Justice
+2025,second_quarter,SPO,3305770.1553613055,2,Sports/Athletics
+2023,second_quarter,SMB,9155123.38475325,2,Small Business
+2024,fourth_quarter,SCI,22553224.135958917,4,Science/Technology
+2024,third_quarter,MED,5365479.646364747,3,Medical/Disease Research/Clinical Labs
+2024,second_quarter,INS,14256555.138880856,2,Insurance
+2022,fourth_quarter,TRU,2087877.667676768,4,Trucking/Shipping
+2024,first_quarter,REL,167916.66666666666,1,Religion
+2024,third_quarter,CIV,8263399.069858594,3,Civil Rights/Civil Liberties
+2023,second_quarter,RRR,4387238.692633053,2,Railroads
+2023,fourth_quarter,URB,3128048.705627706,4,Urban Development/Municipalities
+2022,third_quarter,RRR,3010836.2250233428,3,Railroads
+2023,first_quarter,FUE,7048609.40792093,1,Fuel/Gas/Oil
+2025,fourth_quarter,LAW,11263788.937541638,4,Law Enforcement/Crime/Criminal Justice
+2025,first_quarter,ROD,1939206.2329334556,1,Roads/Highway
+2022,first_quarter,CPI,13209439.868060004,1,Computer Industry
+2022,first_quarter,TRU,2894246.0505401646,1,Trucking/Shipping
+2023,second_quarter,RES,2624337.6855712915,2,Real Estate/Land Use/Conservation
+2024,first_quarter,CIV,7482980.256269185,1,Civil Rights/Civil Liberties
+2025,third_quarter,TOU,3228369.4886002885,3,Travel/Tourism
+2026,first_quarter,CDT,1903164.3356643356,1,Commodities (big ticket)
+2025,third_quarter,AER,8288089.045025559,3,Aerospace
+2023,third_quarter,RRR,4097115.959808819,3,Railroads
+2025,fourth_quarter,RRR,4489129.253856962,4,Railroads
+2023,fourth_quarter,CON,761196.0330893091,4,Constitution
+2024,third_quarter,ALC,1367433.9634981684,3,Alcohol and Drug Abuse
+2024,third_quarter,FIR,3885164.688311688,3,Firearms/Guns/Ammunition
+2024,second_quarter,CHM,6664903.625268426,2,Chemicals/Chemical Industry
+2024,fourth_quarter,SPO,2463026.3507495774,4,Sports/Athletics
+2022,fourth_quarter,CPI,12749578.707805376,4,Computer Industry
+2024,fourth_quarter,ANI,2657110.099352608,4,Animals
+2026,first_quarter,ANI,3421893.8797265477,1,Animals
+2022,third_quarter,COM,11813973.233376494,3,Communications/Broadcasting/Radio/TV
+2023,fourth_quarter,TOR,2536451.319484868,4,Torts
+2025,third_quarter,INT,4724692.507936507,3,Intelligence
+2024,first_quarter,GAM,2275859.0,1,Gaming/Gambling/Casino
+2023,third_quarter,RES,2686568.7709901216,3,Real Estate/Land Use/Conservation
+2024,first_quarter,ART,1437220.181263181,1,Arts/Entertainment
+2022,first_quarter,ACC,2506432.157796452,1,Accounting
+2024,fourth_quarter,FUE,6968904.501098688,4,Fuel/Gas/Oil
+2026,first_quarter,BNK,1064519.4588235295,1,Bankruptcy
+2024,first_quarter,UTI,3794326.0186611633,1,Utilities
+2022,third_quarter,WAS,1720322.5079365077,3,Waste (hazardous/solid/interstate/nuclear)
+2025,second_quarter,CDT,1502568.7645687647,2,Commodities (big ticket)
+2025,third_quarter,POS,2647512.629767893,3,Postal
+2024,third_quarter,WEL,686355.4423583029,3,Welfare
+2022,fourth_quarter,APP,718067.7317460317,4,Apparel/Clothing Industry/Textiles
+2025,fourth_quarter,WAS,1444951.6295867874,4,Waste (hazardous/solid/interstate/nuclear)
+2024,first_quarter,FIR,3747043.413506493,1,Firearms/Guns/Ammunition
+2022,fourth_quarter,RET,11441683.877810951,4,Retirement
+2023,third_quarter,COM,14490567.662022682,3,Communications/Broadcasting/Radio/TV
+2024,fourth_quarter,CDT,1754919.4416694418,4,Commodities (big ticket)
+2024,first_quarter,ADV,2415109.0510366824,1,Advertising
+2023,second_quarter,WAS,1209833.1268398268,2,Waste (hazardous/solid/interstate/nuclear)
+2024,third_quarter,REL,195916.66666666666,3,Religion
+2023,first_quarter,CDT,1636009.8724804607,1,Commodities (big ticket)
+2024,first_quarter,WEL,658558.5199824331,1,Welfare
+2024,fourth_quarter,BNK,1013302.0451770452,4,Bankruptcy
+2023,first_quarter,BNK,1869367.2438672436,1,Bankruptcy
+2025,first_quarter,TOR,2314666.418704643,1,Torts
+2025,first_quarter,CON,906446.0654718089,1,Constitution
+2022,fourth_quarter,ACC,2634787.920812325,4,Accounting
+2024,third_quarter,UNM,213788.30214230213,3,Unemployment
+2025,second_quarter,BNK,1220344.2641424388,2,Bankruptcy
+2022,first_quarter,APP,499165.86630036635,1,Apparel/Clothing Industry/Textiles
+2022,first_quarter,MON,192938.04444444444,1,Minting/Money/Gold Standard
+2024,third_quarter,ADV,2290326.8551623817,3,Advertising
+2024,first_quarter,UNM,332777.8678397626,1,Unemployment
+2023,third_quarter,WAS,1244731.722943723,3,Waste (hazardous/solid/interstate/nuclear)
+2022,fourth_quarter,MON,232334.79047619048,4,Minting/Money/Gold Standard
+2024,second_quarter,DOC,136202.80112044816,2,District of Columbia
+2022,second_quarter,DOC,182935.93772893772,2,District of Columbia
+2025,fourth_quarter,HCR,127972211.29019701,4,Health Issues
+2023,third_quarter,FOR,12713398.137420673,3,Foreign Relations
+2022,fourth_quarter,COM,13639748.488909848,4,Communications/Broadcasting/Radio/TV
+2023,third_quarter,CPI,14088498.873027708,3,Computer Industry
+2024,second_quarter,BUD,105709064.80322094,2,Budget/Appropriations
+2022,third_quarter,HCR,111088066.65182438,3,Health Issues
+2022,fourth_quarter,DEF,53476894.78385969,4,Defense
+2025,fourth_quarter,CPI,18041090.344855145,4,Computer Industry
+2024,second_quarter,ENV,30663299.418226544,2,Environment/Superfund
+2022,first_quarter,COM,13762061.557993073,1,Communications/Broadcasting/Radio/TV
+2022,first_quarter,DEF,48245356.84486175,1,Defense
+2022,first_quarter,IMM,17182027.16640703,1,Immigration
+2022,second_quarter,BUD,115352487.75665706,2,Budget/Appropriations
+2022,fourth_quarter,ENG,44808180.2675783,4,Energy/Nuclear
+2024,fourth_quarter,PHA,14964094.528782327,4,Pharmacy
+2025,first_quarter,GOV,19719009.63868271,1,Government Issues
+2026,first_quarter,PHA,18548746.88883205,1,Pharmacy
+2024,third_quarter,NAT,15058426.266577432,3,Natural Resources
+2022,first_quarter,TRA,40760495.010434866,1,Transportation
+2022,first_quarter,LAW,8376126.50647134,1,Law Enforcement/Crime/Criminal Justice
+2024,first_quarter,CHM,5642292.490762006,1,Chemicals/Chemical Industry
+2026,first_quarter,AER,9240195.512113035,1,Aerospace
+2026,first_quarter,HOM,23435188.57354973,1,Homeland Security
+2023,second_quarter,FOR,17343102.591034964,2,Foreign Relations
+2022,third_quarter,TRU,1986228.9805650231,3,Trucking/Shipping
+2023,second_quarter,HCR,107949804.25809805,2,Health Issues
+2022,fourth_quarter,TRA,40768977.59293646,4,Transportation
+2023,third_quarter,HCR,109145817.92735104,3,Health Issues
+2023,third_quarter,TOB,5034974.81035631,3,Tobacco
+2025,first_quarter,TEC,36432573.95346705,1,Telecommunications
+2025,first_quarter,TAX,151120508.13385877,1,Taxation/Internal Revenue Code
+2024,third_quarter,BAN,27293843.167584315,3,Banking
+2024,third_quarter,EDU,22208805.4293332,3,Education
+2026,first_quarter,TOU,3520913.117460318,1,Travel/Tourism
+2022,first_quarter,RES,2548136.9009294626,1,Real Estate/Land Use/Conservation
+2023,first_quarter,HOM,21042748.262841668,1,Homeland Security
+2025,fourth_quarter,CPT,25833197.08171697,4,Copyright/Patent/Trademark
+2023,fourth_quarter,TEC,34113320.312882,4,Telecommunications
+2025,second_quarter,HOM,21561814.069489025,2,Homeland Security
+2025,first_quarter,IND,8824507.99753435,1,Indian/Native American Affairs
+2022,fourth_quarter,IMM,15972846.75627448,4,Immigration
+2022,fourth_quarter,LAW,9264054.17037985,4,Law Enforcement/Crime/Criminal Justice
+2025,third_quarter,MAN,17075331.702054415,3,Manufacturing
+2022,second_quarter,ENV,27990122.960475296,2,Environment/Superfund
+2024,second_quarter,UTI,3745705.3114356403,2,Utilities
+2024,fourth_quarter,HOM,22003078.658647586,4,Homeland Security
+2025,third_quarter,SCI,28228010.102324113,3,Science/Technology
+2024,third_quarter,CHM,6272280.96391691,3,Chemicals/Chemical Industry
+2022,first_quarter,SMB,11308618.317406876,1,Small Business
+2022,third_quarter,RET,10837254.774107825,3,Retirement
+2024,first_quarter,NAT,17092730.79519509,1,Natural Resources
+2023,fourth_quarter,FIN,51979646.98684954,4,Financial Institutions/Investments/Securities
+2025,first_quarter,FOO,8043536.2933950825,1,"Food Industry (safety, labeling, etc.)"
+2025,first_quarter,AGR,29494780.027741335,1,Agriculture
+2025,fourth_quarter,FOR,15471393.394159166,4,Foreign Relations
+2022,second_quarter,ART,1386042.7875457874,2,Arts/Entertainment
+2022,second_quarter,CIV,8602427.590367597,2,Civil Rights/Civil Liberties
+2024,first_quarter,INS,17217459.66402537,1,Insurance
+2024,first_quarter,ECN,7473750.872163104,1,Economics/Economic Development
+2024,first_quarter,EDU,23734689.885779172,1,Education
+2025,second_quarter,PHA,17114516.38580863,2,Pharmacy
+2022,fourth_quarter,SMB,10857691.014592918,4,Small Business
+2023,fourth_quarter,TAX,111129791.77546075,4,Taxation/Internal Revenue Code
+2025,first_quarter,MIA,2294991.8831168828,1,Media (information/publishing)
+2022,fourth_quarter,LBR,31071263.408290595,4,Labor Issues/Antitrust/Workplace
+2022,first_quarter,ENG,42280058.362996556,1,Energy/Nuclear
+2022,second_quarter,UTI,3560137.294953412,2,Utilities
+2022,third_quarter,CPT,27054333.21946011,3,Copyright/Patent/Trademark
+2025,third_quarter,TRD,88047756.1934123,3,Trade (domestic/foreign)
+2023,second_quarter,ACC,2758669.3611111115,2,Accounting
+2022,third_quarter,CPI,12980082.282475267,3,Computer Industry
+2023,fourth_quarter,AVI,18860552.26587337,4,Aviation/Airlines/Airports
+2025,fourth_quarter,MAR,8615138.129839603,4,Marine/Maritime/Boating/Fisheries
+2023,fourth_quarter,AGR,27291602.71134476,4,Agriculture
+2022,second_quarter,MED,6212292.747973472,2,Medical/Disease Research/Clinical Labs
+2022,third_quarter,ACC,2313934.5329505135,3,Accounting
+2024,second_quarter,ART,1261161.456264846,2,Arts/Entertainment
+2025,first_quarter,FAM,1442632.69590787,1,Family issues/Abortion/Adoption
+2023,first_quarter,PHA,16303093.141841736,1,Pharmacy
+2022,second_quarter,DIS,6836275.759709267,2,Disaster Planning/Emergencies
+2025,first_quarter,FIN,60995498.715176605,1,Financial Institutions/Investments/Securities
+2024,second_quarter,GAM,2159202.095238095,2,Gaming/Gambling/Casino
+2024,second_quarter,ADV,2240708.0967278336,2,Advertising
+2023,third_quarter,MAR,7574554.85032667,3,Marine/Maritime/Boating/Fisheries
+2023,fourth_quarter,IND,6370943.022172273,4,Indian/Native American Affairs
+2025,second_quarter,TOU,3376463.1206349204,2,Travel/Tourism
+2025,first_quarter,TAR,9079673.035773313,1,Tariff (miscellaneous tariff bills)
+2024,third_quarter,INS,15535291.358428799,3,Insurance
+2022,first_quarter,CAW,9369353.924417103,1,Clean Air and Water (quality)
+2023,third_quarter,RET,8422659.744499292,3,Retirement
+2025,first_quarter,AVI,17440871.164518468,1,Aviation/Airlines/Airports
+2023,first_quarter,AER,7169022.171776002,1,Aerospace
+2022,third_quarter,TOB,5573286.563118581,3,Tobacco
+2022,third_quarter,MAR,7200549.63291662,3,Marine/Maritime/Boating/Fisheries
+2025,third_quarter,ANI,3410592.90632668,3,Animals
+2025,second_quarter,POS,2692846.2484564506,2,Postal
+2024,third_quarter,ECN,6018357.981441804,3,Economics/Economic Development
+2023,fourth_quarter,TAR,2448793.290179265,4,Tariff (miscellaneous tariff bills)
+2022,third_quarter,FOR,11187363.29747041,3,Foreign Relations
+2023,second_quarter,RET,9479886.233575702,2,Retirement
+2022,fourth_quarter,RES,2365545.733882784,4,Real Estate/Land Use/Conservation
+2024,first_quarter,BAN,29909922.735674247,1,Banking
+2025,third_quarter,VET,13811514.42287611,3,Veterans
+2024,second_quarter,MED,5792911.60339627,2,Medical/Disease Research/Clinical Labs
+2023,second_quarter,CPT,22340115.143945433,2,Copyright/Patent/Trademark
+2023,second_quarter,CPI,14415746.431724919,2,Computer Industry
+2025,second_quarter,AER,8531185.997094557,2,Aerospace
+2022,fourth_quarter,CAW,9177002.040914081,4,Clean Air and Water (quality)
+2024,second_quarter,DIS,4021951.5445506936,2,Disaster Planning/Emergencies
+2023,second_quarter,MAR,7736420.793467274,2,Marine/Maritime/Boating/Fisheries
+2023,fourth_quarter,GOV,17792300.680323325,4,Government Issues
+2023,first_quarter,INT,4611251.117306607,1,Intelligence
+2023,third_quarter,TRU,2865229.5133533133,3,Trucking/Shipping
+2023,fourth_quarter,FOO,6734445.896283782,4,"Food Industry (safety, labeling, etc.)"
+2022,first_quarter,LBR,30480102.07533859,1,Labor Issues/Antitrust/Workplace
+2025,fourth_quarter,TOB,7386174.799977801,4,Tobacco
+2023,third_quarter,ACC,2340348.113933452,3,Accounting
+2025,third_quarter,SPO,3907808.0764901764,3,Sports/Athletics
+2023,third_quarter,CPT,22584846.455068275,3,Copyright/Patent/Trademark
+2023,fourth_quarter,FAM,1459029.237301114,4,Family issues/Abortion/Adoption
+2023,first_quarter,TOU,3458451.757742258,1,Travel/Tourism
+2026,first_quarter,INT,4924355.78887436,1,Intelligence
+2023,fourth_quarter,AUT,8554566.280780151,4,Automotive Industry
+2024,fourth_quarter,AER,7019028.886104066,4,Aerospace
+2022,second_quarter,UNM,1447290.70966811,2,Unemployment
+2022,fourth_quarter,RRR,4340432.070506781,4,Railroads
+2025,second_quarter,INT,4302671.087012987,2,Intelligence
+2024,second_quarter,CIV,7269312.379164108,2,Civil Rights/Civil Liberties
+2024,second_quarter,FIR,5590174.686911128,2,Firearms/Guns/Ammunition
+2023,second_quarter,TOB,5610900.982158365,2,Tobacco
+2022,second_quarter,ADV,2064545.8023618541,2,Advertising
+2022,first_quarter,RRR,3137696.361622528,1,Railroads
+2025,third_quarter,FUE,6043392.394877018,3,Fuel/Gas/Oil
+2024,second_quarter,WEL,776690.7193048496,2,Welfare
+2024,second_quarter,ALC,1459132.121019536,2,Alcohol and Drug Abuse
+2025,fourth_quarter,ACC,7389014.285714286,4,Accounting
+2024,second_quarter,UNM,286658.113997114,2,Unemployment
+2023,fourth_quarter,BEV,1252688.912087912,4,Beverage Industry
+2023,second_quarter,TRU,2699361.8438772336,2,Trucking/Shipping
+2025,first_quarter,AUT,11071985.330617074,1,Automotive Industry
+2024,second_quarter,REL,154734.84848484848,2,Religion
+2022,second_quarter,GAM,2135973.7106227106,2,Gaming/Gambling/Casino
+2025,fourth_quarter,RET,10369060.565629367,4,Retirement
+2022,fourth_quarter,WAS,1637141.3777777778,4,Waste (hazardous/solid/interstate/nuclear)
+2024,fourth_quarter,TOU,3504814.2931283275,4,Travel/Tourism
+2024,fourth_quarter,INT,3204026.5136870695,4,Intelligence
+2025,fourth_quarter,APP,405643.87212787214,4,Apparel/Clothing Industry/Textiles
+2022,first_quarter,WAS,1568271.1977398042,1,Waste (hazardous/solid/interstate/nuclear)
+2024,fourth_quarter,POS,2583913.332156732,4,Postal
+2022,second_quarter,ALC,1673109.9004061704,2,Alcohol and Drug Abuse
+2025,fourth_quarter,TRU,3012780.751545122,4,Trucking/Shipping
+2022,third_quarter,APP,442360.1391941392,3,Apparel/Clothing Industry/Textiles
+2023,first_quarter,POS,2694495.836892576,1,Postal
+2026,first_quarter,POS,2963817.147946282,1,Postal
+2023,fourth_quarter,MIA,1570875.0,4,Media (information/publishing)
+2022,second_quarter,WEL,629073.5453030632,2,Welfare
+2025,fourth_quarter,MON,696524.8917748918,4,Minting/Money/Gold Standard
+2023,third_quarter,MON,65833.33333333334,3,Minting/Money/Gold Standard
+2022,third_quarter,MON,220467.46666666667,3,Minting/Money/Gold Standard
+2025,third_quarter,CDT,1630393.3566433568,3,Commodities (big ticket)
+2022,second_quarter,FIR,4573687.8792494275,2,Firearms/Guns/Ammunition
+2025,third_quarter,BNK,630890.522875817,3,Bankruptcy
+2025,first_quarter,BEV,1892182.0,1,Beverage Industry
+2023,second_quarter,APP,806105.1936507937,2,Apparel/Clothing Industry/Textiles
+2024,third_quarter,DOC,166121.68798064682,3,District of Columbia
+2022,second_quarter,REL,98614.71861471861,2,Religion
+2023,third_quarter,APP,840482.8269841269,3,Apparel/Clothing Industry/Textiles
+2024,first_quarter,DOC,167763.45146754352,1,District of Columbia
+2023,second_quarter,MON,74166.66666666666,2,Minting/Money/Gold Standard
