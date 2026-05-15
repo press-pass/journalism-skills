@@ -3,11 +3,13 @@
 Reads data/congress_press/**/*.jsonl, writes table `press` and `press_member`.
 """
 import duckdb
+import os
 import sys
 from pathlib import Path
 
-DATA = Path("/Users/SeamusMartin1/conductor/workspaces/journalism-skills/beirut/.context/data/data")
-DB = Path("/Users/SeamusMartin1/conductor/workspaces/journalism-skills/beirut/.context/db/investigation.duckdb")
+ROOT = Path(__file__).resolve().parents[1]
+DATA = Path(os.environ.get("LDA_DATA_DIR", ROOT / ".context" / "data" / "data"))
+DB = Path(os.environ.get("LDA_DB_PATH", ROOT / ".context" / "db" / "investigation.duckdb"))
 DB.parent.mkdir(parents=True, exist_ok=True)
 
 con = duckdb.connect(str(DB))

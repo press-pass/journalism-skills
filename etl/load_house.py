@@ -16,9 +16,11 @@ from concurrent.futures import ProcessPoolExecutor, as_completed
 from xml.etree import ElementTree as ET
 import pandas as pd
 
-DATA = Path("/Users/SeamusMartin1/conductor/workspaces/journalism-skills/beirut/.context/data/data/house")
-DB = Path("/Users/SeamusMartin1/conductor/workspaces/journalism-skills/beirut/.context/db/investigation.duckdb")
-TMP = Path("/Users/SeamusMartin1/conductor/workspaces/journalism-skills/beirut/.context/db/_house_parts")
+ROOT = Path(__file__).resolve().parents[1]
+DATA_ROOT = Path(os.environ.get("LDA_DATA_DIR", ROOT / ".context" / "data" / "data"))
+DATA = DATA_ROOT / "house"
+DB = Path(os.environ.get("LDA_DB_PATH", ROOT / ".context" / "db" / "investigation.duckdb"))
+TMP = Path(os.environ.get("LDA_TMP_DIR", ROOT / ".context" / "db" / "_house_parts"))
 TMP.mkdir(parents=True, exist_ok=True)
 
 

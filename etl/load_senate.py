@@ -10,11 +10,14 @@ Tables produced:
 """
 import duckdb
 import json
+import os
 import sys
 from pathlib import Path
 
-DATA = Path("/Users/SeamusMartin1/conductor/workspaces/journalism-skills/beirut/.context/data/data/senate")
-DB = Path("/Users/SeamusMartin1/conductor/workspaces/journalism-skills/beirut/.context/db/investigation.duckdb")
+ROOT = Path(__file__).resolve().parents[1]
+DATA_ROOT = Path(os.environ.get("LDA_DATA_DIR", ROOT / ".context" / "data" / "data"))
+DATA = DATA_ROOT / "senate"
+DB = Path(os.environ.get("LDA_DB_PATH", ROOT / ".context" / "db" / "investigation.duckdb"))
 con = duckdb.connect(str(DB))
 
 
