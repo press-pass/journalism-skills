@@ -56,6 +56,7 @@ The complete analysis pipeline is committed and runs from scratch:
 | Chart 2 — Surge | `analysis/charts/chart_surge.py` | `02_lobbying_surge.{png,svg}` + 2 CSVs |
 | Chart 3 — Tax havens | `analysis/charts/chart_tax_havens.py` | `03_tax_havens.{png,svg}` + 3 CSVs |
 | Chart 4 — Revolving door | `analysis/charts/chart_revolving.py` | `04_revolving_door.{png,svg}` + 2 CSVs |
+| Chart 5 — Crypto bridge | `analysis/charts/chart_crypto_bridge.py` | `05_crypto_bridge.{png,svg}` + 3 CSVs |
 | Chart QA | `analysis/tools/chart_review.py` | `analysis/findings/chart_review_*.{json,md}` |
 
 To reproduce from a fresh checkout:
@@ -87,6 +88,8 @@ docker compose -f analysis/docker/docker-compose.yml exec florence \
     python analysis/charts/chart_tax_havens.py
 docker compose -f analysis/docker/docker-compose.yml exec florence \
     python analysis/charts/chart_revolving.py
+docker compose -f analysis/docker/docker-compose.yml exec florence \
+    python analysis/charts/chart_crypto_bridge.py
 ```
 
 End-to-end runtime on a 2024 MacBook Pro (M-series, OrbStack): ~30 minutes

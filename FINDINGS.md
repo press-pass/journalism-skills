@@ -145,6 +145,40 @@ and survives via the Docker volume mount.
 
 ---
 
+## Finding 5 — Crypto lobbying ramped years before Congress started talking about it
+
+**Chart:** `analysis/charts/output/05_crypto_bridge.png`
+**Data:** `analysis/charts/output/05_crypto_bridge_press.csv` + `05_crypto_bridge_acts.csv` + `05_crypto_bridge_top_clients.csv`
+
+Applying the same keyword set to BOTH the LDA `act_description` field (lobbying side) and the press-release `text` field (member-messaging side):
+
+- LDA activities mentioning crypto / digital assets: **~600/quarter in 2022 Q1 → ~900/quarter by 2025 Q3** (a 50% increase). Steady growth across the entire period.
+- Congressional press releases mentioning the same keywords: largely flat at **< 50/quarter through 2024**, then a sharp surge to **600+ in 2025 Q2–Q3**.
+
+Top crypto-lobbying clients (distinct LDA filings):
+- Coinbase (115)
+- DeFi Education Fund (58)
+- MasterCard Worldwide (51) — payments-side, included via "tokenization"
+- Blockchain Association (51)
+- Filecoin Foundation (49)
+- Foris Dax, Inc. d/b/a Crypto.com (47)
+- Ava Labs (47)
+- Crypto Council for Innovation (47)
+- Ripple Labs (42)
+- Polygon Labs (~40)
+- Paradigm Operations (40)
+- The Digital Chamber (formerly Chamber of Digital Commerce) (37)
+
+**Why it's newsworthy:** the cross-corpus bridge confirms the industry was
+already lobbying Congress *years* before any visible legislative response
+appeared in member messaging. This is a textbook "say lags pay" pattern.
+
+**Caveats:** the keyword set casts a moderately wide net (e.g., `tokeniz*`
+catches "payments tokenization" alongside crypto-asset tokenization).
+Treat absolute counts as upper bounds.
+
+---
+
 ## Data-quality findings (worth flagging to editors)
 
 - **"STATE OF LOC NATION GLOBAL PUBLIC BENEFIT CORPORAT" $180M anomaly.**
