@@ -18,12 +18,12 @@ import pandas as pd
 
 
 STYLE = {
-    "figure.figsize": (12, 6.75),
+    "figure.figsize": (12, 7.5),
     "figure.dpi": 120,
     "savefig.dpi": 200,
-    "axes.titlesize": 16,
-    "axes.titleweight": "bold",
-    "axes.titlepad": 12,
+    "axes.titlesize": 14,
+    "axes.titleweight": "normal",
+    "axes.titlepad": 8,
     "axes.labelsize": 12,
     "axes.spines.top": False,
     "axes.spines.right": False,
@@ -90,14 +90,16 @@ def render_bar(df, x_col, y_col, args):
         ax.xaxis.set_major_formatter(matplotlib.ticker.FuncFormatter(lambda v, _: _human_money(v)))
         for i, (label, val) in enumerate(zip(df[x_col].astype(str), df[y_col])):
             ax.text(val, i, "  " + _human_money(val), va="center", fontsize=9, color="#333")
-    ax.set_title(args.title)
     if args.subtitle:
-        ax.text(0.0, 1.03, args.subtitle, transform=ax.transAxes, fontsize=11, style="italic", color="#555")
+        fig.suptitle(args.title, fontsize=16, fontweight="bold", x=0.02, ha="left", y=0.98)
+        ax.set_title(args.subtitle, fontsize=11, fontstyle="italic", color="#555", loc="left", pad=10)
+    else:
+        ax.set_title(args.title, loc="left")
     if args.xlabel:
         ax.set_xlabel(args.xlabel)
     if args.ylabel:
         ax.set_ylabel(args.ylabel)
-    plt.tight_layout(rect=[0, 0.05, 1, 0.96])
+    plt.tight_layout(rect=[0, 0.04, 1, 0.92])
     _footer(fig, args.source, args.in_path)
     return fig
 
@@ -118,9 +120,11 @@ def render_line(df, x_col, y_col, args):
         ax.legend(loc="best", frameon=False)
     else:
         ax.plot(df[x_col], df[y_col], color=PRIMARY, linewidth=2.5)
-    ax.set_title(args.title)
     if args.subtitle:
-        ax.text(0.0, 1.03, args.subtitle, transform=ax.transAxes, fontsize=11, style="italic", color="#555")
+        fig.suptitle(args.title, fontsize=16, fontweight="bold", x=0.02, ha="left", y=0.98)
+        ax.set_title(args.subtitle, fontsize=11, fontstyle="italic", color="#555", loc="left", pad=10)
+    else:
+        ax.set_title(args.title, loc="left")
     if args.xlabel:
         ax.set_xlabel(args.xlabel)
     if args.ylabel:
@@ -128,7 +132,7 @@ def render_line(df, x_col, y_col, args):
     if args.money:
         ax.yaxis.set_major_formatter(matplotlib.ticker.FuncFormatter(lambda v, _: _human_money(v)))
     ax.grid(axis="y", color="#eee", linewidth=0.8)
-    plt.tight_layout(rect=[0, 0.05, 1, 0.96])
+    plt.tight_layout(rect=[0, 0.04, 1, 0.92])
     _footer(fig, args.source, args.in_path)
     return fig
 
@@ -140,13 +144,15 @@ def render_scatter(df, x_col, y_col, args):
     if args.label_col:
         for _, r in df.iterrows():
             ax.annotate(str(r[args.label_col])[:30], (r[x_col], r[y_col]), fontsize=8, alpha=0.7)
-    ax.set_title(args.title)
     if args.subtitle:
-        ax.text(0.0, 1.03, args.subtitle, transform=ax.transAxes, fontsize=11, style="italic", color="#555")
+        fig.suptitle(args.title, fontsize=16, fontweight="bold", x=0.02, ha="left", y=0.98)
+        ax.set_title(args.subtitle, fontsize=11, fontstyle="italic", color="#555", loc="left", pad=10)
+    else:
+        ax.set_title(args.title, loc="left")
     if args.xlabel: ax.set_xlabel(args.xlabel)
     if args.ylabel: ax.set_ylabel(args.ylabel)
     ax.grid(color="#eee", linewidth=0.8)
-    plt.tight_layout(rect=[0, 0.05, 1, 0.96])
+    plt.tight_layout(rect=[0, 0.04, 1, 0.92])
     _footer(fig, args.source, args.in_path)
     return fig
 
@@ -160,14 +166,16 @@ def render_area_stacked(df, x_col, y_col, args):
         ax.legend(loc="upper left", frameon=False, fontsize=9)
     else:
         ax.fill_between(df[x_col], df[y_col], color=PRIMARY, alpha=0.6)
-    ax.set_title(args.title)
     if args.subtitle:
-        ax.text(0.0, 1.03, args.subtitle, transform=ax.transAxes, fontsize=11, style="italic", color="#555")
+        fig.suptitle(args.title, fontsize=16, fontweight="bold", x=0.02, ha="left", y=0.98)
+        ax.set_title(args.subtitle, fontsize=11, fontstyle="italic", color="#555", loc="left", pad=10)
+    else:
+        ax.set_title(args.title, loc="left")
     if args.xlabel: ax.set_xlabel(args.xlabel)
     if args.ylabel: ax.set_ylabel(args.ylabel)
     if args.money:
         ax.yaxis.set_major_formatter(matplotlib.ticker.FuncFormatter(lambda v, _: _human_money(v)))
-    plt.tight_layout(rect=[0, 0.05, 1, 0.96])
+    plt.tight_layout(rect=[0, 0.04, 1, 0.92])
     _footer(fig, args.source, args.in_path)
     return fig
 
@@ -184,14 +192,16 @@ def render_slope(df, x_col, y_col, args):
                 continue
             ax.plot(grp[x_col], grp[y_col], "-o", linewidth=1.6, alpha=0.85)
             ax.text(grp.iloc[-1][x_col], grp.iloc[-1][y_col], "  " + str(name)[:30], fontsize=9, va="center")
-    ax.set_title(args.title)
     if args.subtitle:
-        ax.text(0.0, 1.03, args.subtitle, transform=ax.transAxes, fontsize=11, style="italic", color="#555")
+        fig.suptitle(args.title, fontsize=16, fontweight="bold", x=0.02, ha="left", y=0.98)
+        ax.set_title(args.subtitle, fontsize=11, fontstyle="italic", color="#555", loc="left", pad=10)
+    else:
+        ax.set_title(args.title, loc="left")
     if args.money:
         ax.yaxis.set_major_formatter(matplotlib.ticker.FuncFormatter(lambda v, _: _human_money(v)))
     if args.xlabel: ax.set_xlabel(args.xlabel)
     if args.ylabel: ax.set_ylabel(args.ylabel)
-    plt.tight_layout(rect=[0, 0.05, 1, 0.96])
+    plt.tight_layout(rect=[0, 0.04, 1, 0.92])
     _footer(fig, args.source, args.in_path)
     return fig
 

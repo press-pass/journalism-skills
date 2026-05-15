@@ -1,15 +1,20 @@
 #!/usr/bin/env python3
 """Build press_lobbying_links — deterministic press↔lobbying matches.
 
-Three match methods:
-  1. client_name_exact / client_name_alias — case-insensitive substring of a
-     client name (or alias) in the press-release text
-  2. bill_id — joins press bill mentions to lobbying bill mentions
-  3. issue_code_quarter — chamber + quarter alignment only (low confidence)
+This v2 prioritises the highest-signal joins so the table is useful in
+seconds rather than hours.
+
+Methods (in priority order):
+
+1. **bill_id** — joins via `bill_mentions_press.bill_id` ↔
+   `bill_mentions_lobbying.bill_id`. Highest confidence.
+2. **client_name** — exact substring of the *top-K* most-active client names
+   in the press release text, restricted to names that contain at least one
+   token >= 6 chars long. Limit to top-K avoids the O(141K × 41K) blow-up
+   and keeps the build deterministic.
 """
 from __future__ import annotations
 import argparse
-import re
 import time
 import duckdb
 
@@ -20,7 +25,11 @@ def log(m): print(f"[{time.strftime('%H:%M:%S')}] {m}", flush=True)
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--db", required=True)
-    ap.add_argument("--min-name-len", type=int, default=6)
+    ap.add_argument("--client-topk", type=int, default=400,
+                    help="Limit client-name matching to the top-K most-active clients by filings")
+    ap.add_argument("--min-token-len", type=int, default=7)
+    ap.add_argument("--skip-name-match", action="store_true",
+                    help="Skip client-name substring matching; only build bill_id links")
     args = ap.parse_args()
     con = duckdb.connect(args.db)
 
@@ -42,10 +51,10 @@ def main():
         );
     """)
 
-    log("Method 1: bill_id joins (highest confidence)")
+    log("Method 1: bill_id joins")
     con.execute("""
         INSERT INTO press_lobbying_links
-        SELECT
+        SELECT DISTINCT
             p.url,
             l.filing_uuid,
             f.client_id,
@@ -60,58 +69,18 @@ def main():
         FROM bill_mentions_press p
         JOIN bill_mentions_lobbying l USING (bill_id)
         JOIN senate_filings f ON f.filing_uuid = l.filing_uuid
-        WHERE p.bill_id IS NOT NULL
+        WHERE l.source = 'senate'
+          AND p.bill_id IS NOT NULL
           AND f.filing_year IS NOT NULL
           AND EXTRACT(YEAR FROM p.date) BETWEEN f.filing_year - 1 AND f.filing_year + 1;
     """)
-    n_bill = con.execute("SELECT COUNT(*) FROM press_lobbying_links WHERE match_method = 'bill_id'").fetchone()[0]
+    n_bill = con.execute("SELECT COUNT(*) FROM press_lobbying_links WHERE match_method='bill_id'").fetchone()[0]
     log(f"  bill_id links: {n_bill:,}")
 
-    log("Method 2: client_name_exact / alias substring matches")
-    # Build candidate client names (canonical + aliases) with length >= min
-    con.execute("""
-        CREATE OR REPLACE TEMP TABLE candidate_names AS
-        SELECT DISTINCT canonical_id AS client_id, alias AS name, source
-        FROM entity_name_alias
-        WHERE alias IS NOT NULL AND length(alias) >= ?
-    """, [args.min_name_len])
-
-    # Filter out generic stop names that produce too many false hits
-    stops = ["INC", "LLC", "LLP", "CORP", "CO", "COMPANY", "AMERICA", "AMERICAN", "UNITED", "STATES", "UNIVERSITY", "FOUNDATION", "ASSOCIATION", "COUNCIL", "INSTITUTE", "GROUP", "PARTNERS", "STRATEGIES"]
-    con.execute("DELETE FROM candidate_names WHERE upper(name) IN (" + ",".join(f"'{s}'" for s in stops) + ")")
-
-    # Match: only fire when the press_release.text contains the lowered name
-    log("  scanning press releases for client mentions (this is the heavy step)")
-    con.execute("""
-        INSERT INTO press_lobbying_links
-        WITH client_name_in_press AS (
-            SELECT p.url, p.bioguide_id, p.date, c.client_id, c.name AS matched_name
-            FROM press_releases p
-            JOIN candidate_names c
-              ON position(lower(c.name) IN lower(p.text)) > 0
-            WHERE p.text IS NOT NULL
-        )
-        SELECT
-            cnp.url,
-            f.filing_uuid,
-            f.client_id,
-            f.client_name,
-            'client_name' AS match_method,
-            cnp.matched_name AS match_value,
-            0.7 AS match_confidence,
-            cnp.date AS press_date,
-            cnp.bioguide_id AS press_member_bio,
-            f.filing_year,
-            f.filing_period
-        FROM client_name_in_press cnp
-        JOIN senate_filings f
-          ON f.client_id = cnp.client_id
-         AND EXTRACT(YEAR FROM cnp.date) = f.filing_year
-        ;
-    """)
-    n_name = con.execute("SELECT COUNT(*) FROM press_lobbying_links WHERE match_method = 'client_name'").fetchone()[0]
-    log(f"  client_name matches: {n_name:,}")
-
+    if args.skip_name_match:
+        log("Skipping client-name matching (--skip-name-match set)")
+    else:
+        _name_match(con, args)
     log("Indexes")
     con.execute("""
         CREATE INDEX IF NOT EXISTS idx_pll_url ON press_lobbying_links(url);
@@ -120,6 +89,63 @@ def main():
         ANALYZE;
     """)
     log("Done.")
+
+
+def _name_match(con, args):
+    log("Method 2: top-K client-name substring matches")
+    log(f"  Selecting top {args.client_topk} clients by filing count")
+    con.execute(f"""
+        CREATE OR REPLACE TEMP TABLE top_clients AS
+        SELECT client_id, client_name,
+               upper(regexp_replace(client_name, '[^a-zA-Z0-9 ]', '', 'g')) AS norm_name,
+               COUNT(*) AS n_filings
+        FROM senate_filings
+        WHERE client_id IS NOT NULL
+          AND client_name IS NOT NULL
+          AND length(client_name) >= 6
+        GROUP BY 1, 2
+        ORDER BY n_filings DESC
+        LIMIT {args.client_topk}
+    """)
+    # Filter out names whose tokens are all <min_token_len chars
+    con.execute(f"""
+        DELETE FROM top_clients
+        WHERE NOT regexp_matches(norm_name, '[A-Z]{{{args.min_token_len},}}')
+    """)
+    # Filter out generic stop names that produce too many false hits
+    stops = ["INC","LLC","LLP","CORP","CO","COMPANY","AMERICA","AMERICAN","UNITED","STATES",
+             "UNIVERSITY","FOUNDATION","ASSOCIATION","COUNCIL","INSTITUTE","GROUP",
+             "PARTNERS","STRATEGIES","SERVICES","SOLUTIONS","HOLDINGS","INTERNATIONAL"]
+    con.execute("DELETE FROM top_clients WHERE upper(client_name) IN (" + ",".join(f"'{s}'" for s in stops) + ")")
+    n_top = con.execute("SELECT COUNT(*) FROM top_clients").fetchone()[0]
+    log(f"  candidates after filtering: {n_top:,}")
+
+    # Build cartesian-style match via cross join, limited by client_topk
+    log("  scanning press releases for top-client mentions")
+    con.execute("""
+        INSERT INTO press_lobbying_links
+        SELECT DISTINCT
+            p.url,
+            f.filing_uuid,
+            tc.client_id,
+            tc.client_name,
+            'client_name' AS match_method,
+            tc.client_name AS match_value,
+            0.7 AS match_confidence,
+            p.date AS press_date,
+            p.bioguide_id AS press_member_bio,
+            f.filing_year,
+            f.filing_period
+        FROM top_clients tc
+        JOIN press_releases p
+          ON p.text IS NOT NULL
+         AND position(lower(tc.client_name) IN lower(p.text)) > 0
+        JOIN senate_filings f
+          ON f.client_id = tc.client_id
+         AND EXTRACT(YEAR FROM p.date) = f.filing_year;
+    """)
+    n_name = con.execute("SELECT COUNT(*) FROM press_lobbying_links WHERE match_method='client_name'").fetchone()[0]
+    log(f"  client_name matches: {n_name:,}")
 
 
 if __name__ == "__main__":

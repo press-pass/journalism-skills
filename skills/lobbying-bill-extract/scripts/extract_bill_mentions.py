@@ -1,93 +1,58 @@
 #!/usr/bin/env python3
-"""Extract bill numbers from lobbying descriptions and press releases."""
+"""Extract bill numbers from lobbying descriptions and press releases using
+DuckDB's regex functions (no negative lookaheads — supported subset of PCRE).
+
+The patterns prefer the dotted forms ("H.R. 1234", "S. 1234") because that is
+how the LDA filings overwhelmingly format bill numbers. False positives from
+ambiguous "S 1234" style citations are intentionally avoided.
+"""
 from __future__ import annotations
 import argparse
-import re
 import time
 import duckdb
 
 
-# Patterns for U.S. bill citations
-BILL_RE = re.compile(
-    r"(?P<kind>"
-    r"H\s*\.?\s*R\s*\.?|"            # H.R., HR, H R
-    r"S\s*\.?(?!\w)|"                # S. or S followed by non-word (avoid eg S.S.)
-    r"H\s*\.?\s*J\s*\.?\s*Res\s*\.?|" # H.J.Res.
-    r"S\s*\.?\s*J\s*\.?\s*Res\s*\.?|"
-    r"H\s*\.?\s*Res\s*\.?|"
-    r"S\s*\.?\s*Res\s*\.?|"
-    r"H\s*\.?\s*Con\s*\.?\s*Res\s*\.?|"
-    r"S\s*\.?\s*Con\s*\.?\s*Res\s*\.?"
-    r")"
-    r"\s*(?P<num>\d{1,5})"
-    r"(?!\d)",
-    re.IGNORECASE,
-)
-PUBLAW_RE = re.compile(r"P\s*\.?\s*L\s*\.?|Pub\s*\.?\s*L\s*\.?")  # placeholder
-PUBLIC_LAW_RE = re.compile(r"(?:Pub\s*\.?\s*L|P\s*\.?\s*L)\s*\.?\s*(?:No\.?)?\s*(\d{2,3})\s*[-–]\s*(\d{1,4})", re.IGNORECASE)
-
-
-def _norm_kind(s: str) -> str:
-    t = re.sub(r"[\s.]+", "", s).upper()
-    # canonical: HR, S, HJRES, SJRES, HRES, SRES, HCONRES, SCONRES
-    mapping = {
-        "HR": "HR",
-        "S": "S",
-        "HJRES": "HJRES", "HJR": "HJRES",
-        "SJRES": "SJRES", "SJR": "SJRES",
-        "HRES": "HRES",
-        "SRES": "SRES",
-        "HCONRES": "HCONRES", "HCONR": "HCONRES",
-        "SCONRES": "SCONRES", "SCONR": "SCONRES",
-    }
-    return mapping.get(t, t)
-
-
-def _congress_for_year(y: int) -> int:
-    # Each Congress runs two years; the 118th was 2023-2024, 119th is 2025-2026.
-    if y is None:
-        return None
-    base = (y - 2023) // 2
-    return 118 + base
-
-
-def _bill_id(kind: str, num: str, year: int) -> str:
-    cong = _congress_for_year(year)
-    return f"{cong}-{kind}-{num}" if cong else f"unk-{kind}-{num}"
-
-
-def _context(text: str, start: int, end: int, span: int = 60) -> str:
-    a, b = max(0, start - span), min(len(text), end + span)
-    return re.sub(r"\s+", " ", text[a:b]).strip()
-
-
-def extract(text: str, year: int):
-    if not text:
-        return []
-    seen = {}
-    for m in BILL_RE.finditer(text):
-        kind = _norm_kind(m.group("kind"))
-        num = m.group("num")
-        if kind in {"S"} and int(num) > 9999:
-            continue
-        bid = _bill_id(kind, num, year)
-        ctx = _context(text, m.start(), m.end())
-        if bid not in seen:
-            seen[bid] = {"kind": kind, "num": num, "context": ctx, "occurrences": 1}
-        else:
-            seen[bid]["occurrences"] += 1
-    for m in PUBLIC_LAW_RE.finditer(text):
-        cong, sec = m.group(1), m.group(2)
-        bid = f"PL-{cong}-{sec}"
-        ctx = _context(text, m.start(), m.end())
-        if bid not in seen:
-            seen[bid] = {"kind": "PL", "num": f"{cong}-{sec}", "context": ctx, "occurrences": 1}
-        else:
-            seen[bid]["occurrences"] += 1
-    return [(bid, v["kind"], v["num"], v["context"], v["occurrences"]) for bid, v in seen.items()]
-
-
 def log(m): print(f"[{time.strftime('%H:%M:%S')}] {m}", flush=True)
+
+
+# Each capture is the full bill citation. We post-process kind & number with
+# additional regex_extract calls per row.
+BILL_RE = (
+    r"(?i)\b("
+    r"H\.\s*J\.\s*Res\.\s*\d{1,5}"
+    r"|S\.\s*J\.\s*Res\.\s*\d{1,5}"
+    r"|H\.\s*Con\.\s*Res\.\s*\d{1,5}"
+    r"|S\.\s*Con\.\s*Res\.\s*\d{1,5}"
+    r"|H\.\s*Res\.\s*\d{1,5}"
+    r"|S\.\s*Res\.\s*\d{1,5}"
+    r"|H\.\s*R\.\s*\d{1,5}"
+    r"|S\.\s*\d{1,5}"
+    r")\b"
+)
+KIND_RE = (
+    r"(?i)^(H\.\s*J\.\s*Res\.|S\.\s*J\.\s*Res\.|H\.\s*Con\.\s*Res\.|S\.\s*Con\.\s*Res\.|H\.\s*Res\.|S\.\s*Res\.|H\.\s*R\.|S\.)"
+)
+NUM_RE = r"(\d{1,5})$"
+
+NORMALIZE_KIND = (
+    "CASE upper(regexp_replace(kind_raw, '[ \\.]+', '', 'g'))"
+    " WHEN 'HJRES' THEN 'HJRES'"
+    " WHEN 'SJRES' THEN 'SJRES'"
+    " WHEN 'HCONRES' THEN 'HCONRES'"
+    " WHEN 'SCONRES' THEN 'SCONRES'"
+    " WHEN 'HRES' THEN 'HRES'"
+    " WHEN 'SRES' THEN 'SRES'"
+    " WHEN 'HR' THEN 'HR'"
+    " WHEN 'S' THEN 'S'"
+    " ELSE upper(regexp_replace(kind_raw, '[ \\.]+', '', 'g'))"
+    "END"
+)
+CONGRESS = (
+    "CASE WHEN filing_year BETWEEN 2021 AND 2022 THEN '117-'"
+    "     WHEN filing_year BETWEEN 2023 AND 2024 THEN '118-'"
+    "     WHEN filing_year BETWEEN 2025 AND 2026 THEN '119-'"
+    "     ELSE 'unk-' END"
+)
 
 
 def main():
@@ -95,8 +60,6 @@ def main():
     ap.add_argument("--db", required=True)
     args = ap.parse_args()
     con = duckdb.connect(args.db)
-
-    log("Recreating bill_mentions_* tables")
     con.execute("""
         DROP TABLE IF EXISTS bill_mentions_lobbying;
         CREATE TABLE bill_mentions_lobbying (
@@ -107,8 +70,7 @@ def main():
             bill_id VARCHAR,
             bill_kind VARCHAR,
             bill_number VARCHAR,
-            context VARCHAR,
-            occurrences INTEGER
+            raw_match VARCHAR
         );
         DROP TABLE IF EXISTS bill_mentions_press;
         CREATE TABLE bill_mentions_press (
@@ -119,70 +81,99 @@ def main():
             bill_id VARCHAR,
             bill_kind VARCHAR,
             bill_number VARCHAR,
-            context VARCHAR,
-            occurrences INTEGER
+            raw_match VARCHAR
         );
     """)
 
-    log("Scanning senate_activities")
-    rows = con.execute("""
-        SELECT a.filing_uuid, a.description, f.filing_year
-        FROM senate_activities a
-        JOIN senate_filings f USING (filing_uuid)
-        WHERE a.description IS NOT NULL AND length(a.description) > 0
-    """).fetchall()
-    batch = []
-    for fuid, desc, yr in rows:
-        for bid, kind, num, ctx, occ in extract(desc, yr):
-            batch.append(("senate", fuid, None, yr, bid, kind, num, ctx, occ))
-        if len(batch) >= 50000:
-            con.executemany("INSERT INTO bill_mentions_lobbying VALUES (?,?,?,?,?,?,?,?,?)", batch)
-            batch = []
-    if batch:
-        con.executemany("INSERT INTO bill_mentions_lobbying VALUES (?,?,?,?,?,?,?,?,?)", batch)
-    log(f"  senate rows scanned: {len(rows):,}")
+    log("Senate activities")
+    con.execute(f"""
+        INSERT INTO bill_mentions_lobbying
+        WITH exploded AS (
+            SELECT
+                a.filing_uuid,
+                f.filing_year,
+                unnest(regexp_extract_all(a.description, $bill$, 1)) AS raw
+            FROM senate_activities a
+            JOIN senate_filings f USING (filing_uuid)
+            WHERE a.description IS NOT NULL
+              AND length(a.description) > 0
+              AND regexp_matches(a.description, $bill$)
+        ),
+        parsed AS (
+            SELECT filing_uuid, filing_year, raw,
+                   regexp_extract(raw, $kind$, 1) AS kind_raw,
+                   regexp_extract(raw, $num$, 1) AS bill_number
+            FROM exploded
+        )
+        SELECT
+            'senate', filing_uuid, NULL, filing_year,
+            {CONGRESS} || {NORMALIZE_KIND} || '-' || bill_number AS bill_id,
+            {NORMALIZE_KIND} AS bill_kind,
+            bill_number, raw
+        FROM parsed
+        WHERE bill_number != ''
+    """.replace("$bill$", f"'{BILL_RE}'").replace("$kind$", f"'{KIND_RE}'").replace("$num$", f"'{NUM_RE}'"))
+    n = con.execute("SELECT COUNT(*) FROM bill_mentions_lobbying WHERE source='senate'").fetchone()[0]
+    log(f"  senate: {n:,}")
 
-    log("Scanning house_activities")
-    rows = con.execute("""
-        SELECT a.house_file, a.description, h.filing_year
-        FROM house_activities a
-        JOIN house_filings h USING (house_file)
-        WHERE a.description IS NOT NULL AND length(a.description) > 0
-    """).fetchall()
-    batch = []
-    for hf, desc, yr in rows:
-        for bid, kind, num, ctx, occ in extract(desc, yr):
-            batch.append(("house", None, hf, yr, bid, kind, num, ctx, occ))
-        if len(batch) >= 50000:
-            con.executemany("INSERT INTO bill_mentions_lobbying VALUES (?,?,?,?,?,?,?,?,?)", batch)
-            batch = []
-    if batch:
-        con.executemany("INSERT INTO bill_mentions_lobbying VALUES (?,?,?,?,?,?,?,?,?)", batch)
-    log(f"  house rows scanned: {len(rows):,}")
+    log("House activities")
+    con.execute(f"""
+        INSERT INTO bill_mentions_lobbying
+        WITH exploded AS (
+            SELECT
+                a.house_file,
+                h.filing_year,
+                unnest(regexp_extract_all(a.description, $bill$, 1)) AS raw
+            FROM house_activities a
+            JOIN house_filings h USING (house_file)
+            WHERE a.description IS NOT NULL
+              AND length(a.description) > 0
+              AND regexp_matches(a.description, $bill$)
+        ),
+        parsed AS (
+            SELECT house_file, filing_year, raw,
+                   regexp_extract(raw, $kind$, 1) AS kind_raw,
+                   regexp_extract(raw, $num$, 1) AS bill_number
+            FROM exploded
+        )
+        SELECT
+            'house', NULL, house_file, filing_year,
+            {CONGRESS} || {NORMALIZE_KIND} || '-' || bill_number AS bill_id,
+            {NORMALIZE_KIND} AS bill_kind,
+            bill_number, raw
+        FROM parsed
+        WHERE bill_number != ''
+    """.replace("$bill$", f"'{BILL_RE}'").replace("$kind$", f"'{KIND_RE}'").replace("$num$", f"'{NUM_RE}'"))
+    n = con.execute("SELECT COUNT(*) FROM bill_mentions_lobbying WHERE source='house'").fetchone()[0]
+    log(f"  house: {n:,}")
 
-    log("Scanning press_releases (streaming)")
-    cur = con.execute("""
-        SELECT url, bioguide_id, date, text, EXTRACT(YEAR FROM date)::INTEGER AS yr
-        FROM press_releases WHERE text IS NOT NULL AND length(text) > 50
-    """)
-    total = 0
-    batch = []
-    while True:
-        rows = cur.fetchmany(2000)
-        if not rows:
-            break
-        for url, bio, dt, txt, yr in rows:
-            mentions = extract(txt, yr or 0)
-            for bid, kind, num, ctx, occ in mentions:
-                batch.append((url, bio, dt, yr, bid, kind, num, ctx, occ))
-        if len(batch) >= 50000:
-            con.executemany("INSERT INTO bill_mentions_press VALUES (?,?,?,?,?,?,?,?,?)", batch)
-            total += len(batch)
-            batch = []
-            log(f"  press: {total:,} mentions so far")
-    if batch:
-        con.executemany("INSERT INTO bill_mentions_press VALUES (?,?,?,?,?,?,?,?,?)", batch)
-        total += len(batch)
+    log("Press releases")
+    con.execute(f"""
+        INSERT INTO bill_mentions_press
+        WITH exploded AS (
+            SELECT url, bioguide_id, date,
+                   EXTRACT(YEAR FROM date)::INTEGER AS filing_year,
+                   unnest(regexp_extract_all(text, $bill$, 1)) AS raw
+            FROM press_releases
+            WHERE text IS NOT NULL AND length(text) > 50
+              AND regexp_matches(text, $bill$)
+        ),
+        parsed AS (
+            SELECT url, bioguide_id, date, filing_year, raw,
+                   regexp_extract(raw, $kind$, 1) AS kind_raw,
+                   regexp_extract(raw, $num$, 1) AS bill_number
+            FROM exploded
+        )
+        SELECT
+            url, bioguide_id, date, filing_year,
+            {CONGRESS} || {NORMALIZE_KIND} || '-' || bill_number AS bill_id,
+            {NORMALIZE_KIND} AS bill_kind,
+            bill_number, raw
+        FROM parsed
+        WHERE bill_number != ''
+    """.replace("$bill$", f"'{BILL_RE}'").replace("$kind$", f"'{KIND_RE}'").replace("$num$", f"'{NUM_RE}'"))
+    n = con.execute("SELECT COUNT(*) FROM bill_mentions_press").fetchone()[0]
+    log(f"  press: {n:,}")
 
     log("Indexes")
     con.execute("""
@@ -191,7 +182,7 @@ def main():
         CREATE INDEX IF NOT EXISTS idx_bmpress_date ON bill_mentions_press(date);
         ANALYZE;
     """)
-    log(f"Done. press mentions={total:,}")
+    log("Done.")
 
 
 if __name__ == "__main__":
