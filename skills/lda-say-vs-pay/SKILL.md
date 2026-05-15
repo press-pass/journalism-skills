@@ -1,5 +1,11 @@
 ---
-description: Find Congressional bills that are heavily lobbied but rarely mentioned in members' own press releases ("silent lobbying"). Materializes a `bill_mentions_lobby` / `bill_mentions_lobby_house` / `bill_mentions_press` table by extracting normalized bill IDs from activity descriptions and press-release text with precision-first regex.
+name: lda-say-vs-pay
+description: Find Congressional bills that are heavily lobbied but rarely mentioned in members' own press releases ("silent lobbying"). Materializes a `bill_mentions_lobby` / `bill_mentions_lobby_house` / `bill_mentions_press` table by extracting normalized bill IDs from activity descriptions and press-release text with precision-first regex. Use when investigating bill-level cross-corpus signals or member messaging gaps.
+license: MIT
+compatibility: Requires Python 3.11+, duckdb, pandas; requires lda-setup to have been run.
+metadata:
+  author: PressPass
+  version: "1.0"
 ---
 
 The Senate-LDA `lobbying_activities[].description`, the House-LDA `specific_issues/description`, and the Congressional press release body all reference specific bills by number ("H.R. 5376", "S. Res. 12", "H.J. Res. 5"). This skill extracts those mentions deterministically and joins them across the two corpora — the cross-corpus join is the entire point.

@@ -1,5 +1,11 @@
 ---
-description: Map foreign-tied lobbying by country and policy issue. Produces aggregate tables and reproducible charts from `senate_foreign_entity` × `senate_activity` joins. Surfaces what each country's principals pay K Street to lobby on.
+name: lda-foreign-influence
+description: Map foreign-tied lobbying by country and policy issue. Produces aggregate tables and reproducible charts from `senate_foreign_entity` × `senate_activity` joins. Surfaces what each country's principals pay K Street to lobby on. Use for investigating foreign influence, FARA-adjacent topics, or country-specific lobbying campaigns.
+license: MIT
+compatibility: Requires Python 3.11+, duckdb, matplotlib, numpy; requires lda-setup to have been run.
+metadata:
+  author: PressPass
+  version: "1.0"
 ---
 
 The LDA requires registrants to disclose foreign entities that own or substantially control their clients. This skill turns that disclosure into a country × issue panel that an agent can scan in a single query.

@@ -1,5 +1,11 @@
 ---
-description: Identify lobbyists who previously held senior staff jobs in a specific Member of Congress's office, and surface their current clients and issues. Materializes a deterministic `revolving_door` table by parsing the LDA `covered_position` text field against a public roster of legislators.
+name: lda-revolving-door
+description: Identify lobbyists who previously held senior staff jobs in a specific Member of Congress's office, and surface their current clients and issues. Materializes a deterministic `revolving_door` table by parsing the LDA `covered_position` text field against a public roster of legislators. Use when investigating ex-staff lobbying, K Street pipelines, or Member-specific influence networks in the GAIN dataset.
+license: MIT
+compatibility: Requires Python 3.11+, duckdb, pandas; requires lda-setup to have been run; needs HTTPS access to unitedstates.github.io for the legislator roster (cached after first fetch).
+metadata:
+  author: PressPass
+  version: "1.0"
 ---
 
 The Lobbying Disclosure Act requires every lobbyist to disclose any "covered
@@ -69,6 +75,13 @@ Other useful joins:
   roles (federal agencies, presidential staff). Those won't match, but the
   underlying lobbyist may still appear via a separate Member-staff stint listed
   in the same string.
+- **Some covered_position strings list multiple people's roles** (e.g., team
+  declarations on group filings). Our parser attributes any Member named in the
+  string to the named lobbyist, which can over-attribute in those cases. Always
+  spot-check a flagged person via the provenance file before publishing their
+  name. For aggregate counts (top-20 list), the signal is still meaningful —
+  it captures both "this lobbyist worked for X" and "this lobbyist's team includes
+  someone who worked for X", and both describe an office's K-Street footprint.
 - The roster covers Members who served 2000+. Earlier former Members will not match.
 - The Senate file is the primary source; House LDA carries similar text but is
   largely redundant for individual lobbyists who file in both chambers.

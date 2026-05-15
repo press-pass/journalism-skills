@@ -1,5 +1,11 @@
 ---
+name: lda-setup
 description: One-time bootstrap that loads the GAIN lobbying + press-release corpus into a local duckdb investigation database. Run before any other lda-* skill.
+license: MIT
+compatibility: Requires Python 3.11+, duckdb, pandas, pyarrow; assumes the GAIN dataset zip from Google Drive (1HhcFbD4Zf0cOD0Ib-89aV4zLoylJ1UiP) is downloaded locally.
+metadata:
+  author: PressPass
+  version: "1.0"
 ---
 
 This skill builds `investigation.duckdb` from the raw GAIN dataset

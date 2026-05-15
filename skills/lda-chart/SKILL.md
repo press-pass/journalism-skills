@@ -1,5 +1,11 @@
 ---
-description: Render publication-quality charts from the lobbying+press investigation database. Each script consumes deterministic tables built by upstream skills and writes a PNG, an SVG, and a provenance.md tracing every bar/cell back to source records.
+name: lda-chart
+description: Render publication-quality charts from the lobbying+press investigation database. Each script consumes deterministic tables built by upstream skills and writes a PNG, an SVG, and a provenance.md tracing every bar/cell back to source records. Use when producing visualizations from the GAIN dataset that require source-traceable provenance.
+license: MIT
+compatibility: Requires Python 3.11+, duckdb, matplotlib, numpy.
+metadata:
+  author: PressPass
+  version: "1.0"
 ---
 
 This skill is the visualization layer. Each chart-rendering script is paired with a provenance markdown so a journalist (or editor, or judge) can audit any bar back to its underlying filings.

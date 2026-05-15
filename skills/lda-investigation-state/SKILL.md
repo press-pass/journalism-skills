@@ -1,5 +1,11 @@
 ---
-description: Maintain a persistent, on-disk investigation state — open leads, closed leads, cold threads, significant entities — so agents working over multiple sessions don't lose track. Append-only by default; every state change is timestamped.
+name: lda-investigation-state
+description: Maintain a persistent, on-disk investigation state — open leads, closed leads, cold threads, significant entities — so agents working over multiple sessions don't lose track. Append-only by default; every state change is timestamped. Use at the start of every investigation session to read open leads, and after each finding to log evidence and significant entities.
+license: MIT
+compatibility: Requires Python 3.11+ stdlib only.
+metadata:
+  author: PressPass
+  version: "1.0"
 ---
 
 When investigating a corpus this large, you cannot rely on conversation context to remember which leads have been checked, which entities matter, or which threads went cold. This skill solves that with a small, deterministic CLI that reads/writes `research/investigation_state.json`.
