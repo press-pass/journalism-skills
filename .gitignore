@@ -1,1 +1,6 @@
 skill-output/
+.context/
+__pycache__/
+*.pyc
+*.duckdb
+*.duckdb.wal
