@@ -1,0 +1,189 @@
+{
+  "title": "Press-release leaderboard, Q1 2026",
+  "data": [
+    {
+      "bioguide_id": "D000563",
+      "member_name": "Richard J. Durbin",
+      "party": "Democrat",
+      "state": "IL",
+      "chamber": "Senate",
+      "len": 208,
+      "per_day": 2.3111111111111113
+    },
+    {
+      "bioguide_id": "K000404",
+      "member_name": "Kimberlyn King-Hinds",
+      "party": "Republican",
+      "state": "MP",
+      "chamber": "House",
+      "len": 159,
+      "per_day": 1.7666666666666668
+    },
+    {
+      "bioguide_id": "G000555",
+      "member_name": "Kirsten E. Gillibrand",
+      "party": "Democrat",
+      "state": "NY",
+      "chamber": "Senate",
+      "len": 140,
+      "per_day": 1.5555555555555556
+    },
+    {
+      "bioguide_id": "H001079",
+      "member_name": "Cindy Hyde-Smith",
+      "party": "Republican",
+      "state": "MS",
+      "chamber": "Senate",
+      "len": 133,
+      "per_day": 1.4777777777777779
+    },
+    {
+      "bioguide_id": "G000574",
+      "member_name": "Ruben Gallego",
+      "party": "Democrat",
+      "state": "AZ",
+      "chamber": "Senate",
+      "len": 128,
+      "per_day": 1.4222222222222223
+    },
+    {
+      "bioguide_id": "J000294",
+      "member_name": "Hakeem S. Jeffries",
+      "party": "Democrat",
+      "state": "NY",
+      "chamber": "House",
+      "len": 124,
+      "per_day": 1.3777777777777778
+    },
+    {
+      "bioguide_id": "W000800",
+      "member_name": "Peter Welch",
+      "party": "Democrat",
+      "state": "VT",
+      "chamber": "Senate",
+      "len": 118,
+      "per_day": 1.3111111111111111
+    },
+    {
+      "bioguide_id": "B001277",
+      "member_name": "Richard Blumenthal",
+      "party": "Democrat",
+      "state": "CT",
+      "chamber": "Senate",
+      "len": 117,
+      "per_day": 1.3
+    },
+    {
+      "bioguide_id": "M001176",
+      "member_name": "Jeff Merkley",
+      "party": "Democrat",
+      "state": "OR",
+      "chamber": "Senate",
+      "len": 117,
+      "per_day": 1.3
+    },
+    {
+      "bioguide_id": "P000145",
+      "member_name": "Alex Padilla",
+      "party": "Democrat",
+      "state": "CA",
+      "chamber": "Senate",
+      "len": 116,
+      "per_day": 1.288888888888889
+    },
+    {
+      "bioguide_id": "H001046",
+      "member_name": "Martin Heinrich",
+      "party": "Democrat",
+      "state": "NM",
+      "chamber": "Senate",
+      "len": 116,
+      "per_day": 1.288888888888889
+    },
+    {
+      "bioguide_id": "W000817",
+      "member_name": "Elizabeth Warren",
+      "party": "Democrat",
+      "state": "MA",
+      "chamber": "Senate",
+      "len": 107,
+      "per_day": 1.1888888888888889
+    },
+    {
+      "bioguide_id": "D000622",
+      "member_name": "Tammy Duckworth",
+      "party": "Democrat",
+      "state": "IL",
+      "chamber": "Senate",
+      "len": 105,
+      "per_day": 1.1666666666666667
+    },
+    {
+      "bioguide_id": "C001056",
+      "member_name": "John Cornyn",
+      "party": "Republican",
+      "state": "TX",
+      "chamber": "Senate",
+      "len": 99,
+      "per_day": 1.1
+    },
+    {
+      "bioguide_id": "K000384",
+      "member_name": "Tim Kaine",
+      "party": "Democrat",
+      "state": "VA",
+      "chamber": "Senate",
+      "len": 95,
+      "per_day": 1.0555555555555556
+    },
+    {
+      "bioguide_id": "G000386",
+      "member_name": "Chuck Grassley",
+      "party": "Republican",
+      "state": "IA",
+      "chamber": "Senate",
+      "len": 93,
+      "per_day": 1.0333333333333334
+    },
+    {
+      "bioguide_id": "R000122",
+      "member_name": "Jack Reed",
+      "party": "Democrat",
+      "state": "RI",
+      "chamber": "Senate",
+      "len": 92,
+      "per_day": 1.0222222222222224
+    },
+    {
+      "bioguide_id": "M001111",
+      "member_name": "Patty Murray",
+      "party": "Democrat",
+      "state": "WA",
+      "chamber": "Senate",
+      "len": 92,
+      "per_day": 1.0222222222222224
+    },
+    {
+      "bioguide_id": "W000805",
+      "member_name": "Mark R. Warner",
+      "party": "Democrat",
+      "state": "VA",
+      "chamber": "Senate",
+      "len": 91,
+      "per_day": 1.011111111111111
+    },
+    {
+      "bioguide_id": "S000522",
+      "member_name": "Christopher H. Smith",
+      "party": "Republican",
+      "state": "NJ",
+      "chamber": "House",
+      "len": 91,
+      "per_day": 1.011111111111111
+    }
+  ],
+  "method": "Count of releases per (bioguide_id, member_name) for 2026-01-01 to 2026-03-31; per-day rate computed against 90-day quarter.",
+  "source": "data/congress_press/2026-01.jsonl, 2026-02.jsonl, 2026-03.jsonl",
+  "ft_category": "ranking",
+  "axis_transform": "linear"
+}

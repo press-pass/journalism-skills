@@ -1,0 +1,111 @@
+{
+  "title": "Lobbyist filers reported $67M to the Trump-Vance inaugural fund",
+  "data": [
+    {
+      "registrant_name": "JBS USA FOOD COMPANY HOLDINGS (PREVIOUSLY REGISTERED AS JBS USA FOOD COMPANY)",
+      "amount": 5000000.0,
+      "n_items": 1
+    },
+    {
+      "registrant_name": "ROBINHOOD MARKETS, INC.",
+      "amount": 2000000.0,
+      "n_items": 1
+    },
+    {
+      "registrant_name": "CHEVRON U.S.A. INC.",
+      "amount": 2000000.0,
+      "n_items": 1
+    },
+    {
+      "registrant_name": "OCCIDENTAL PETROLEUM CORPORATION",
+      "amount": 2000000.0,
+      "n_items": 2
+    },
+    {
+      "registrant_name": "UNITED AIRLINES, INC.",
+      "amount": 2000000.0,
+      "n_items": 4
+    },
+    {
+      "registrant_name": "AMAZON.COM SERVICES LLC",
+      "amount": 1888893.52,
+      "n_items": 2
+    },
+    {
+      "registrant_name": "GENERAL MOTORS COMPANY",
+      "amount": 1538000.0,
+      "n_items": 2
+    },
+    {
+      "registrant_name": "ADOBE INC",
+      "amount": 1000000.0,
+      "n_items": 1
+    },
+    {
+      "registrant_name": "GILEAD SCIENCES, INC.",
+      "amount": 1000000.0,
+      "n_items": 1
+    },
+    {
+      "registrant_name": "COMCAST CORPORATION",
+      "amount": 1000000.0,
+      "n_items": 1
+    },
+    {
+      "registrant_name": "TARGET CORPORATION",
+      "amount": 1000000.0,
+      "n_items": 1
+    },
+    {
+      "registrant_name": "RTX CORPORATION AND AFFILIATES",
+      "amount": 1000000.0,
+      "n_items": 2
+    },
+    {
+      "registrant_name": "AT&T SERVICES, INC. AND ITS AFFILIATES",
+      "amount": 1000000.0,
+      "n_items": 1
+    },
+    {
+      "registrant_name": "COUPANG, INC.",
+      "amount": 1000000.0,
+      "n_items": 1
+    },
+    {
+      "registrant_name": "STANLEY BLACK & DECKER",
+      "amount": 1000000.0,
+      "n_items": 1
+    },
+    {
+      "registrant_name": "ELECTRONIC PAYMENTS COALITION INC.",
+      "amount": 1000000.0,
+      "n_items": 1
+    },
+    {
+      "registrant_name": "FCA US LLC",
+      "amount": 1000000.0,
+      "n_items": 1
+    },
+    {
+      "registrant_name": "MICRON TECHNOLOGY, INC.",
+      "amount": 1000000.0,
+      "n_items": 1
+    },
+    {
+      "registrant_name": "CONOCOPHILLIPS",
+      "amount": 1000000.0,
+      "n_items": 1
+    },
+    {
+      "registrant_name": "FORIS DAX, INC. & ITS AFFILIATED ENTITIES D/B/A CRYPTO.COM",
+      "amount": 1000000.0,
+      "n_items": 1
+    }
+  ],
+  "total_dollars": 66956875.519999996,
+  "n_items": 111,
+  "method": "LD-203 contribution_items where payee contains 'TRUMP VANCE INAUGURAL' (case-insensitive); summed by registrant_name.",
+  "source": "data/senate/{YEAR}/contributions/contributions_{YEAR}.json",
+  "ft_category": "ranking",
+  "axis_transform": "linear"
+}

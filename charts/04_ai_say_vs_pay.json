@@ -1,0 +1,128 @@
+{
+  "title": "Lobbyists mention AI five times as often as members of Congress",
+  "data": [
+    {
+      "y": 2022,
+      "q": 1,
+      "press_n": 17,
+      "lobby_n": 233,
+      "label": "2022 Q1"
+    },
+    {
+      "y": 2022,
+      "q": 2,
+      "press_n": 20,
+      "lobby_n": 234,
+      "label": "2022 Q2"
+    },
+    {
+      "y": 2022,
+      "q": 3,
+      "press_n": 38,
+      "lobby_n": 222,
+      "label": "2022 Q3"
+    },
+    {
+      "y": 2022,
+      "q": 4,
+      "press_n": 25,
+      "lobby_n": 216,
+      "label": "2022 Q4"
+    },
+    {
+      "y": 2023,
+      "q": 1,
+      "press_n": 39,
+      "lobby_n": 240,
+      "label": "2023 Q1"
+    },
+    {
+      "y": 2023,
+      "q": 2,
+      "press_n": 67,
+      "lobby_n": 411,
+      "label": "2023 Q2"
+    },
+    {
+      "y": 2023,
+      "q": 3,
+      "press_n": 123,
+      "lobby_n": 645,
+      "label": "2023 Q3"
+    },
+    {
+      "y": 2023,
+      "q": 4,
+      "press_n": 98,
+      "lobby_n": 798,
+      "label": "2023 Q4"
+    },
+    {
+      "y": 2024,
+      "q": 1,
+      "press_n": 121,
+      "lobby_n": 912,
+      "label": "2024 Q1"
+    },
+    {
+      "y": 2024,
+      "q": 2,
+      "press_n": 127,
+      "lobby_n": 964,
+      "label": "2024 Q2"
+    },
+    {
+      "y": 2024,
+      "q": 3,
+      "press_n": 147,
+      "lobby_n": 1010,
+      "label": "2024 Q3"
+    },
+    {
+      "y": 2024,
+      "q": 4,
+      "press_n": 78,
+      "lobby_n": 1002,
+      "label": "2024 Q4"
+    },
+    {
+      "y": 2025,
+      "q": 1,
+      "press_n": 152,
+      "lobby_n": 1038,
+      "label": "2025 Q1"
+    },
+    {
+      "y": 2025,
+      "q": 2,
+      "press_n": 221,
+      "lobby_n": 1070,
+      "label": "2025 Q2"
+    },
+    {
+      "y": 2025,
+      "q": 3,
+      "press_n": 223,
+      "lobby_n": 1173,
+      "label": "2025 Q3"
+    },
+    {
+      "y": 2025,
+      "q": 4,
+      "press_n": 213,
+      "lobby_n": 1194,
+      "label": "2025 Q4"
+    },
+    {
+      "y": 2026,
+      "q": 1,
+      "press_n": 237,
+      "lobby_n": 1176,
+      "label": "2026 Q1"
+    }
+  ],
+  "method": "Quarterly counts: Senate LDA activity descriptions vs press release text/title, both filtered by case-insensitive substring 'artificial intelligence'.",
+  "source": "data/senate/{YEAR}/filings/filings_{YEAR}.json + data/congress_press/**/*.jsonl",
+  "ft_category": "change-over-time",
+  "axis_transform": "linear"
+}

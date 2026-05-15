@@ -1,0 +1,163 @@
+{
+  "title": "AI lobbying has multiplied 5x since ChatGPT",
+  "data": [
+    {
+      "filing_year": 2022,
+      "q": 1,
+      "ai_n": 233,
+      "clients": 145,
+      "total": 45758,
+      "share_pct": 0.5092005769482932,
+      "label": "2022 Q1"
+    },
+    {
+      "filing_year": 2022,
+      "q": 2,
+      "ai_n": 234,
+      "clients": 145,
+      "total": 46389,
+      "share_pct": 0.5044299295091509,
+      "label": "2022 Q2"
+    },
+    {
+      "filing_year": 2022,
+      "q": 3,
+      "ai_n": 222,
+      "clients": 140,
+      "total": 45030,
+      "share_pct": 0.49300466355762823,
+      "label": "2022 Q3"
+    },
+    {
+      "filing_year": 2022,
+      "q": 4,
+      "ai_n": 216,
+      "clients": 132,
+      "total": 44903,
+      "share_pct": 0.481036901766029,
+      "label": "2022 Q4"
+    },
+    {
+      "filing_year": 2023,
+      "q": 1,
+      "ai_n": 240,
+      "clients": 138,
+      "total": 45803,
+      "share_pct": 0.523983145208829,
+      "label": "2023 Q1"
+    },
+    {
+      "filing_year": 2023,
+      "q": 2,
+      "ai_n": 411,
+      "clients": 258,
+      "total": 45374,
+      "share_pct": 0.905805086613479,
+      "label": "2023 Q2"
+    },
+    {
+      "filing_year": 2023,
+      "q": 3,
+      "ai_n": 645,
+      "clients": 378,
+      "total": 45269,
+      "share_pct": 1.4248160993174137,
+      "label": "2023 Q3"
+    },
+    {
+      "filing_year": 2023,
+      "q": 4,
+      "ai_n": 798,
+      "clients": 464,
+      "total": 45173,
+      "share_pct": 1.7665419609058506,
+      "label": "2023 Q4"
+    },
+    {
+      "filing_year": 2024,
+      "q": 1,
+      "ai_n": 912,
+      "clients": 524,
+      "total": 47719,
+      "share_pct": 1.9111884155158323,
+      "label": "2024 Q1"
+    },
+    {
+      "filing_year": 2024,
+      "q": 2,
+      "ai_n": 964,
+      "clients": 568,
+      "total": 46513,
+      "share_pct": 2.072538860103627,
+      "label": "2024 Q2"
+    },
+    {
+      "filing_year": 2024,
+      "q": 3,
+      "ai_n": 1010,
+      "clients": 585,
+      "total": 45973,
+      "share_pct": 2.196941683161856,
+      "label": "2024 Q3"
+    },
+    {
+      "filing_year": 2024,
+      "q": 4,
+      "ai_n": 1002,
+      "clients": 576,
+      "total": 46234,
+      "share_pct": 2.1672362330752257,
+      "label": "2024 Q4"
+    },
+    {
+      "filing_year": 2025,
+      "q": 1,
+      "ai_n": 1038,
+      "clients": 560,
+      "total": 51176,
+      "share_pct": 2.0282945130529932,
+      "label": "2025 Q1"
+    },
+    {
+      "filing_year": 2025,
+      "q": 2,
+      "ai_n": 1070,
+      "clients": 601,
+      "total": 51688,
+      "share_pct": 2.0701129856059435,
+      "label": "2025 Q2"
+    },
+    {
+      "filing_year": 2025,
+      "q": 3,
+      "ai_n": 1173,
+      "clients": 626,
+      "total": 50850,
+      "share_pct": 2.3067846607669615,
+      "label": "2025 Q3"
+    },
+    {
+      "filing_year": 2025,
+      "q": 4,
+      "ai_n": 1194,
+      "clients": 661,
+      "total": 49713,
+      "share_pct": 2.4017862530927525,
+      "label": "2025 Q4"
+    },
+    {
+      "filing_year": 2026,
+      "q": 1,
+      "ai_n": 1176,
+      "clients": 649,
+      "total": 45627,
+      "share_pct": 2.5774212637254257,
+      "label": "2026 Q1"
+    }
+  ],
+  "method": "Senate LDA activities containing 'artificial intelligence' (case-insensitive) in description.",
+  "source": "data/senate/{YEAR}/filings/filings_{YEAR}.json",
+  "ft_category": "change-over-time",
+  "axis_transform": "linear",
+  "n_total_rows_scanned": 799192
+}
