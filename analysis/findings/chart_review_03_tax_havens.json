@@ -1,0 +1,44 @@
+{
+  "chart": "analysis/charts/output/03_tax_havens.png",
+  "aspect_ratio": 1.38,
+  "kirk_tae": {
+    "trustworthy": "pass",
+    "accessible": "review",
+    "elegant": "pass"
+  },
+  "few": {
+    "usefulness": "review",
+    "completeness": "review",
+    "perceptibility": "review",
+    "truthfulness": "pass",
+    "intuitiveness": "review",
+    "aesthetics": "review",
+    "engagement": "review"
+  },
+  "evergreen": {
+    "items": {
+      "title_is_finding": 1,
+      "no_3d": 2,
+      "no_pie": 2,
+      "no_rainbow": 2,
+      "no_drop_shadow": 2,
+      "palette_size": 2,
+      "source_attrib": 2,
+      "has_underlying_data": 2
+    },
+    "total": 15,
+    "max": 16,
+    "pct": 0.938
+  },
+  "penn_state": {
+    "effective_communication": null,
+    "creativity": null,
+    "design": null,
+    "editor_prompt": "Rate each 1-10. Effective Communication: does the title state a finding the reader can defend? Creativity: is the visual choice non-obvious for the data? Design: would you publish this in print?"
+  },
+  "flags": [],
+  "strengths": [
+    "code:uses_source_attribution",
+    "code:explicit_zero_baseline"
+  ]
+}
