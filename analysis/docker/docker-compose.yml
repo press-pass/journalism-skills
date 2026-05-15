@@ -1,0 +1,19 @@
+services:
+  florence:
+    build:
+      context: .
+    image: florence-analysis:latest
+    container_name: florence-analysis
+    volumes:
+      - ../../:/work
+      - ../../.context/data/Agentic Investigation Datasets/extracted/data:/data:ro
+      - ../../.context/parquet:/parquet
+      - ../../.context/db:/db
+    working_dir: /work
+    environment:
+      DATA_DIR: /data
+      PARQUET_DIR: /parquet
+      DB_DIR: /db
+    command: tail -f /dev/null
+    stdin_open: true
+    tty: true
