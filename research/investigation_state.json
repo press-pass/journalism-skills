@@ -1,0 +1,73 @@
+{
+  "leads": [
+    {
+      "id": "71036365bb944ec98fce3eb589d09d49",
+      "title": "Silent lobbying: HR3684 (Bipartisan Infrastructure Law) \u2014 9,056 lobby filings vs 13 press mentions 2022-2026 Q1",
+      "status": "open",
+      "tags": [
+        "say-vs-pay",
+        "bills"
+      ],
+      "evidence": [
+        "bill_id=HR3684"
+      ],
+      "log": [],
+      "created": "2026-05-15T19:40:23+00:00"
+    },
+    {
+      "id": "0f6eb53a80174682918d87a0b38c2ab3",
+      "title": "Australia AUKUS lobby spike \u2014 265 Senate filings on Defense by Australian-tied clients",
+      "status": "open",
+      "tags": [
+        "foreign",
+        "defense"
+      ],
+      "evidence": [
+        "country=AU,issue=Defense"
+      ],
+      "log": [],
+      "created": "2026-05-15T19:40:24+00:00"
+    },
+    {
+      "id": "1acf1ffad6c543e48b9507159f0955f5",
+      "title": "STATE OF LOC NATION self-filed $20M/Q outlier \u2014 single individual, 15 amended filings",
+      "status": "open",
+      "tags": [
+        "data-quality",
+        "outlier"
+      ],
+      "evidence": [
+        "client_name=STATE OF LOC NATION GLOBAL PUBLIC BENEFIT CORPORATION"
+      ],
+      "log": [],
+      "created": "2026-05-15T19:40:25+00:00"
+    }
+  ],
+  "entities": [
+    {
+      "id": "f584d3e330f54261b8a005be433b4070",
+      "kind": "person",
+      "name": "Mitch McConnell",
+      "bioguide": "M000355",
+      "note": "17 distinct former staffers active as lobbyists 2024+",
+      "added": "2026-05-15T19:40:26+00:00"
+    },
+    {
+      "id": "e5e30a59ece546be914b045b29e52c1d",
+      "kind": "person",
+      "name": "Christina Clement",
+      "bioguide": null,
+      "note": "Self-filed registrant; 'Rev Dr', filed as 'Head of State Black USA' / 'Global Plenary Power'",
+      "added": "2026-05-15T19:40:28+00:00"
+    },
+    {
+      "id": "54c3b54ef46d481786b70d2dc594cec8",
+      "kind": "bill",
+      "name": "HR 5376 / Inflation Reduction Act",
+      "bioguide": null,
+      "note": "20,781 lobby filings, just 53 press mentions",
+      "added": "2026-05-15T19:40:29+00:00"
+    }
+  ],
+  "schema_version": 1
+}
