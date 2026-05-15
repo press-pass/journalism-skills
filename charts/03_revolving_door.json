@@ -1,0 +1,170 @@
+{
+  "title": "Where K Street's Capitol Hill alumni worked",
+  "data": [
+    {
+      "surname": "schumer",
+      "member_name": "Charles E. Schumer",
+      "party": "Democrat",
+      "state": "NY",
+      "chamber": "Senate",
+      "n_lobbyists": 48
+    },
+    {
+      "surname": "brown",
+      "member_name": "Shontel M. Brown",
+      "party": "Democrat",
+      "state": "OH",
+      "chamber": "House",
+      "n_lobbyists": 47
+    },
+    {
+      "surname": "young",
+      "member_name": "Todd Young",
+      "party": "Republican",
+      "state": "IN",
+      "chamber": "Senate",
+      "n_lobbyists": 39
+    },
+    {
+      "surname": "mcconnell",
+      "member_name": "Mitch McConnell",
+      "party": "Republican",
+      "state": "KY",
+      "chamber": "Senate",
+      "n_lobbyists": 35
+    },
+    {
+      "surname": "cornyn",
+      "member_name": "John Cornyn",
+      "party": "Republican",
+      "state": "TX",
+      "chamber": "Senate",
+      "n_lobbyists": 35
+    },
+    {
+      "surname": "murray",
+      "member_name": "Patty Murray",
+      "party": "Democrat",
+      "state": "WA",
+      "chamber": "Senate",
+      "n_lobbyists": 34
+    },
+    {
+      "surname": "menendez",
+      "member_name": "Robert Menendez",
+      "party": "Democrat",
+      "state": "NJ",
+      "chamber": "House",
+      "n_lobbyists": 33
+    },
+    {
+      "surname": "ernst",
+      "member_name": "Joni Ernst",
+      "party": "Republican",
+      "state": "IA",
+      "chamber": "Senate",
+      "n_lobbyists": 31
+    },
+    {
+      "surname": "ryan",
+      "member_name": "Patrick Ryan",
+      "party": "Democrat",
+      "state": "NY",
+      "chamber": "House",
+      "n_lobbyists": 29
+    },
+    {
+      "surname": "wicker",
+      "member_name": "Roger F. Wicker",
+      "party": "Republican",
+      "state": "MS",
+      "chamber": "Senate",
+      "n_lobbyists": 27
+    },
+    {
+      "surname": "graham",
+      "member_name": "Lindsey Graham",
+      "party": "Republican",
+      "state": "SC",
+      "chamber": "Senate",
+      "n_lobbyists": 27
+    },
+    {
+      "surname": "reed",
+      "member_name": "Jack Reed",
+      "party": "Democrat",
+      "state": "RI",
+      "chamber": "Senate",
+      "n_lobbyists": 26
+    },
+    {
+      "surname": "warner",
+      "member_name": "Mark R. Warner",
+      "party": "Democrat",
+      "state": "VA",
+      "chamber": "Senate",
+      "n_lobbyists": 26
+    },
+    {
+      "surname": "levin",
+      "member_name": "Mike Levin",
+      "party": "Democrat",
+      "state": "CA",
+      "chamber": "House",
+      "n_lobbyists": 26
+    },
+    {
+      "surname": "cassidy",
+      "member_name": "Bill Cassidy",
+      "party": "Republican",
+      "state": "LA",
+      "chamber": "Senate",
+      "n_lobbyists": 26
+    },
+    {
+      "surname": "sessions",
+      "member_name": "Pete Sessions",
+      "party": "Republican",
+      "state": "TX",
+      "chamber": "House",
+      "n_lobbyists": 25
+    },
+    {
+      "surname": "gillibrand",
+      "member_name": "Kirsten E. Gillibrand",
+      "party": "Democrat",
+      "state": "NY",
+      "chamber": "Senate",
+      "n_lobbyists": 25
+    },
+    {
+      "surname": "cantwell",
+      "member_name": "Maria Cantwell",
+      "party": "Democrat",
+      "state": "WA",
+      "chamber": "Senate",
+      "n_lobbyists": 24
+    },
+    {
+      "surname": "sullivan",
+      "member_name": "Dan Sullivan",
+      "party": "Republican",
+      "state": "AK",
+      "chamber": "Senate",
+      "n_lobbyists": 24
+    },
+    {
+      "surname": "crapo",
+      "member_name": "Mike Crapo",
+      "party": "Republican",
+      "state": "ID",
+      "chamber": "Senate",
+      "n_lobbyists": 23
+    }
+  ],
+  "method": "Unique-surname lookup from press corpus; substring match in lobbyist.covered_position; deduped per lobbyist_id.",
+  "source": "data/senate/{YEAR}/filings/filings_{YEAR}.json + data/congress_press/**/*.jsonl",
+  "ft_category": "ranking",
+  "axis_transform": "linear",
+  "n_unique_surnames_used": 459
+}

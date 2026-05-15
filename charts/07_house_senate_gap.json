@@ -1,0 +1,39 @@
+{
+  "title": "Clients appearing in only one chamber",
+  "data": [
+    {
+      "year": 2022,
+      "senate_only": 1439,
+      "house_only": 1747,
+      "both": 17852
+    },
+    {
+      "year": 2023,
+      "senate_only": 1224,
+      "house_only": 1491,
+      "both": 18464
+    },
+    {
+      "year": 2024,
+      "senate_only": 1001,
+      "house_only": 1303,
+      "both": 19032
+    },
+    {
+      "year": 2025,
+      "senate_only": 676,
+      "house_only": 1042,
+      "both": 21721
+    },
+    {
+      "year": 2026,
+      "senate_only": 6522,
+      "house_only": 374,
+      "both": 11642
+    }
+  ],
+  "method": "Unique uppercase-stripped client_name per year per chamber; stack of intersection vs symmetric difference.",
+  "source": "data/senate/{YEAR}/filings/filings_{YEAR}.json + data/house/{YEAR}_{QUARTER}_XML/*.xml",
+  "ft_category": "part-to-whole",
+  "axis_transform": "linear"
+}

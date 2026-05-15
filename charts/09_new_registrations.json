@@ -1,0 +1,111 @@
+{
+  "title": "New Senate registrations by quarter",
+  "data": [
+    {
+      "filing_year": 2022,
+      "q": 1,
+      "len": 1317,
+      "label": "2022 Q1"
+    },
+    {
+      "filing_year": 2022,
+      "q": 2,
+      "len": 1112,
+      "label": "2022 Q2"
+    },
+    {
+      "filing_year": 2022,
+      "q": 3,
+      "len": 741,
+      "label": "2022 Q3"
+    },
+    {
+      "filing_year": 2022,
+      "q": 4,
+      "len": 758,
+      "label": "2022 Q4"
+    },
+    {
+      "filing_year": 2023,
+      "q": 1,
+      "len": 1490,
+      "label": "2023 Q1"
+    },
+    {
+      "filing_year": 2023,
+      "q": 2,
+      "len": 1030,
+      "label": "2023 Q2"
+    },
+    {
+      "filing_year": 2023,
+      "q": 3,
+      "len": 933,
+      "label": "2023 Q3"
+    },
+    {
+      "filing_year": 2023,
+      "q": 4,
+      "len": 816,
+      "label": "2023 Q4"
+    },
+    {
+      "filing_year": 2024,
+      "q": 1,
+      "len": 1407,
+      "label": "2024 Q1"
+    },
+    {
+      "filing_year": 2024,
+      "q": 2,
+      "len": 932,
+      "label": "2024 Q2"
+    },
+    {
+      "filing_year": 2024,
+      "q": 3,
+      "len": 817,
+      "label": "2024 Q3"
+    },
+    {
+      "filing_year": 2024,
+      "q": 4,
+      "len": 835,
+      "label": "2024 Q4"
+    },
+    {
+      "filing_year": 2025,
+      "q": 1,
+      "len": 2511,
+      "label": "2025 Q1"
+    },
+    {
+      "filing_year": 2025,
+      "q": 2,
+      "len": 1816,
+      "label": "2025 Q2"
+    },
+    {
+      "filing_year": 2025,
+      "q": 3,
+      "len": 1376,
+      "label": "2025 Q3"
+    },
+    {
+      "filing_year": 2025,
+      "q": 4,
+      "len": 1233,
+      "label": "2025 Q4"
+    },
+    {
+      "filing_year": 2026,
+      "q": 1,
+      "len": 1814,
+      "label": "2026 Q1"
+    }
+  ],
+  "method": "Senate filings with filing_type='RR' grouped by (filing_year, filing_period).",
+  "source": "data/senate/{YEAR}/filings/filings_{YEAR}.json",
+  "ft_category": "change-over-time",
+  "axis_transform": "linear"
+}

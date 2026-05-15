@@ -1,0 +1,186 @@
+[
+  {
+    "chart": "01_ai_lobbying_boom.png",
+    "data_ink_ratio": 0.37,
+    "data_ink_grade": 3,
+    "axis_transform": "linear",
+    "graphical_integrity_grade": 3,
+    "has_title": true,
+    "clear_labeling_grade": 3,
+    "distinct_colors": 63,
+    "no_chartjunk_grade": 2,
+    "ft_match_grade": 3,
+    "has_provenance": true,
+    "provenance_grade": 3,
+    "data_rows_in_sidecar": 17,
+    "verifiability_grade": 3,
+    "composite": 2.86,
+    "notes": [
+      "63 distinct quantized colors \u2014 consider reducing palette."
+    ]
+  },
+  {
+    "chart": "02_issue_heatmap.png",
+    "data_ink_ratio": 0.636,
+    "data_ink_grade": 1,
+    "axis_transform": "linear",
+    "graphical_integrity_grade": 3,
+    "has_title": true,
+    "clear_labeling_grade": 3,
+    "distinct_colors": 22,
+    "no_chartjunk_grade": 3,
+    "ft_match_grade": 2,
+    "has_provenance": true,
+    "provenance_grade": 3,
+    "data_rows_in_sidecar": 12,
+    "verifiability_grade": 3,
+    "composite": 2.57,
+    "notes": [
+      "Very high non-white density \u2014 heavy decoration or background fill.",
+      "FT category 'magnitude' not obvious from title verbs."
+    ]
+  },
+  {
+    "chart": "03_revolving_door.png",
+    "data_ink_ratio": 0.375,
+    "data_ink_grade": 3,
+    "axis_transform": "linear",
+    "graphical_integrity_grade": 3,
+    "has_title": true,
+    "clear_labeling_grade": 3,
+    "distinct_colors": 31,
+    "no_chartjunk_grade": 2,
+    "ft_match_grade": 3,
+    "has_provenance": true,
+    "provenance_grade": 3,
+    "data_rows_in_sidecar": 20,
+    "verifiability_grade": 3,
+    "composite": 2.86,
+    "notes": [
+      "31 distinct quantized colors \u2014 consider reducing palette."
+    ]
+  },
+  {
+    "chart": "04_ai_say_vs_pay.png",
+    "data_ink_ratio": 0.041,
+    "data_ink_grade": 1,
+    "axis_transform": "linear",
+    "graphical_integrity_grade": 3,
+    "has_title": true,
+    "clear_labeling_grade": 3,
+    "distinct_colors": 33,
+    "no_chartjunk_grade": 2,
+    "ft_match_grade": 2,
+    "has_provenance": true,
+    "provenance_grade": 3,
+    "data_rows_in_sidecar": 17,
+    "verifiability_grade": 3,
+    "composite": 2.43,
+    "notes": [
+      "Very low non-white density \u2014 chart may be too sparse.",
+      "33 distinct quantized colors \u2014 consider reducing palette.",
+      "FT category 'change-over-time' not obvious from title verbs."
+    ]
+  },
+  {
+    "chart": "05_foreign_entities.png",
+    "data_ink_ratio": 0.199,
+    "data_ink_grade": 3,
+    "axis_transform": "linear",
+    "graphical_integrity_grade": 3,
+    "has_title": true,
+    "clear_labeling_grade": 3,
+    "distinct_colors": 21,
+    "no_chartjunk_grade": 3,
+    "ft_match_grade": 3,
+    "has_provenance": true,
+    "provenance_grade": 3,
+    "data_rows_in_sidecar": 20,
+    "verifiability_grade": 3,
+    "composite": 3,
+    "notes": []
+  },
+  {
+    "chart": "06_press_leaderboard.png",
+    "data_ink_ratio": 0.328,
+    "data_ink_grade": 3,
+    "axis_transform": "linear",
+    "graphical_integrity_grade": 3,
+    "has_title": true,
+    "clear_labeling_grade": 3,
+    "distinct_colors": 32,
+    "no_chartjunk_grade": 2,
+    "ft_match_grade": 3,
+    "has_provenance": true,
+    "provenance_grade": 3,
+    "data_rows_in_sidecar": 20,
+    "verifiability_grade": 3,
+    "composite": 2.86,
+    "notes": [
+      "32 distinct quantized colors \u2014 consider reducing palette."
+    ]
+  },
+  {
+    "chart": "07_house_senate_gap.png",
+    "data_ink_ratio": 0.601,
+    "data_ink_grade": 1,
+    "axis_transform": "linear",
+    "graphical_integrity_grade": 3,
+    "has_title": true,
+    "clear_labeling_grade": 3,
+    "distinct_colors": 30,
+    "no_chartjunk_grade": 2,
+    "ft_match_grade": 2,
+    "has_provenance": true,
+    "provenance_grade": 3,
+    "data_rows_in_sidecar": 5,
+    "verifiability_grade": 3,
+    "composite": 2.43,
+    "notes": [
+      "Very high non-white density \u2014 heavy decoration or background fill.",
+      "30 distinct quantized colors \u2014 consider reducing palette.",
+      "FT category 'part-to-whole' not obvious from title verbs."
+    ]
+  },
+  {
+    "chart": "08_inaugural_money.png",
+    "data_ink_ratio": 0.133,
+    "data_ink_grade": 3,
+    "axis_transform": "linear",
+    "graphical_integrity_grade": 3,
+    "has_title": true,
+    "clear_labeling_grade": 3,
+    "distinct_colors": 21,
+    "no_chartjunk_grade": 3,
+    "ft_match_grade": 2,
+    "has_provenance": true,
+    "provenance_grade": 3,
+    "data_rows_in_sidecar": 20,
+    "verifiability_grade": 3,
+    "composite": 2.86,
+    "notes": [
+      "FT category 'ranking' not obvious from title verbs."
+    ]
+  },
+  {
+    "chart": "09_new_registrations.png",
+    "data_ink_ratio": 0.302,
+    "data_ink_grade": 3,
+    "axis_transform": "linear",
+    "graphical_integrity_grade": 3,
+    "has_title": true,
+    "clear_labeling_grade": 3,
+    "distinct_colors": 30,
+    "no_chartjunk_grade": 2,
+    "ft_match_grade": 2,
+    "has_provenance": true,
+    "provenance_grade": 3,
+    "data_rows_in_sidecar": 17,
+    "verifiability_grade": 3,
+    "composite": 2.71,
+    "notes": [
+      "30 distinct quantized colors \u2014 consider reducing palette.",
+      "FT category 'change-over-time' not obvious from title verbs."
+    ]
+  }
+]

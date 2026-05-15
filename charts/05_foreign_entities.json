@@ -1,0 +1,129 @@
+{
+  "title": "Top 20 foreign-affiliated parents declared on Senate lobbying filings",
+  "data": [
+    {
+      "fe_list": "SFS UK 1 LIMITED",
+      "n_filings": 46,
+      "clients": 4,
+      "first_year": 2022
+    },
+    {
+      "fe_list": "FCA FOREIGN SALES HOLDCO LTD.",
+      "n_filings": 44,
+      "clients": 3,
+      "first_year": 2022
+    },
+    {
+      "fe_list": "STELLANTIS N.V.",
+      "n_filings": 44,
+      "clients": 4,
+      "first_year": 2022
+    },
+    {
+      "fe_list": "BRITISH AMERICAN TOBACCO P.L.C.",
+      "n_filings": 31,
+      "clients": 2,
+      "first_year": 2022
+    },
+    {
+      "fe_list": "ABB ASEA BROWN BOVERI, LTD.",
+      "n_filings": 18,
+      "clients": 2,
+      "first_year": 2022
+    },
+    {
+      "fe_list": "ABB, LTD.",
+      "n_filings": 16,
+      "clients": 2,
+      "first_year": 2022
+    },
+    {
+      "fe_list": "COALITION FOR EPIDEMIC PREPAREDNESS INNOVATIONS",
+      "n_filings": 15,
+      "clients": 1,
+      "first_year": 2022
+    },
+    {
+      "fe_list": "CANADIAN PACIFIC",
+      "n_filings": 15,
+      "clients": 1,
+      "first_year": 2022
+    },
+    {
+      "fe_list": "CANADIAN NATIONAL",
+      "n_filings": 15,
+      "clients": 1,
+      "first_year": 2022
+    },
+    {
+      "fe_list": "PHILIP MORRIS PRODUCTS S.A. (PARENT COMPANY IS PMI)",
+      "n_filings": 13,
+      "clients": 3,
+      "first_year": 2022
+    },
+    {
+      "fe_list": "SIEMENS AG",
+      "n_filings": 12,
+      "clients": 7,
+      "first_year": 2022
+    },
+    {
+      "fe_list": "CACIF",
+      "n_filings": 11,
+      "clients": 1,
+      "first_year": 2022
+    },
+    {
+      "fe_list": "HANWHA OCEAN",
+      "n_filings": 11,
+      "clients": 2,
+      "first_year": 2024
+    },
+    {
+      "fe_list": "HANWHA CORPORATION",
+      "n_filings": 11,
+      "clients": 2,
+      "first_year": 2024
+    },
+    {
+      "fe_list": "BOOKING.COM B.V.",
+      "n_filings": 10,
+      "clients": 2,
+      "first_year": 2022
+    },
+    {
+      "fe_list": "SK HYNIX INC.",
+      "n_filings": 10,
+      "clients": 5,
+      "first_year": 2022
+    },
+    {
+      "fe_list": "DANONE SA",
+      "n_filings": 10,
+      "clients": 4,
+      "first_year": 2022
+    },
+    {
+      "fe_list": "TCH SCARLET LIMITED",
+      "n_filings": 9,
+      "clients": 2,
+      "first_year": 2023
+    },
+    {
+      "fe_list": "OPEN WEALTH INVESTMENTS LIMITED (THROUGH INTEREST IN TCH SCARLET LIMITED)",
+      "n_filings": 9,
+      "clients": 2,
+      "first_year": 2023
+    },
+    {
+      "fe_list": "APOTEX INC.",
+      "n_filings": 9,
+      "clients": 3,
+      "first_year": 2024
+    }
+  ],
+  "method": "Senate filings.foreign_entities[] exploded and grouped; top 20 by filing count.",
+  "source": "data/senate/{YEAR}/filings/filings_{YEAR}.json (foreign_entities field)",
+  "ft_category": "ranking",
+  "axis_transform": "linear"
+}
