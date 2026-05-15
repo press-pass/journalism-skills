@@ -244,23 +244,28 @@ rows. Restricting to issue-level rollups (cf.
 
 ---
 
-## H. Press-release activity now far outpaces lobbying activity in volume — and the gap is widening
+## H. Congressional press-release output more than doubled between 2022 and 2025
 
 The corpus shows 141,332 press releases vs. 418,098 Senate LDA filings
-across 2022 – 2026 Q1. Per quarter, press-release production is rising
-faster than lobbying filings:
+across 2022 – 2026 Q1. Comparing press releases against all Q-period
+Senate LDA filings (no income filter):
 
-- **2022 average per quarter:** ~ 4,930 press releases vs. 13,970 filings —
-  ratio 0.35
-- **2025 average per quarter:** ~ 17,500 press releases vs. 16,610 filings —
-  ratio 1.05
+| Quarter | Press releases | Senate Q filings | Ratio |
+|---|---|---|---|
+| 2022 Q1 | 5,041 | 20,346 | 0.25 |
+| 2023 Q1 | 7,899 | 20,559 | 0.38 |
+| 2024 Q1 | 8,772 | 21,194 | 0.41 |
+| 2025 Q1 | 13,772 | 22,372 | 0.62 |
+| 2026 Q1 | 11,466 | 21,126 | 0.54 |
 
-By 2025 members were producing roughly one press release per Senate
-lobbying filing each quarter — flipping the ratio from 1 : 3 in 2022 to
-roughly 1 : 1 in 2025. The volume jump aligns with the introduction of
-greater communications-staff capacity (or with the increased political
-salience of explaining one's votes to constituents — the corpus does not
-distinguish).
+Press-release output per quarter **2.7× over three years (5,041 → 13,772)**
+while lobbying filings rose by only 10 %. The Q1 2025 ratio of 0.62 press
+releases per filing is the highest in the corpus. Press output dipped
+slightly in 2026 Q1 versus Q1 2025 but remains well above 2024 levels.
+
+Possible drivers (the corpus does not distinguish): more communications
+staff capacity per office, increased political salience of explaining one's
+votes, AI-assisted drafting, or new-member rooms ramping up their websites.
 
 **Sources:** counts from `press_releases` and `senate_filings` grouped by
 quarter. Reproducible:
