@@ -32,10 +32,11 @@ If disposable, flag it as **Warning: disposable email provider** but continue to
 
 This step connects to the mail server and asks if the mailbox exists without sending an email.
 
-Run this Bash script, substituting the email and MX server:
+Run this Bash script, substituting the email and MX server. The outer `timeout` is required: the `/dev/tcp`
+connect can hang 75+ seconds on hosts that don't run mail (the inner `read -t` only covers reads).
 
 ```bash
-{
+timeout 15 bash -c '
   exec 3<>/dev/tcp/<mx_server>/25
   timeout=5
 
@@ -48,8 +49,9 @@ Run this Bash script, substituting the email and MX server:
   read -t $timeout -u 3 helo_resp
   echo "HELO: $helo_resp"
 
-  # MAIL FROM
-  echo -e "MAIL FROM:<verify@verify.local>\r" >&3
+  # MAIL FROM — null sender <> is the standard probe/bounce address and avoids
+  # relay/sender-policy rejections that a fake sender domain triggers
+  echo -e "MAIL FROM:<>\r" >&3
   read -t $timeout -u 3 mail_resp
   echo "MAIL FROM: $mail_resp"
 
@@ -60,18 +62,24 @@ Run this Bash script, substituting the email and MX server:
 
   # QUIT
   echo -e "QUIT\r" >&3
-
-  exec 3<&-
-  exec 3>&-
-} 2>&1
+' 2>&1
 ```
 
-Interpret the RCPT TO response:
+Interpret the RCPT TO response — match the response text as well as the code:
 
 - **250**: Mailbox exists (or domain is catch-all — see below)
-- **550/551/553**: Mailbox does not exist — mark as **Invalid (mailbox not found)**
-- **450/451/452**: Temporary rejection (greylisting) — mark as **Indeterminate (greylisted)**
-- **Connection refused/timeout**: Server blocked the check — mark as **Indeterminate (server unreachable)**
+- **Text mentions "full", "quota", "blocks limit", or "inode limit"** (any code, typically 452/552): the mailbox
+  exists but is over quota — mark as **Risky (mailbox full)**
+- **Text mentions "relay", "relaying", "not local", or "authentication required"** (any code, e.g.
+  `551 User not local: authentication required for relaying`): the server rejected the probe, not the mailbox —
+  this says nothing about whether the address exists — mark as **Indeterminate (relay denied)**
+- **550/551/553** (no relay/quota wording): Mailbox does not exist — mark as **Invalid (mailbox not found)**
+- **450/451/452** (no quota wording): Temporary rejection (greylisting) — mark as **Indeterminate (greylisted)**
+- **Connection refused/timeout**: check (once per run) whether outbound port 25 works at all:
+  `timeout 8 bash -c 'exec 3<>/dev/tcp/gmail-smtp-in.l.google.com/25 && read -t 5 -u 3 greeting && echo "$greeting"'`.
+  If that fails, mark as **Indeterminate (port 25 blocked locally)**. If it succeeds and the domain was
+  A-record-only (no MX — the A record usually points to a web server, not a mail server), mark as
+  **Invalid (no mail server)**; otherwise mark as **Indeterminate (server unreachable)**
 - **Any other error**: Note the code and mark as **Indeterminate**
 
 ### Catch-all detection
@@ -143,8 +151,8 @@ Verification Method should indicate what was used: SMTP, Headless (Microsoft), H
 Verdicts:
 - **Reachable**: Account confirmed to exist via SMTP 250 (non-catch-all) or headless browser / API check
 - **Unreachable**: Failed syntax, MX, SMTP returned 550, or headless browser confirmed account does not exist
-- **Risky**: Disposable email provider (may still be reachable)
-- **Indeterminate**: Could not confirm (catch-all, greylisted, CAPTCHA blocked, or Apple iCloud)
+- **Risky**: Disposable email provider, or mailbox exists but is full
+- **Indeterminate**: Could not confirm (catch-all, greylisted, relay denied, CAPTCHA blocked, or Apple iCloud)
 
 After the table, briefly explain any indeterminate results and suggest next steps (e.g., "send a confirmation email
 to verify" for indeterminate addresses).
