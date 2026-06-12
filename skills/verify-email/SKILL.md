@@ -66,12 +66,21 @@ Run this Bash script, substituting the email and MX server:
 } 2>&1
 ```
 
-Interpret the RCPT TO response:
+Interpret the RCPT TO response — match the response text as well as the code:
 
 - **250**: Mailbox exists (or domain is catch-all — see below)
-- **550/551/553**: Mailbox does not exist — mark as **Invalid (mailbox not found)**
-- **450/451/452**: Temporary rejection (greylisting) — mark as **Indeterminate (greylisted)**
-- **Connection refused/timeout**: Server blocked the check — mark as **Indeterminate (server unreachable)**
+- **Text mentions "full", "quota", "blocks limit", or "inode limit"** (any code, typically 452/552): the mailbox
+  exists but is over quota — mark as **Risky (mailbox full)**
+- **Text mentions "relay", "relaying", "not local", or "authentication required"** (any code, e.g.
+  `551 User not local: authentication required for relaying`): the server rejected the probe, not the mailbox —
+  this says nothing about whether the address exists — mark as **Indeterminate (relay denied)**
+- **550/551/553** (no relay/quota wording): Mailbox does not exist — mark as **Invalid (mailbox not found)**
+- **450/451/452** (no quota wording): Temporary rejection (greylisting) — mark as **Indeterminate (greylisted)**
+- **Connection refused/timeout**: check (once per run) whether outbound port 25 works at all:
+  `timeout 8 bash -c 'exec 3<>/dev/tcp/gmail-smtp-in.l.google.com/25 && read -t 5 -u 3 greeting && echo "$greeting"'`.
+  If that fails, mark as **Indeterminate (port 25 blocked locally)**. If it succeeds and the domain was
+  A-record-only (no MX — the A record usually points to a web server, not a mail server), mark as
+  **Invalid (no mail server)**; otherwise mark as **Indeterminate (server unreachable)**
 - **Any other error**: Note the code and mark as **Indeterminate**
 
 ### Catch-all detection
